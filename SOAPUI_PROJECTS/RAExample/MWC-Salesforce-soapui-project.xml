@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default environment" name="MWC_Salesforce" resourceRoot="" soapui-version="6.0.0" id="86d5f776-b707-4821-8ce9-644959168c1b" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="Stage MWC Test Suite"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Program Files\SmartBear\SoapUI-Pro-5.0.0\bin"/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Ignore Errors" value="true"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="Testcase"/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value="TestSuite Report"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="getToken" type="rest" id="9e09dedd-c01a-4dbc-92e0-c9f9b409aa97" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint></con:endpoints><con:resource name="Authorize" path="/api/v1/auth/authorize" id="60d7374b-b121-4e10-9e83-158b9ea5301a"><con:settings/><con:parameters/><con:method name="Authorize" method="POST" id="8c4a711b-1f25-484a-af6a-8d9f84a41b45"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>405 500</con:status><con:params/><con:element xmlns:aut="https://stage.webapi.kaplan.edu/api/v1/auth/authorize">aut:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:aut="https://stage.webapi.kaplan.edu/api/v1/auth/authorize">aut:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:xht="http://www.w3.org/1999/xhtml">xht:html</con:element></con:representation><con:request name="Request 1" mediaType="application/json" postQueryString="false" id="e695af64-b01f-4f55-ab26-38d51ffb7b8b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint><con:request>{
+  "ClientID": "MountWashingtonSalesforce_Stage",
+  "ClientSecret": "lbWjUyu7ON4sylxHphRBajWoBdbNgHga"
+}</con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="Document Tree" type="rest" id="0e23bf57-8a11-4ebf-a957-9dc13fc70ed4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint></con:endpoints><con:resource name="Tree" path="/api/v1/imaging/documents/tree" id="e0cf1f73-2f7d-4853-b139-b7dad2c55f4c"><con:settings/><con:parameters><con:parameter><con:name>docTreeRequest</con:name><con:value>{"StudentID":30255226,"CampusID":43,"UserID":3,"ViewType":"D"}</con:value><con:style>QUERY</con:style><con:default>{"StudentID":30255226,"CampusID":43,"UserID":3,"ViewType":"D"}</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Token</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Tree" method="GET" id="622b8fff-a124-4f53-bf21-7304d0eb77d1"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/></con:representation><con:request name="Request 1" mediaType="application/json" id="f85d513a-0c99-4f00-96fc-53a7130d2384"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="Mj5NH6u3R0HWSfn87jNpnGe5ItKf" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>docTreeRequest</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="Activities" type="rest" id="76d21dbd-eb83-4a93-8169-53716061245c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint></con:endpoints><con:resource name="Fa" path="/api/v1/students/{id}/c2k/activities" id="e8f3dac7-9675-4291-bf65-0ee17c8537e8"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>id</con:value><con:style>TEMPLATE</con:style><con:default>id</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Token</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Fa" method="GET" id="47024eac-aabc-4838-88af-babe56503e12"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:fa="https://webapi.kaplan.edu/api/v1/students/29919168/c2k/activities/fa">fa:Response</con:element></con:representation><con:request name="Request 1" mediaType="application/json" id="b73de2a7-bf91-4b40-940a-9018db8228d4"><con:settings/><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="EnvelopeDocumentFromDocuSign" type="rest" id="963d23a4-4bd4-4df1-a69a-8b81940956c7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint></con:endpoints><con:resource name="EnvelopeDocumentFromDocuSign" path="/api/imaging/EnvelopeDocumentFromDocuSign" id="c0867b68-720b-4589-ab71-c9271a05b887"><con:settings/><con:parameters><con:parameter><con:name>Token</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="EnvelopeDocumentFromDocuSign" method="POST" id="a6b0f168-84e0-4dbd-8320-36c013d10ec5"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/></con:representation><con:request name="Request 1" mediaType="application/json" postQueryString="false" id="ab2d38cd-d684-4356-b15c-454be6e560a4"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint><con:request>{
+  "StudentID": 1,
+  "EnvelopeID": "sample string 2",
+  "DocuSignDocument": [
+    {
+      "DocumentId": 1,
+      "CvueCode": "sample string 2"
+    },
+    {
+      "DocumentId": 1,
+      "CvueCode": "sample string 2"
+    },
+    {
+      "DocumentId": 1,
+      "CvueCode": "sample string 2"
+    }
+  ]
+}</con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>Token</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="Doc Imaging" type="rest" id="f7fef124-7b91-4b1d-adf4-5e37c3fdeaef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint></con:endpoints><con:resource name="Id" path="/api/v1/imaging/documents/{id}" id="2060c792-d573-4852-a3d3-77e68b62ab9f"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value>id</con:value><con:style>TEMPLATE</con:style><con:default>id</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>Token</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Id" method="GET" id="fa3c8399-0b1a-44c1-a1df-2ba2aa7a94b6"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/pdf</con:mediaType><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:ns="https://test.webapi.kaplan.edu/api/v1/imaging/documents/18906349">ns:Fault</con:element></con:representation><con:request name="Request 1" mediaType="application/json" id="9b4e112b-c055-4860-8d7c-625fb9e82b7d"><con:settings/><con:endpoint>https://stage.webapi.kaplan.edu</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:WsdlInterface" id="801e1dd8-914d-4d46-b6e8-69d356128dc7" wsaVersion="NONE" name="BasicHttpBinding_ICampusSetupService" type="wsdl" bindingName="{http://tempuri.org/}BasicHttpBinding_ICampusSetupService" soapVersion="1_1" anonymous="optional" definition="http://testsrmservices.int.kaplan.edu/campussetupService.svc?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://testsrmservices.int.kaplan.edu/campussetupService.svc?wsdl"><con:part><con:url>http://testsrmservices.int.kaplan.edu/campussetupService.svc?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="CampusSetupService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd0" namespace="http://tempuri.org/"/>
+      <xsd:import schemaLocation="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+      <xsd:import schemaLocation="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICampusSetupService_GetCampusSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCampusSetup"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetCampusSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCampusSetupResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetClasses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClasses"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetClasses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClassesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetCourses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCourses"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetCourses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCoursesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetPrograms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrograms"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetPrograms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgramsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetProgramVersions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgramVersions"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetProgramVersions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgramVersionsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetStartDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStartDates"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetStartDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStartDatesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetTerms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTerms"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetTerms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTermsResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="ICampusSetupService">
+    <wsdl:operation name="GetCampusSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetCampusSetup" message="tns:ICampusSetupService_GetCampusSetup_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetCampusSetupResponse" message="tns:ICampusSetupService_GetCampusSetup_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetClasses">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetClasses" message="tns:ICampusSetupService_GetClasses_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetClassesResponse" message="tns:ICampusSetupService_GetClasses_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCourses">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetCourses" message="tns:ICampusSetupService_GetCourses_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetCoursesResponse" message="tns:ICampusSetupService_GetCourses_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrograms">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetPrograms" message="tns:ICampusSetupService_GetPrograms_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetProgramsResponse" message="tns:ICampusSetupService_GetPrograms_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetProgramVersions">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetProgramVersions" message="tns:ICampusSetupService_GetProgramVersions_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetProgramVersionsResponse" message="tns:ICampusSetupService_GetProgramVersions_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartDates">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetStartDates" message="tns:ICampusSetupService_GetStartDates_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetStartDatesResponse" message="tns:ICampusSetupService_GetStartDates_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerms">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetTerms" message="tns:ICampusSetupService_GetTerms_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetTermsResponse" message="tns:ICampusSetupService_GetTerms_OutputMessage"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICampusSetupService" type="tns:ICampusSetupService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetCampusSetup">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetCampusSetup" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClasses">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetClasses" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCourses">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetCourses" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrograms">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetPrograms" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProgramVersions">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetProgramVersions" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartDates">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetStartDates" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerms">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetTerms" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CampusSetupService">
+    <wsdl:port name="BasicHttpBinding_ICampusSetupService" binding="tns:BasicHttpBinding_ICampusSetupService">
+      <soap:address location="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd0</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/">
+  <xs:import schemaLocation="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+  <xs:element name="GetCampusSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCampusSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCampusSetupResult" nillable="true" type="q1:CampusSetupDataContract" xmlns:q1="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClasses">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClassesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetClassesResult" nillable="true" type="q2:ClassesContract" xmlns:q2="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCourses">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCoursesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCoursesResult" nillable="true" type="q3:CoursesContract" xmlns:q3="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrograms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProgramsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetProgramsResult" nillable="true" type="q4:ProgramsContract" xmlns:q4="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProgramVersions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProgramVersionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetProgramVersionsResult" nillable="true" type="q5:ProgramVersionsContract" xmlns:q5="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStartDates">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStartDatesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetStartDatesResult" nillable="true" type="q6:StartDatesContract" xmlns:q6="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTerms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTermsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTermsResult" nillable="true" type="q7:TermsContract" xmlns:q7="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd2</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC">
+  <xs:complexType name="CampusSetupDataContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Classes" nillable="true" type="tns:ClassesContract"/>
+      <xs:element minOccurs="0" name="Courses" nillable="true" type="tns:CoursesContract"/>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ProgramVersions" nillable="true" type="tns:ProgramVersionsContract"/>
+      <xs:element minOccurs="0" name="Programs" nillable="true" type="tns:ProgramsContract"/>
+      <xs:element minOccurs="0" name="StartDates" nillable="true" type="tns:StartDatesContract"/>
+      <xs:element minOccurs="0" name="Terms" nillable="true" type="tns:TermsContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CampusSetupDataContract" nillable="true" type="tns:CampusSetupDataContract"/>
+  <xs:complexType name="ClassesContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Classes" nillable="true" type="tns:ArrayOfClassContract"/>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClassesContract" nillable="true" type="tns:ClassesContract"/>
+  <xs:complexType name="ArrayOfClassContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ClassContract" nillable="true" type="tns:ClassContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfClassContract" nillable="true" type="tns:ArrayOfClassContract"/>
+  <xs:complexType name="ClassContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdTermId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CVueAdClassSchedId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ClassName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CourseId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Credits" type="xs:decimal"/>
+      <xs:element minOccurs="0" name="MaxRegistrations" type="xs:decimal"/>
+      <xs:element minOccurs="0" name="Section" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClassContract" nillable="true" type="tns:ClassContract"/>
+  <xs:complexType name="CoursesContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Courses" nillable="true" type="tns:ArrayOfCourseContract"/>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CoursesContract" nillable="true" type="tns:CoursesContract"/>
+  <xs:complexType name="ArrayOfCourseContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CourseContract" nillable="true" type="tns:CourseContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCourseContract" nillable="true" type="tns:ArrayOfCourseContract"/>
+  <xs:complexType name="CourseContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CVueAdCourseId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Course" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CourseNumber" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Credits" type="xs:decimal"/>
+      <xs:element minOccurs="0" name="Hours" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MaxFails" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CourseContract" nillable="true" type="tns:CourseContract"/>
+  <xs:complexType name="ProgramVersionsContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ProgramVersions" nillable="true" type="tns:ArrayOfAdProgramVersionContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProgramVersionsContract" nillable="true" type="tns:ProgramVersionsContract"/>
+  <xs:complexType name="ArrayOfAdProgramVersionContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdProgramVersionContract" nillable="true" type="tns:AdProgramVersionContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdProgramVersionContract" nillable="true" type="tns:ArrayOfAdProgramVersionContract"/>
+  <xs:complexType name="AdProgramVersionContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CVueAdProgramVersionID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateDiscontinued" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateOpened" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DegreeName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DegreeTypeId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ProgramId" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdProgramVersionContract" nillable="true" type="tns:AdProgramVersionContract"/>
+  <xs:complexType name="ProgramsContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Programs" nillable="true" type="tns:ArrayOfAdProgramContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProgramsContract" nillable="true" type="tns:ProgramsContract"/>
+  <xs:complexType name="ArrayOfAdProgramContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdProgramContract" nillable="true" type="tns:AdProgramContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdProgramContract" nillable="true" type="tns:ArrayOfAdProgramContract"/>
+  <xs:complexType name="AdProgramContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AreaOfStudy" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CVueAdProgramId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CVueAdProgramVersionId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CreditsRequired" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateDiscontinued" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateOpened" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ProgramName" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdProgramContract" nillable="true" type="tns:AdProgramContract"/>
+  <xs:complexType name="StartDatesContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="StartDates" nillable="true" type="tns:ArrayOfAdStartDateContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StartDatesContract" nillable="true" type="tns:StartDatesContract"/>
+  <xs:complexType name="ArrayOfAdStartDateContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdStartDateContract" nillable="true" type="tns:AdStartDateContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdStartDateContract" nillable="true" type="tns:ArrayOfAdStartDateContract"/>
+  <xs:complexType name="AdStartDateContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CVueAdShiftID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CVueAdStartDateID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CvueAdProgramVersionId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ExpGradDate" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MaxGradDate" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MidPointDate" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdStartDateContract" nillable="true" type="tns:AdStartDateContract"/>
+  <xs:complexType name="TermsContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Terms" nillable="true" type="tns:ArrayOfAdTermContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TermsContract" nillable="true" type="tns:TermsContract"/>
+  <xs:complexType name="ArrayOfAdTermContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdTermContract" nillable="true" type="tns:AdTermContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdTermContract" nillable="true" type="tns:ArrayOfAdTermContract"/>
+  <xs:complexType name="AdTermContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdTermId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DropDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="EndDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="TermName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Track" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdTermContract" nillable="true" type="tns:AdTermContract"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd1</con:url><con:content><![CDATA[<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+  <xs:element name="anyType" nillable="true" type="xs:anyType"/>
+  <xs:element name="anyURI" nillable="true" type="xs:anyURI"/>
+  <xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/>
+  <xs:element name="boolean" nillable="true" type="xs:boolean"/>
+  <xs:element name="byte" nillable="true" type="xs:byte"/>
+  <xs:element name="dateTime" nillable="true" type="xs:dateTime"/>
+  <xs:element name="decimal" nillable="true" type="xs:decimal"/>
+  <xs:element name="double" nillable="true" type="xs:double"/>
+  <xs:element name="float" nillable="true" type="xs:float"/>
+  <xs:element name="int" nillable="true" type="xs:int"/>
+  <xs:element name="long" nillable="true" type="xs:long"/>
+  <xs:element name="QName" nillable="true" type="xs:QName"/>
+  <xs:element name="short" nillable="true" type="xs:short"/>
+  <xs:element name="string" nillable="true" type="xs:string"/>
+  <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/>
+  <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/>
+  <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/>
+  <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/>
+  <xs:element name="char" nillable="true" type="tns:char"/>
+  <xs:simpleType name="char">
+    <xs:restriction base="xs:int"/>
+  </xs:simpleType>
+  <xs:element name="duration" nillable="true" type="tns:duration"/>
+  <xs:simpleType name="duration">
+    <xs:restriction base="xs:duration">
+      <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/>
+      <xs:minInclusive value="-P10675199DT2H48M5.4775808S"/>
+      <xs:maxInclusive value="P10675199DT2H48M5.4775807S"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="guid" nillable="true" type="tns:guid"/>
+  <xs:simpleType name="guid">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attribute name="FactoryType" type="xs:QName"/>
+  <xs:attribute name="Id" type="xs:ID"/>
+  <xs:attribute name="Ref" type="xs:IDREF"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint></con:endpoints><con:operation id="98c64231-6973-4929-80b5-8579f9e51ee3" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetCampusSetup" name="GetCampusSetup" bindingOperationName="GetCampusSetup" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="79ffc92b-4ad5-4add-98b0-bca03098b55e" defaultOutgoingWss="" defaultIncomingWss="" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetCampusSetup>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetCampusSetup>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetCampusSetup"/></con:call></con:operation><con:operation id="39dbcf32-d3df-46bd-a7d0-680565502939" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetClasses" name="GetClasses" bindingOperationName="GetClasses" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="6f544a15-74a9-4e3c-887b-fc2461075ce4" defaultOutgoingWss="" defaultIncomingWss="" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetClasses>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetClasses>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetClasses"/></con:call></con:operation><con:operation id="90d88e27-249a-4ff5-bed9-5d5ef061c3c1" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetCourses" name="GetCourses" bindingOperationName="GetCourses" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2c3dac2e-fc55-4a36-a4f7-396c5c3b6a42" defaultOutgoingWss="" defaultIncomingWss="" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetCourses>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetCourses>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetCourses"/></con:call></con:operation><con:operation id="9f1dff1f-9179-41e8-aaa9-b0dfb6394c4e" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetPrograms" name="GetPrograms" bindingOperationName="GetPrograms" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="482edf25-3d98-4993-9a22-d8ea74388854" defaultOutgoingWss="" defaultIncomingWss="" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetPrograms>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetPrograms>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetPrograms"/></con:call></con:operation><con:operation id="cbc42136-3957-440d-a413-0ac5f753c845" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetProgramVersions" name="GetProgramVersions" bindingOperationName="GetProgramVersions" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="ba16a9f8-7232-4c44-842e-cca9376192e2" defaultOutgoingWss="" defaultIncomingWss="" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetProgramVersions>
+         <!--Optional:-->
+         <tem:campusCode>043</tem:campusCode>
+      </tem:GetProgramVersions>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetProgramVersions"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="e010023e-b17f-43b3-b8af-7dc4aab0d39c" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetStartDates" name="GetStartDates" bindingOperationName="GetStartDates" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="6b2373d1-9a42-4632-8b8f-38dd5485b391" defaultOutgoingWss="" defaultIncomingWss="" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetStartDates>
+         <!--Optional:-->
+         <tem:campusCode>042</tem:campusCode>
+      </tem:GetStartDates>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetStartDates"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="bd271c06-74fc-46fb-9a96-f31e68971e45" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetTerms" name="GetTerms" bindingOperationName="GetTerms" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="39c8c951-d0f0-4344-825e-32c1547694df" defaultOutgoingWss="" defaultIncomingWss="" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetTerms>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetTerms>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetTerms"/></con:call></con:operation></con:interface><con:testSuite name="Dev MWC Testsuite" id="110c8eed-2574-4e51-9af9-869202cd0101"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Testcase" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" id="eb58385f-ee86-4c5f-8d26-25d96e1c8976"><con:settings/><con:testStep type="properties" name="Endpoint" id="c20f1dec-d6ec-48e2-aeea-ca049a7002d7"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Endpoint</con:name><con:value>https://dev.webapi.kaplan.edu</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="DocumentId" id="5b5d0f96-5717-4c23-a741-be0bd96686c9"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>DocumentId</con:name><con:value>18906349</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="studentId" id="0def26e1-dd44-4cf4-89f5-e80facd866ff"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>studentId</con:name><con:value>18723371</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="get Token" id="855eaf9f-0e69-45d1-bdbb-f4fe4f454973"><con:settings/><con:config service="getToken" resourcePath="/api/v1/auth/authorize" methodName="Authorize" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="get Token" mediaType="application/json" postQueryString="false" id="1c5f5d99-4662-4013-b38d-8eaa665a64d3"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "ClientID": "MountWashingtonSalesforce_Dev",
+  "ClientSecret": "1czAMxtWG58GG0NV619XdxsgWUN1sP3F"
+}</con:request><con:originalUri>https://webapi.kaplan.edu/api/v1/auth/authorize</con:originalUri><con:assertion type="XPath Match" name="Match content of [@null]" id="3710e62c-1c3f-4d41-813f-3a6167457368"><con:configuration><path>declare namespace ns1='https://webapi.kaplan.edu/api/v1/auth/authorize';
+//ns1:Response[1]/ns1:client_id[1]/@null</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="transfer" name="PropertyTransfer 1" id="e50910ea-bfe4-49b5-a462-565e3de5a47c"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true"><con:name>access_token</con:name><con:sourceType>ResponseAsXml</con:sourceType><con:sourceStep>get Token</con:sourceStep><con:sourcePath>declare namespace ns1='https://webapi.kaplan.edu/api/v1/auth/authorize';
+//ns1:Response[1]/ns1:access_token[1]</con:sourcePath><con:targetType>Token</con:targetType><con:targetStep>Token</con:targetStep><con:targetPath/><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="properties" name="Token" id="4e5bf9e4-432d-490d-9ff5-1b454a54469c"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Token</con:name><con:value>OrD1F6sWBWYYFNBuugmGhAP3qa9w</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Activities" id="9e8e620d-e41f-4a41-99c8-ca5109e84218"><con:settings/><con:config service="Activities" resourcePath="/api/v1/students/{id}/c2k/activities" methodName="Fa" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Activities" mediaType="application/json" id="b25887af-2c41-4020-8916-052e8ece7480"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/students/18723371/c2k/activities</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [StudentActivities]" id="8b31b5fb-8948-497f-ae87-ea39f9fab684"><con:configuration><path>declare namespace ns1='${Endpoint#Endpoint}/api/v1/students/18723371/c2k/activities';
+exists( //ns1:Response/ns1:StudentActivities)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${studentId#studentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Activities" id="f1d31b8d-fd37-4f6a-8dcd-08740a7553aa"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>49fca008-b3c1-4768-9b0b-b40d00b6b3fb</con:id><con:isGroup>false</con:isGroup><con:sourceId>9e8e620d-e41f-4a41-99c8-ca5109e84218</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="26d8d8fd-be98-4548-9878-f89cd50c0ea7"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Doc Imaging" id="cdd9152e-0627-4fee-b8f0-1245189a0dd1"><con:settings/><con:config service="Doc Imaging" resourcePath="/api/v1/imaging/documents/{id}" methodName="Id" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Doc Imaging" mediaType="application/json" id="98f1c52e-ff32-4d7b-bb1d-8e4101908897"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/imaging/documents/18906349</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${DocumentId#DocumentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Doc Imaging" id="95d6f7e5-ff0c-4e47-9445-e3ed55b8940d"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>2e9b243c-d9de-4b75-be85-00de8d354395</con:id><con:isGroup>false</con:isGroup><con:sourceId>cdd9152e-0627-4fee-b8f0-1245189a0dd1</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="5f8f236d-b468-4c66-b888-0f1c806b7f2e"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for text &quot;PDF&quot;" id="004bb62a-512e-4e5c-929b-fec22e7b9f84"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>15b9e6c9-17c6-4a3c-8a51-4cb5f6929096</con:id><con:isGroup>false</con:isGroup><con:sourceId>cdd9152e-0627-4fee-b8f0-1245189a0dd1</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="4554a7c4-863b-4cf0-9a7c-b7c055006f46"><con:configuration><token>PDF</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Document Tree" id="12e8c952-2513-4c62-ac8b-6e0750f71902"><con:settings/><con:config service="Document Tree" resourcePath="/api/v1/imaging/documents/tree" methodName="Tree" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Document Tree" mediaType="application/json" id="a9a64148-d6fc-4ab6-a1a5-156dd8157db3"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/imaging/documents/tree</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>docTreeRequest</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for &quot;results&quot;" id="181f405e-8bf0-4e87-afde-c88e2738916c"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>004201bb-cb6c-4de8-82c3-e803d552980b</con:id><con:isGroup>false</con:isGroup><con:sourceId>12e8c952-2513-4c62-ac8b-6e0750f71902</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="f5979452-0563-466f-9362-986ed628fc23"><con:configuration><token>results</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="EnvelopeDocumentFromDocuSign" id="bc5a72fd-b534-4c2c-bbd3-26315c5d35db"><con:settings/><con:config service="EnvelopeDocumentFromDocuSign" resourcePath="/api/imaging/EnvelopeDocumentFromDocuSign" methodName="EnvelopeDocumentFromDocuSign" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EnvelopeDocumentFromDocuSign" mediaType="application/json" postQueryString="false" id="8a438568-aabb-406a-b96b-75b8c776ae63"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "StudentID": 29919168,
+  "EnvelopeID": "sample string 2",
+  "DocuSignDocument": [
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    },
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    },
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    }
+  ]
+}</con:request><con:originalUri>https://webapi.kaplan.edu/api/imaging/EnvelopeDocumentFromDocuSign</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 EnvelopeDocumentFromDocusign" id="98c89c71-8f66-4fbc-a75c-e43f78cddd5a"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>6b506f20-6d01-4538-bfd1-500f490b232f</con:id><con:isGroup>false</con:isGroup><con:sourceId>bc5a72fd-b534-4c2c-bbd3-26315c5d35db</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="3a482720-54a2-48b7-b633-88bf7c78a121"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>c7931751-ef84-44d9-b0c6-89a528ab2fdb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>493167dd-c1f2-46d8-a728-d1a9be64368a</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>dbc4ac3c-0206-4363-85c3-80eb88ac019d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>2be2cc01-ac68-4221-b9d8-71807ab1f432</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>4d50267a-a7ca-4f42-833c-25452bda5a78</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>e2254e8f-16e0-425f-906e-1201f38458b0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0b24133a-b491-47da-84e4-c8ed17277bae</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite name="Test MWC Test Suite" id="03f95652-743f-4dc3-bf28-e2e3eee8071c"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Testcase" searchProperties="true" id="cd713977-ca79-476f-9269-0909896dcfa0" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="properties" name="Endpoint" id="d80e18bf-95c3-48c9-acc7-9ee048efdb7e"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Endpoint</con:name><con:value>https://test.webapi.kaplan.edu</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="DocumentId" id="16ff866b-bee0-4424-96d7-d2b455fc0ddc"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>DocumentId</con:name><con:value>22236908</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="studentId" id="0936b4ee-b14f-4ea5-b400-ab4d3260f630"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>studentId</con:name><con:value>18723371</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="get Token" id="cea79fcf-b221-4f50-a19c-a6342db81c70"><con:settings/><con:config service="getToken" resourcePath="/api/v1/auth/authorize" methodName="Authorize" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="get Token" mediaType="application/json" postQueryString="false" id="56ac235a-52af-4932-b5f1-6b634df6cfe1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "ClientID": "MountWashingtonSalesforce_Test",
+  "ClientSecret": "lNBJswyOHGtuIlcknPX5ywuBq04lp93A"
+}</con:request><con:originalUri>https://test.webapi.kaplan.edu/api/v1/auth/authorize</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [access_token]" id="56df275b-3cfa-47ec-9237-3139b944393a"><con:configuration><path>declare namespace ns1='${Endpoint#Endpoint}/api/v1/auth/authorize';
+exists( //ns1:Response/ns1:access_token)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="transfer" name="PropertyTransfer 1" id="c0bce261-a066-474e-ad30-db9074cab149"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" useXQuery="false" entitize="false" transferChildNodes="false"><con:name>access_token</con:name><con:sourceType>ResponseAsXml</con:sourceType><con:sourceStep>get Token</con:sourceStep><con:sourcePath>declare namespace ns1='${Endpoint#Endpoint}/api/v1/auth/authorize';
+//ns1:Response[1]/ns1:access_token[1]</con:sourcePath><con:targetType>Token</con:targetType><con:targetStep>Token</con:targetStep><con:targetPath/><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="properties" name="Token" id="72f6e078-a8f8-47ba-86dc-780cacf5edd9"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Token</con:name><con:value>5bdOiUda8AyBD50XvvWuHUp7suj0</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Activities" id="b4e6b858-f705-4a8b-b4d2-010a100332d6"><con:settings/><con:config service="Activities" resourcePath="/api/v1/students/{id}/c2k/activities" methodName="Fa" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Activities" mediaType="application/json" id="7383ec8c-6467-4087-80e9-ea202271e977"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://test.webapi.kaplan.edu/api/v1/students/18723371/c2k/activities</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [StudentActivities]" id="e0b86e0f-3d14-4bdd-978e-ee73f1e46365"><con:configuration><path>declare namespace ns1='https://test.webapi.kaplan.edu/api/v1/students/18723371/c2k/activities';
+exists( //ns1:Response/ns1:StudentActivities)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${studentId#studentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Activities" id="78baedcd-b4cd-4f7d-915b-cbf4823bdcf5"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>71ae4236-6a10-415f-8282-3e6f9d9d3524</con:id><con:isGroup>false</con:isGroup><con:sourceId>b4e6b858-f705-4a8b-b4d2-010a100332d6</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="412192ee-3151-4169-b455-04e36648d897"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Doc Imaging" id="8b882075-5aa8-4b9b-95ee-21e43e737184"><con:settings/><con:config service="Doc Imaging" resourcePath="/api/v1/imaging/documents/{id}" methodName="Id" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Doc Imaging" mediaType="application/json" id="cac9b076-df63-41cf-8a08-19a519d3241d"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://test.webapi.kaplan.edu/api/v1/imaging/documents/18906349</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${DocumentId#DocumentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 DocImaging" id="00db4c23-9cd2-4dd7-a23c-bc9e7bdcd624"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>dcfbe99a-7d50-472b-a756-d66cff950332</con:id><con:isGroup>false</con:isGroup><con:sourceId>8b882075-5aa8-4b9b-95ee-21e43e737184</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="853fe70f-7952-45ad-878c-2edd0ed08549"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for text &quot;PDF&quot;" id="91bc5d6f-38e9-47cb-8305-e887f8260c5c"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>e6af1a2d-533d-4207-904e-f1fa137a88bc</con:id><con:isGroup>false</con:isGroup><con:sourceId>8b882075-5aa8-4b9b-95ee-21e43e737184</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="f6be9356-7d51-4597-bbb4-a3b8e949af1c"><con:configuration><token>PDF</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Document Tree" id="b4916cbe-cee5-4a04-9629-8d1a49895902"><con:settings/><con:config service="Document Tree" resourcePath="/api/v1/imaging/documents/tree" methodName="Tree" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Document Tree" mediaType="application/json" id="4a2c9d19-9e87-447f-aa01-f61c5d6e4bfe"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://test.webapi.kaplan.edu/api/v1/imaging/documents/tree</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>docTreeRequest</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Doc Tree" id="f9a27876-819a-4f14-8472-7e221449c9bd"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>0f550051-6cc9-4dfb-a52b-ca60c19b2345</con:id><con:isGroup>false</con:isGroup><con:sourceId>b4916cbe-cee5-4a04-9629-8d1a49895902</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="1accf76c-3f5f-4e37-b8ab-b52ea4b3d652"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for tag &quot;results&quot;" id="21034c74-860f-4af1-a9d0-57afb836c07c"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>e13f18d9-f938-4e18-9703-a3638217aa53</con:id><con:isGroup>false</con:isGroup><con:sourceId>b4916cbe-cee5-4a04-9629-8d1a49895902</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="58fbd945-079d-4970-8e6d-a80ce93ffb0a"><con:configuration><token>results</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="EnvelopeDocumentFromDocuSign" id="f6d14bcc-448a-4244-90ca-9b467a7dc85d"><con:settings/><con:config service="EnvelopeDocumentFromDocuSign" resourcePath="/api/imaging/EnvelopeDocumentFromDocuSign" methodName="EnvelopeDocumentFromDocuSign" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EnvelopeDocumentFromDocuSign" mediaType="application/json" postQueryString="false" id="347a3bc6-5615-4871-a992-5408a99799bd"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "StudentID": 29919168,
+  "EnvelopeID": "sample string 2",
+  "DocuSignDocument": [
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    },
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    },
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    }
+  ]
+}</con:request><con:originalUri>https://test.webapi.kaplan.edu/api/imaging/EnvelopeDocumentFromDocuSign</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Envelope" id="ce8db394-5ace-4343-acbe-60626143c85c"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>9691897a-a47c-4447-9ac0-2226891a9d9e</con:id><con:isGroup>false</con:isGroup><con:sourceId>f6d14bcc-448a-4244-90ca-9b467a7dc85d</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="45a24cb6-9e57-4792-a4ae-9aacdaf5290b"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>c7931751-ef84-44d9-b0c6-89a528ab2fdb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>493167dd-c1f2-46d8-a728-d1a9be64368a</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8b882075-5aa8-4b9b-95ee-21e43e737184</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>00db4c23-9cd2-4dd7-a23c-bc9e7bdcd624</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>16ff866b-bee0-4424-96d7-d2b455fc0ddc</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite name="Stage MWC Test Suite" id="64158e96-09d5-4ff7-9a3f-c971c480dc66"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Testcase" searchProperties="true" id="2fa8a15a-aca6-4b21-8f51-12dfd7cbfc74" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="properties" name="Endpoint" id="e603d15d-3035-43b6-8423-fc995e6f2a3d"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Endpoint</con:name><con:value>https://stage.webapi.kaplan.edu</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="DocumentId" id="291808d0-cc8d-463a-b136-a412120f339b"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>DocumentId</con:name><con:value>18906349</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="studentId" id="79733087-50f9-4815-be29-2354e2cbf100"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>studentId</con:name><con:value>18723371</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="get Token" id="f3a71a8e-3dfc-479b-b779-6472be9edf02"><con:settings/><con:config service="getToken" resourcePath="/api/v1/auth/authorize" methodName="Authorize" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="get Token" mediaType="application/json" postQueryString="false" id="d4cbc220-f682-4401-b2c3-5ca7470933df"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "ClientID": "MountWashingtonSalesforce_Stage",
+  "ClientSecret": "lbWjUyu7ON4sylxHphRBajWoBdbNgHga"
+}</con:request><con:originalUri>https://stage.webapi.kaplan.edu/api/v1/auth/authorize</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [access_token]" id="ace35524-998a-465e-a395-c615fc744f91"><con:configuration><path>declare namespace ns1='${Endpoint#Endpoint}/api/v1/auth/authorize';
+exists( //ns1:Response/ns1:access_token)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="transfer" name="PropertyTransfer 1" id="493167dd-c1f2-46d8-a728-d1a9be64368a"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true"><con:name>access_token</con:name><con:sourceType>ResponseAsXml</con:sourceType><con:sourceStep>get Token</con:sourceStep><con:sourcePath>declare namespace ns1='${Endpoint#Endpoint}/api/v1/auth/authorize';
+//ns1:Response[1]/ns1:access_token[1]</con:sourcePath><con:targetType>Token</con:targetType><con:targetStep>Token</con:targetStep><con:targetPath/><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="properties" name="Token" id="c7931751-ef84-44d9-b0c6-89a528ab2fdb"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Token</con:name><con:value>UVwJoH25CXsDACUOaITC799SavrV</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Activities" id="0a607dc9-89dd-4d72-ac17-e7ad9a823f53"><con:settings/><con:config service="Activities" resourcePath="/api/v1/students/{id}/c2k/activities" methodName="Fa" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Activities" mediaType="application/json" id="be9fc1f4-3e72-4f19-b4f2-a59ac217d674"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://stage.webapi.kaplan.edu/api/v1/students/18723371/c2k/activities</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [StudentActivities]" id="8b31b5fb-8948-497f-ae87-ea39f9fab684"><con:configuration><path>declare namespace ns1='${Endpoint#Endpoint}/api/v1/students/18723371/c2k/activities';
+exists( //ns1:Response/ns1:StudentActivities)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${studentId#studentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Activities" id="caff9220-b46c-4516-9da7-d266a307da5e"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>1a3fedc4-940e-4ca5-8e3c-b1c60dec5e91</con:id><con:isGroup>false</con:isGroup><con:sourceId>0a607dc9-89dd-4d72-ac17-e7ad9a823f53</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="222c9667-d071-4c3a-9bab-2fccaccb813e"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Doc Imaging" id="10e2b950-76e2-4705-beee-1909cf7d3a14"><con:settings/><con:config service="Doc Imaging" resourcePath="/api/v1/imaging/documents/{id}" methodName="Id" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Doc Imaging" mediaType="application/json" id="cb7700e9-138b-4301-ab05-5a0415e57d38"><con:settings/><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://stage.webapi.kaplan.edu/api/v1/imaging/documents/18906349</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${DocumentId#DocumentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for Text &quot;PDF&quot;" id="eae2663f-54f4-4636-99cb-0b86cbd485bf"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>4a340ade-4574-4cba-8c14-566d6fd646fd</con:id><con:isGroup>false</con:isGroup><con:sourceId>10e2b950-76e2-4705-beee-1909cf7d3a14</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="3a01c5f1-bb91-42e8-bf6e-66d5d74c74be"><con:configuration><token>PDF</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 DocImaging" id="d8a7afa9-81c5-404d-a293-f6c30b1049bb"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>0fe79881-ec64-45a9-ad90-8b9ec397ab87</con:id><con:isGroup>false</con:isGroup><con:sourceId>10e2b950-76e2-4705-beee-1909cf7d3a14</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="8f6e379e-3802-48aa-a1a9-93c3203f1c9a"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Document Tree" id="3c76d4c6-16a1-43c6-bb33-71636c8c56eb"><con:settings/><con:config service="Document Tree" resourcePath="/api/v1/imaging/documents/tree" methodName="Tree" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Document Tree" mediaType="application/json" id="ba68a1e9-d879-4b40-9bbd-53a32c07eb9b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://stage.webapi.kaplan.edu/api/v1/imaging/documents/tree</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>docTreeRequest</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for results" id="46d0d6cf-a01e-4fc1-a7cf-942d79237c39"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>8c63d083-b544-42e9-9421-123f80a51b80</con:id><con:isGroup>false</con:isGroup><con:sourceId>3c76d4c6-16a1-43c6-bb33-71636c8c56eb</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="1bc45cf1-0518-4399-bf15-96a4e2fc9117"><con:configuration><token>results</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="EnvelopeDocumentFromDocuSign" id="c65574c5-006b-40da-b671-938aaf91648b"><con:settings/><con:config service="EnvelopeDocumentFromDocuSign" resourcePath="/api/imaging/EnvelopeDocumentFromDocuSign" methodName="EnvelopeDocumentFromDocuSign" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EnvelopeDocumentFromDocuSign" mediaType="application/json" postQueryString="false" id="a451983f-1bf5-4d44-a2e4-ad55ed70e73d"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "StudentID": 31347665,
+  "EnvelopeID": "67EC5605-6642-4CD1-8E30-80FDE15F97BB",
+  "DocuSignDocument": [
+    {
+      "DocumentId": 2,
+      "CvueCode": "AMEAMWC"
+    }
+  ]
+}</con:request><con:originalUri>https://stage.webapi.kaplan.edu/api/imaging/EnvelopeDocumentFromDocuSign</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>c7931751-ef84-44d9-b0c6-89a528ab2fdb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>493167dd-c1f2-46d8-a728-d1a9be64368a</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>10e2b950-76e2-4705-beee-1909cf7d3a14</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite name="Prod MWC Testsuite" id="f0f93d54-5664-415b-9b8d-49c0e7de50ae"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Testcase" searchProperties="true" id="fc13ee74-d31f-44e3-80e3-92e8ddcff0e5" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="properties" name="Endpoint" id="8e7e2cc2-d4c3-4c36-90b9-f4fc7c1cee0d"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Endpoint</con:name><con:value>https://webapi.kaplan.edu</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="DocumentId" id="dbc4ac3c-0206-4363-85c3-80eb88ac019d"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>DocumentId</con:name><con:value>18906349</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="studentId" id="67bacd41-1218-4f48-8ede-e0b675bc0b30"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>studentId</con:name><con:value>18723371</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="get Token" id="50d1cd74-89c0-4cdc-819a-1127af7d48db"><con:settings/><con:config service="getToken" resourcePath="/api/v1/auth/authorize" methodName="Authorize" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="get Token" mediaType="application/json" postQueryString="false" id="f4977620-67df-43e5-8ba4-e84db9294599"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "ClientID": "MountWashingtonSalesforce_QA",
+  "ClientSecret": "8yzMk1drvQW+ikyD6EWPfapBCUmVsXOF6AwxrZq2XZc="
+}</con:request><con:originalUri>https://webapi.kaplan.edu/api/v1/auth/authorize</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [access_token]" id="4ba1c88f-26b6-4c35-958b-f5006470cb1f"><con:configuration><path>exists( //*:Response/*:access_token)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="transfer" name="PropertyTransfer 1" id="56d90c3c-5204-477f-a75f-0d77fe60ab29"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" useXQuery="false" entitize="false" transferChildNodes="false"><con:name>access_token</con:name><con:sourceType>ResponseAsXml</con:sourceType><con:sourceStep>get Token</con:sourceStep><con:sourcePath>declare namespace ns1='${Endpoint#Endpoint}/api/v1/auth/authorize';
+//ns1:Response[1]/ns1:access_token[1]</con:sourcePath><con:targetType>Token</con:targetType><con:targetStep>Token</con:targetStep><con:targetPath/><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="properties" name="Token" id="b5120ce0-d5ae-498d-9dde-229eb1e79803"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Token</con:name><con:value>VshuPnjZtxJNnuol3cZ4b1162diX</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Activities" id="0b24133a-b491-47da-84e4-c8ed17277bae"><con:settings/><con:config service="Activities" resourcePath="/api/v1/students/{id}/c2k/activities" methodName="Fa" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Activities" mediaType="application/json" id="23e0fd9d-9f84-4ef0-a9ca-8da725859569"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/students/18723371/c2k/activities</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [StudentActivities]" id="8b31b5fb-8948-497f-ae87-ea39f9fab684"><con:configuration><path>exists( //*:Response/*:StudentActivities)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${studentId#studentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Activities" id="7d538669-d9dd-4291-87c9-89f80333a6e0"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>49fca008-b3c1-4768-9b0b-b40d00b6b3fb</con:id><con:isGroup>false</con:isGroup><con:sourceId>0b24133a-b491-47da-84e4-c8ed17277bae</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="c3ab0a99-c3f4-4102-a429-2b5127fa977e"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Doc Imaging" id="4d50267a-a7ca-4f42-833c-25452bda5a78"><con:settings/><con:config service="Doc Imaging" resourcePath="/api/v1/imaging/documents/{id}" methodName="Id" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Doc Imaging" mediaType="application/json" id="0da75223-7571-4451-9a84-eb9b158478d0"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/imaging/documents/18906349</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${DocumentId#DocumentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Doc Imaging" id="e2254e8f-16e0-425f-906e-1201f38458b0"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>2e9b243c-d9de-4b75-be85-00de8d354395</con:id><con:isGroup>false</con:isGroup><con:sourceId>4d50267a-a7ca-4f42-833c-25452bda5a78</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="597b8baf-6d57-49da-b4c8-a48816a25dd9"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for text &quot;PDF&quot;" id="2be2cc01-ac68-4221-b9d8-71807ab1f432"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>15b9e6c9-17c6-4a3c-8a51-4cb5f6929096</con:id><con:isGroup>false</con:isGroup><con:sourceId>4d50267a-a7ca-4f42-833c-25452bda5a78</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="f3d03d18-f241-4a65-a616-4ced908c3c7f"><con:configuration><token>PDF</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Document Tree" id="e07897f8-0996-417f-a1d0-22bdfb14d698"><con:settings/><con:config service="Document Tree" resourcePath="/api/v1/imaging/documents/tree" methodName="Tree" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Document Tree" mediaType="application/json" id="568ad420-56c6-42ef-b609-ffb1f3ec10c0"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/imaging/documents/tree</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>docTreeRequest</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for &quot;results&quot;" id="a0a6930e-b778-410c-9471-23d068526cce"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>004201bb-cb6c-4de8-82c3-e803d552980b</con:id><con:isGroup>false</con:isGroup><con:sourceId>e07897f8-0996-417f-a1d0-22bdfb14d698</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="f079ce57-b229-43fc-9a16-a7fd44c3e794"><con:configuration><token>results</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="EnvelopeDocumentFromDocuSign" id="8b0d7306-0616-4ad6-983f-5ec6336e0c69"><con:settings/><con:config service="EnvelopeDocumentFromDocuSign" resourcePath="/api/imaging/EnvelopeDocumentFromDocuSign" methodName="EnvelopeDocumentFromDocuSign" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EnvelopeDocumentFromDocuSign" mediaType="application/json" postQueryString="false" id="fcdb0e82-28dd-4a98-a495-7c87bb5fe164"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "StudentID": 29919168,
+  "EnvelopeID": "sample string 2",
+  "DocuSignDocument": [
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    },
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    },
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    }
+  ]
+}</con:request><con:originalUri>https://webapi.kaplan.edu/api/imaging/EnvelopeDocumentFromDocuSign</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 EnvelopeDocumentFromDocusign" id="adac796c-4d74-4287-8b7d-6f39581abe51"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>6b506f20-6d01-4538-bfd1-500f490b232f</con:id><con:isGroup>false</con:isGroup><con:sourceId>8b0d7306-0616-4ad6-983f-5ec6336e0c69</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="1879d894-806f-40ab-b9ac-adfcb23fc1b7"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>c7931751-ef84-44d9-b0c6-89a528ab2fdb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>493167dd-c1f2-46d8-a728-d1a9be64368a</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>dbc4ac3c-0206-4363-85c3-80eb88ac019d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>2be2cc01-ac68-4221-b9d8-71807ab1f432</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>4d50267a-a7ca-4f42-833c-25452bda5a78</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>e2254e8f-16e0-425f-906e-1201f38458b0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0b24133a-b491-47da-84e4-c8ed17277bae</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite name="LT MWC Testsuite" id="1d46121b-d7e0-4b68-a0a1-343511604b0d"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Testcase" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" id="fc1bef5c-d543-4b08-8908-b8401bd0535f"><con:settings/><con:testStep type="properties" name="Endpoint" id="4215a456-827c-4771-887d-2b77dd3706b3"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Endpoint</con:name><con:value>https://lt.webapi.kaplan.edu</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="DocumentId" id="83ff776f-03b2-4c57-9672-632c58d27602"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>DocumentId</con:name><con:value>18906349</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="properties" name="studentId" id="2547f62d-ac95-4569-9b80-07f7bfd581c7"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>studentId</con:name><con:value>18723371</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="get Token" id="718455dd-a718-494e-96dc-bb03fc82d59a"><con:settings/><con:config service="getToken" resourcePath="/api/v1/auth/authorize" methodName="Authorize" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="get Token" mediaType="application/json" postQueryString="false" id="dcdf3107-8dff-462d-955b-6718dfc40904"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "ClientID": "MountWashingtonSalesforce_LT",
+  "ClientSecret": "PupfTvAgwkhkfYvpj41H9wRioCP84yGI"
+}</con:request><con:originalUri>https://webapi.kaplan.edu/api/v1/auth/authorize</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [access_token]" id="4ba1c88f-26b6-4c35-958b-f5006470cb1f"><con:configuration><path>exists( //*:Response/*:access_token)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="transfer" name="PropertyTransfer 1" id="8dd01f16-51ec-4cb7-9775-4ffc5f8bcba5"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" useXQuery="false" entitize="false" transferChildNodes="false"><con:name>access_token</con:name><con:sourceType>ResponseAsXml</con:sourceType><con:sourceStep>get Token</con:sourceStep><con:sourcePath>//*:Response[1]/*:access_token[1]</con:sourcePath><con:targetType>Token</con:targetType><con:targetStep>Token</con:targetStep><con:targetPath/><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="properties" name="Token" id="50d4f553-5115-4b0e-af8b-52322eaead0f"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Token</con:name><con:value>fhBQEbTPa9UDO0oiPPMTF3NGFbnY</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Activities" id="d5d9bb3c-87a2-4219-ba9b-d8fed9206882"><con:settings/><con:config service="Activities" resourcePath="/api/v1/students/{id}/c2k/activities" methodName="Fa" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Activities" mediaType="application/json" id="1f2166f6-29fd-49c9-bef9-54b0a8f7389d"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/students/18723371/c2k/activities</con:originalUri><con:assertion type="XPath Match" name="Check for existance of [StudentActivities]" id="8b31b5fb-8948-497f-ae87-ea39f9fab684"><con:configuration><path>exists( //*:Response/*:StudentActivities)</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${studentId#studentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Activities" id="dfccf0e3-49ea-4334-a25b-55bd83a5a405"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>49fca008-b3c1-4768-9b0b-b40d00b6b3fb</con:id><con:isGroup>false</con:isGroup><con:sourceId>d5d9bb3c-87a2-4219-ba9b-d8fed9206882</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="2f0ba189-400f-4332-8431-d5d3fd6d6e9c"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Doc Imaging" id="55b310b8-ec75-442e-b723-79154120e60e"><con:settings/><con:config service="Doc Imaging" resourcePath="/api/v1/imaging/documents/{id}" methodName="Id" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Doc Imaging" mediaType="application/json" id="239b867b-d324-4bb5-8e00-f7fc8271d0fa"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/imaging/documents/18906349</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="id" value="${DocumentId#DocumentId}"/>
+  <con:entry key="Token" value="${Token#Token}"/>
+</con:parameters><con:parameterOrder><con:entry>id</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 Doc Imaging" id="fc89dac6-aa0f-4c7a-87d7-3fa2b938ee32"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>2e9b243c-d9de-4b75-be85-00de8d354395</con:id><con:isGroup>false</con:isGroup><con:sourceId>55b310b8-ec75-442e-b723-79154120e60e</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="5d5b6892-2688-4cb2-b954-80840f5a6369"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for text &quot;PDF&quot;" id="badd1620-4743-43db-80ea-17564dbf1c26"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>15b9e6c9-17c6-4a3c-8a51-4cb5f6929096</con:id><con:isGroup>false</con:isGroup><con:sourceId>55b310b8-ec75-442e-b723-79154120e60e</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="7a990b13-8c58-4c98-9942-4acf5d75f1d2"><con:configuration><token>PDF</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="Document Tree" id="e0e07215-ad9d-4a87-890a-69628c5e2cb5"><con:settings/><con:config service="Document Tree" resourcePath="/api/v1/imaging/documents/tree" methodName="Tree" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Document Tree" mediaType="application/json" id="9b6a8bfa-215f-473f-9d3f-db58b5f00f36"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request/><con:originalUri>https://webapi.kaplan.edu/api/v1/imaging/documents/tree</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>docTreeRequest</con:entry><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion for &quot;results&quot;" id="ae9d83d6-e156-4876-8ba4-e2b18ab0d461"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>004201bb-cb6c-4de8-82c3-e803d552980b</con:id><con:isGroup>false</con:isGroup><con:sourceId>e0e07215-ad9d-4a87-890a-69628c5e2cb5</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="0577fe10-ae84-4ede-9fbe-c38dfd61fce3"><con:configuration><token>results</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="restrequest" name="EnvelopeDocumentFromDocuSign" id="7b049dd2-6108-48d1-a50d-3b52cbc06729"><con:settings/><con:config service="EnvelopeDocumentFromDocuSign" resourcePath="/api/imaging/EnvelopeDocumentFromDocuSign" methodName="EnvelopeDocumentFromDocuSign" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="EnvelopeDocumentFromDocuSign" mediaType="application/json" postQueryString="false" id="46dd96bd-1c6f-41cf-9ad0-b4e8cfae357b"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${Endpoint#Endpoint}</con:endpoint><con:request>{
+  "StudentID": 29919168,
+  "EnvelopeID": "sample string 2",
+  "DocuSignDocument": [
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    },
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    },
+    {
+      "DocumentId": 39671851,
+      "CvueCode": "FAAWD"
+    }
+  ]
+}</con:request><con:originalUri>https://webapi.kaplan.edu/api/imaging/EnvelopeDocumentFromDocuSign</con:originalUri><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Token" value="${Token#Token}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Token</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion200 EnvelopeDocumentFromDocusign" id="e8c70684-9ff6-4300-865b-98d409fd6c30"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>6b506f20-6d01-4538-bfd1-500f490b232f</con:id><con:isGroup>false</con:isGroup><con:sourceId>7b049dd2-6108-48d1-a50d-3b52cbc06729</con:sourceId><con:propertyName>Response</con:propertyName><con:assertion type="Valid HTTP Status Codes" name="Valid HTTP Status Codes" id="7dd403a4-b1d5-4e37-9eb5-9a031d61e9c0"><con:configuration><codes>200</codes></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>c7931751-ef84-44d9-b0c6-89a528ab2fdb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>493167dd-c1f2-46d8-a728-d1a9be64368a</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>dbc4ac3c-0206-4363-85c3-80eb88ac019d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>2be2cc01-ac68-4221-b9d8-71807ab1f432</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>4d50267a-a7ca-4f42-833c-25452bda5a78</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>e2254e8f-16e0-425f-906e-1201f38458b0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0b24133a-b491-47da-84e4-c8ed17277bae</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/><con:authRepository/></con:soapui-project>

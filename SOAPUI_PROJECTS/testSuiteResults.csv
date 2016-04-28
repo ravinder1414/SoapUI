@@ -1,0 +1,2 @@
+"failedTestSteps","reason","startTime","status","testCaseId","testCaseName","testStepResults","timeTaken"
+"C:\SOAPUI_PROJECTS\errors-1.csv","Failing due to failed test step","08:27:47","FAILED","22129b80-ac3f-47ad-9ef9-6cff3ff15d4d","Verify HTTP OK","C:\SOAPUI_PROJECTS\TestCaseTestStepResults-1.csv","52397"

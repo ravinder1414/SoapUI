@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 109
+Size: 0
+Timestamp: Sun Jan 24 05:05:04 EST 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [id]
+----------------------------------------------------
+id transferred [[68765]] from [Reqpostauthtransac.Response] to [Properties 1.authtransid]
+------------ source path -------------
+$.id
+------------ target path -------------
+

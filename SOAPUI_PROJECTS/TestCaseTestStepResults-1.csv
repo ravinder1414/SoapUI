@@ -1,0 +1,330 @@
+2,,ok,Step 1 [authorize] OK: took 100 ms,authorize,OK
+,,,"Step 2 [PropertyTransfer 1] OK: took 0 ms
+ -> Performed transfer [access_token]",PropertyTransfer 1,OK
+,,,Step 3 [Properties] OK: took 3 ms,Properties,OK
+,,,Step 4 [DocType] OK: took 12 ms,DocType,OK
+,,,Step 5 [Addprogramrollup] OK: took 4278 ms,Addprogramrollup,OK
+,,,Step 6 [Updateprogramrollup] OK: took 45 ms,Updateprogramrollup,OK
+,,,Step 7 [Createscheduledocuments] OK: took 7 ms,Createscheduledocuments,OK
+,,,Step 8 [Updatescheduledocuments] OK: took 8 ms,Updatescheduledocuments,OK
+,,,Step 9 [scheduledocumentsODI] OK: took 577 ms,scheduledocumentsODI,OK
+,,,Step 10 [CampusActivitiesForStudent] OK: took 10 ms,CampusActivitiesForStudent,OK
+,,,Step 11 [eligible] OK: took 9 ms,eligible,OK
+,,,Step 12 [septoken] OK: took 7 ms,septoken,OK
+,,,Step 13 [documents] OK: took 7 ms,documents,OK
+,,,Step 14 [GetQuestionnarie] OK: took 179 ms,GetQuestionnarie,OK
+,,,Step 15 [PutUpdatesignedDocs] OK: took 81 ms,PutUpdatesignedDocs,OK
+3,,HTTP/1.1 403 You are not authorized to use this method,"Step 16 [activities] FAILED: took 22 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",activities,FAILED
+,,,Step 17 [C2kfaactivities] OK: took 316 ms,C2kfaactivities,OK
+4,,HTTP/1.1 403 You are not authorized to use this method,"Step 18 [StudentInfo] FAILED: took 37 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",StudentInfo,FAILED
+,,,Step 19 [StudentStatusHistory] OK: took 275 ms,StudentStatusHistory,OK
+5,, HTTP/1.1 400 Bad Request,"Step 20 [StudentAppointmentHistory] FAILED: took 256 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request",StudentAppointmentHistory,FAILED
+6,, HTTP/1.1 400 Bad Request,"Step 21 [StudentFileClose] FAILED: took 61 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request",StudentFileClose,FAILED
+7,, HTTP/1.1 400 Bad Request,"Step 22 [StudentEmailHistory] FAILED: took 88 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request",StudentEmailHistory,FAILED
+,,,Step 23 [StudentNotes] OK: took 540 ms,StudentNotes,OK
+,,,Step 24 [StudentTaskHistory] OK: took 235 ms,StudentTaskHistory,OK
+8,, HTTP/1.1 400 Bad Request,"Step 25 [StudentLeadAssignment] FAILED: took 43 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request",StudentLeadAssignment,FAILED
+9,, HTTP/1.1 400 Bad Request,"Step 26 [StudentAra] FAILED: took 3234 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request",StudentAra,FAILED
+,,,Step 27 [StudentCurrentClassGrade] OK: took 24466 ms,StudentCurrentClassGrade,OK
+10,, HTTP/1.1 400 Bad Request,"Step 28 [StudentFinancialAid] FAILED: took 176 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request",StudentFinancialAid,FAILED
+11,, HTTP/1.1 400 Bad Request,"Step 29 [StudentCurrentClassGrade 1] FAILED: took 721 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request",StudentCurrentClassGrade 1,FAILED
+12,, HTTP/1.1 400 Bad Request,"Step 30 [StudentCurrentClassGradeECollege] FAILED: took 189 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request",StudentCurrentClassGradeECollege,FAILED
+,,,Step 31 [StudentPersonalAccount] OK: took 256 ms,StudentPersonalAccount,OK
+,,,Step 32 [AddUpdateCVueStudent] OK: took 60 ms,AddUpdateCVueStudent,OK
+,,,Step 33 [UpdateCampusViewAdvisor] OK: took 1449 ms,UpdateCampusViewAdvisor,OK
+,,,Step 34 [UpdateInquiryInformationBatch] OK: took 653 ms,UpdateInquiryInformationBatch,OK
+,,,Step 35 [UpdateInquiryInformation] OK: took 121 ms,UpdateInquiryInformation,OK
+,,,Step 36 [AgencysponsorSync] OK: took 69 ms,AgencysponsorSync,OK
+,,,Step 37 [PostUpdateStusuccAdvisorAssignment] OK: took 189 ms,PostUpdateStusuccAdvisorAssignment,OK
+,,,Step 38 [PortalUsernameforStudentIDS] OK: took 286 ms,PortalUsernameforStudentIDS,OK
+13,,HTTP/1.1 403 You are not authorized to use this method,"Step 39 [ReturnInstitution] FAILED: took 32 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",ReturnInstitution,FAILED
+14,,HTTP/1.1 403 You are not authorized to use this method,"Step 40 [ReturnListofInstitution] FAILED: took 22 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",ReturnListofInstitution,FAILED
+,,,Step 41 [OrionMarketingAddSource] OK: took 544 ms,OrionMarketingAddSource,OK
+,,,Step 42 [OrionMarketingUpdateSource] OK: took 465 ms,OrionMarketingUpdateSource,OK
+15,,HTTP/1.1 403 You are not authorized to use this method,"Step 43 [enrollGradesTrnsfr] FAILED: took 22 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",enrollGradesTrnsfr,FAILED
+,,,Step 44 [OrionProgramRollUpMapping] OK: took 102 ms,OrionProgramRollUpMapping,OK
+,,,Step 45 [OrionProgramRollUpUpdateMapping] OK: took 42 ms,OrionProgramRollUpUpdateMapping,OK
+,,,Step 46 [OrionMarketingAddPromotions] OK: took 258 ms,OrionMarketingAddPromotions,OK
+,,,Step 47 [OrionMarketingUpdatePromotions] OK: took 439 ms,OrionMarketingUpdatePromotions,OK
+,,,Step 48 [ClassAttendanceforEnrollmentIds] OK: took 284 ms,ClassAttendanceforEnrollmentIds,OK
+16,, HTTP/1.1 417 Please provide a valid Token,"Step 49 [StudentUnreadEmailsCount] FAILED: took 63 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",StudentUnreadEmailsCount,FAILED
+,,,Step 50 [CampusCodeTermsCampusVue] OK: took 569 ms,CampusCodeTermsCampusVue,OK
+17,,HTTP/1.1 403 You are not authorized to use this method,"Step 51 [GetDegreebyCampusAndProgramIds] FAILED: took 22 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetDegreebyCampusAndProgramIds,FAILED
+,,,Step 52 [CreateEnrollment] OK: took 3004 ms,CreateEnrollment,OK
+18,,  HTTP/1.1 417 Please provide a valid Token,"Step 53 [StudentDegreePlanbyEnrollmentIds] FAILED: took 27 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",StudentDegreePlanbyEnrollmentIds,FAILED
+19,,  HTTP/1.1 417 Please provide a valid Token,"Step 54 [BluePrintDegreePlanbyEnrollmentIds] FAILED: took 27 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",BluePrintDegreePlanbyEnrollmentIds,FAILED
+20,,  HTTP/1.1 417 Please provide a valid Token,"Step 55 [StudentTitle4RegistrationRequirement] FAILED: took 42 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",StudentTitle4RegistrationRequirement,FAILED
+21,,  HTTP/1.1 417 Please provide a valid Token,"Step 56 [ProgramEnrollmentInfoGivenEnrollmentId] FAILED: took 28 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",ProgramEnrollmentInfoGivenEnrollmentId,FAILED
+22,,  HTTP/1.1 417 Please provide a valid Token,"Step 57 [ProgramStuEnrollmentInfoGivenEnrollmentId] FAILED: took 37 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",ProgramStuEnrollmentInfoGivenEnrollmentId,FAILED
+23,,  HTTP/1.1 417 Please provide a valid Token,"Step 58 [ElectivePoolCourseforElectivePoolIds] FAILED: took 27 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",ElectivePoolCourseforElectivePoolIds,FAILED
+24,,  HTTP/1.1 417 Please provide a valid Token,"Step 59 [CreateCDL] FAILED: took 32 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",CreateCDL,FAILED
+25,,  HTTP/1.1 417 Please provide a valid Token,"Step 60 [CourseRegEligibility] FAILED: took 35 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",CourseRegEligibility,FAILED
+26,,  HTTP/1.1 417 Please provide a valid Token,"Step 61 [GetFetchCDL] FAILED: took 52 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",GetFetchCDL,FAILED
+27,,  HTTP/1.1 417 Please provide a valid Token,"Step 62 [UnRegCourseSec] FAILED: took 26 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",UnRegCourseSec,FAILED
+28,,  HTTP/1.1 417 Please provide a valid Token,"Step 63 [PostdirectcourseReg] FAILED: took 27 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",PostdirectcourseReg,FAILED
+29,,  HTTP/1.1 417 Please provide a valid Token,"Step 64 [PutReplaceDefElePoolCourse] FAILED: took 37 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",PutReplaceDefElePoolCourse,FAILED
+30,,  HTTP/1.1 417 Please provide a valid Token,"Step 65 [PutAppendDPCourse] FAILED: took 37 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",PutAppendDPCourse,FAILED
+,,,Step 66 [OrionMarketingAddDNIS] OK: took 320 ms,OrionMarketingAddDNIS,OK
+,,,Step 67 [OrionMarketingUpdateDNIS] OK: took 42 ms,OrionMarketingUpdateDNIS,OK
+,,,Step 68 [DocStatusbyDocTypeandCampusID] OK: took 44 ms,DocStatusbyDocTypeandCampusID,OK
+,,,Step 69 [PostAddProgramGroupinKCCandOrion] OK: took 31 ms,PostAddProgramGroupinKCCandOrion,OK
+,,,Step 70 [PutUpdateProgramGroupKCCandOrion] OK: took 44 ms,PutUpdateProgramGroupKCCandOrion,OK
+31,,HTTP/1.1 403 You are not authorized to use this method,"Step 71 [GetDegrees] FAILED: took 22 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetDegrees,FAILED
+,,,Step 72 [PostOrionMarketingAddVendor] OK: took 286 ms,PostOrionMarketingAddVendor,OK
+,,,Step 73 [PutOrionMarketingUpdateVendors] OK: took 386 ms,PutOrionMarketingUpdateVendors,OK
+32,,HTTP/1.1 500 Internal Server Error,"Step 74 [GetDegreeAuditforStudents] FAILED: took 24 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error",GetDegreeAuditforStudents,FAILED
+33,,HTTP/1.1 403 You are not authorized to use this method,"Step 75 [PostDegAuditTrsfrCredit] FAILED: took 22 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",PostDegAuditTrsfrCredit,FAILED
+,,,Step 76 [PostOrionMarketingAddMarketingChannels] OK: took 267 ms,PostOrionMarketingAddMarketingChannels,OK
+,,,Step 77 [PutOrionMarketingUpdateMarketingChannels] OK: took 41 ms,PutOrionMarketingUpdateMarketingChannels,OK
+,,,Step 78 [GetCvueStDatebyCampusCode] OK: took 154 ms,GetCvueStDatebyCampusCode,OK
+,,,Step 79 [GetPerfomitURLs] OK: took 29 ms,GetPerfomitURLs,OK
+,,,Step 80 [PostCreatePerformITurl] OK: took 199 ms,PostCreatePerformITurl,OK
+,,,Step 81 [PostAddtoKapDNCtable] OK: took 29 ms,PostAddtoKapDNCtable,OK
+,,,Step 82 [PutupdateExpDateinKapDNCtable] OK: took 29 ms,PutupdateExpDateinKapDNCtable,OK
+34,,HTTP/1.1 403 You are not authorized to use this method,"Step 83 [GetLeadStatusHistory] FAILED: took 29 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetLeadStatusHistory,FAILED
+35,,HTTP/1.1 403 You are not authorized to use this method,"Step 84 [GetLeadAppHistory] FAILED: took 24 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetLeadAppHistory,FAILED
+36,,HTTP/1.1 403 You are not authorized to use this method,"Step 85 [GetLeadFileCloseHistory] FAILED: took 23 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetLeadFileCloseHistory,FAILED
+37,,HTTP/1.1 403 You are not authorized to use this method,"Step 86 [GetLeadEmailHistory] FAILED: took 23 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetLeadEmailHistory,FAILED
+38,,HTTP/1.1 403 You are not authorized to use this method,"Step 87 [GetLeadnotes] FAILED: took 38 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetLeadnotes,FAILED
+39,,HTTP/1.1 403 You are not authorized to use this method,"Step 88 [GetLeadTaskHistory] FAILED: took 24 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetLeadTaskHistory,FAILED
+40,,HTTP/1.1 403 You are not authorized to use this method,"Step 89 [GetLeadAssignments] FAILED: took 23 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetLeadAssignments,FAILED
+,,,Step 90 [PostImportNewLead] OK: took 713 ms,PostImportNewLead,OK
+,,,Step 91 [PostLeadTransfer] OK: took 44 ms,PostLeadTransfer,OK
+,,,Step 92 [GetLeadImportSIFans] OK: took 642 ms,GetLeadImportSIFans,OK
+,,,Step 93 [PostStudentDocTreeforCampus] OK: took 557 ms,PostStudentDocTreeforCampus,OK
+,,,Step 94 [GetBinaryFileforDocid] OK: took 115 ms,GetBinaryFileforDocid,OK
+,,,Step 95 [PostInsertEnvelopeDoc] OK: took 448 ms,PostInsertEnvelopeDoc,OK
+,,,Step 96 [GetCvueCoursesbyCVueCode] OK: took 71 ms,GetCvueCoursesbyCVueCode,OK
+41,,HTTP/1.1 403 You are not authorized to use this method,"Step 97 [GetCvueCoursegrpsbyCamid] FAILED: took 25 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetCvueCoursegrpsbyCamid,FAILED
+42,,HTTP/1.1 403 You are not authorized to use this method,"Step 98 [GetCVueCoursegrpsbyCampusid] FAILED: took 23 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetCVueCoursegrpsbyCampusid,FAILED
+43,,HTTP/1.1 403 You are not authorized to use this method,"Step 99 [GetCVueCoursesbyCampusid] FAILED: took 23 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetCVueCoursesbyCampusid,FAILED
+,,,Step 100 [PostAddChannelGrpinOrionMarkt] OK: took 95 ms,PostAddChannelGrpinOrionMarkt,OK
+,,,Step 101 [PutUpdateChannelGrpOrionMarkt] OK: took 38 ms,PutUpdateChannelGrpOrionMarkt,OK
+,,,Step 102 [PostAddProgEmphasis] OK: took 51 ms,PostAddProgEmphasis,OK
+,,,Step 103 [PutUpdateProgEmphasis] OK: took 37 ms,PutUpdateProgEmphasis,OK
+44,,HTTP/1.1 403 You are not authorized to use this method,"Step 104 [GetReserveUnameinKUPorta] FAILED: took 23 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetReserveUnameinKUPorta,FAILED
+45,,HTTP/1.1 403 You are not authorized to use this method,"Step 105 [GetGenUnameinKUPortal] FAILED: took 22 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetGenUnameinKUPortal,FAILED
+46,,HTTP/1.1 403 You are not authorized to use this method,"Step 106 [GetChkreservedUnameinKUPorta] FAILED: took 23 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetChkreservedUnameinKUPorta,FAILED
+47,,  HTTP/1.1 417 Please provide a valid Token,"Step 107 [GetDocViewerv1] FAILED: took 37 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",GetDocViewerv1,FAILED
+48,,HTTP/1.1 403 You are not authorized to use this method,"Step 108 [GetCVueProgVersionbyDegree] FAILED: took 23 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetCVueProgVersionbyDegree,FAILED
+,,,Step 109 [GetAuthtoken1] OK: took 18 ms,GetAuthtoken1,OK
+,,,Step 110 [GetAuthToken2] OK: took 18 ms,GetAuthToken2,OK
+,,,Step 111 [GetCvueProgVersionbyCamCode] OK: took 87 ms,GetCvueProgVersionbyCamCode,OK
+49,,  HTTP/1.1 417 Please provide a valid Token,"Step 112 [GetStuOutcomeReports] FAILED: took 32 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide a valid Token",GetStuOutcomeReports,FAILED
+50,,HTTP/1.1 403 You are not authorized to use this method,"Step 113 [PostReserveUnameinKUPortal-ProvisionV1] FAILED: took 24 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",PostReserveUnameinKUPortal-ProvisionV1,FAILED
+51,,HTTP/1.1 403 You are not authorized to use this method,"Step 114 [PostGenUnameinKUPortal-ProvisionV1] FAILED: took 24 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",PostGenUnameinKUPortal-ProvisionV1,FAILED
+52,,HTTP/1.1 403 You are not authorized to use this method,"Step 115 [GetChkReserveUnameinKUPortal-ProvisionV1] FAILED: took 26 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetChkReserveUnameinKUPortal-ProvisionV1,FAILED
+53,,,"Step 116 [PostAuthV1] FAILED: took 9 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error",PostAuthV1,FAILED
+,,,Step 117 [GetCVueClassesbyCode-ClassesV1] OK: took 196 ms,GetCVueClassesbyCode-ClassesV1,OK
+54,,HTTP/1.1 403 You are not authorized to use this method,"Step 118 [GetReturnStuEnrollmentsV1] FAILED: took 24 ms
+ -> [Script Assertion] assert val==""HTTP/1.1 200 OK""
+       |  |
+       |  false
+       HTTP/1.1 403 You are not authorized to use this method",GetReturnStuEnrollmentsV1,FAILED
+,,,Step 119 [PostCreateSchforDocsV1] OK: took 465 ms,PostCreateSchforDocsV1,OK
+,,,Step 120 [GetStuLedgerCardbyEnrollid] OK: took 902 ms,GetStuLedgerCardbyEnrollid,OK
+,,,Step 121 [GetStuLedgerCardbyStuid] OK: took 42 ms,GetStuLedgerCardbyStuid,OK

@@ -1,0 +1,3182 @@
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestSuite Metrics                                       
+                                                           
+                                                           
+   Overview                                                
+                                                           
+     Project                REST Project 1                 
+                                                           
+     TestSuite name         DirecyPay                      
+                                                           
+                                                           
+     Description                                           
+                                                           
+                                                           
+   TestCase Summary                                        
+                                                           
+     Authtransac                                           
+                                                           
+     SalesTransac                                          
+                                                           
+     CaptureTransac                                        
+                                                           
+                                                           
+     RefundTransac_salesId                                 
+                                                           
+     RefundTransac_captureid                               
+                                                           
+                                                           
+     VoidTransac                                           
+                                                           
+     RecurringTransac                                      
+                                                           
+                                                           
+   Base Metrics                                            
+                                                           
+     Number of TestCases    7                              
+                                                           
+     Number of TestSteps    16                             
+                                                           
+                                                           
+     Number of Assertions   27                             
+                                                           
+     Number of LoadTests    0                              
+                                                           
+                                                           
+                                                           
+   TestSuite Properties                                    
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+   merchantid        10262                                 
+                                                           
+   sauthtransid      68747                                 
+                                                           
+                                                           
+   ssalestransid     68748                                 
+                                                           
+   sCapturetransid   68749                                 
+                                                           
+   TransAmt          123.45                                
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:16 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestCases                                               
+                                                           
+                                                           
+   TestCase Name       TestCase Description                
+                                                           
+     Authtransac                                           
+                                                           
+     SalesTransac                                          
+                                                           
+     CaptureTransac                                        
+                                                           
+     RefundTransac_sal                                     
+     RefundTransac_cap                                     
+     tureid                                                
+     VoidTransac                                           
+                                                           
+     RecurringTransac                                      
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:16 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   Result Metrics                                          
+                                                           
+                                                           
+   Result Metrics                                          
+                                                           
+     Start Time             Sun Jan 24 04:59:09 EST 2016   
+                                                           
+     End Time               Sun Jan 24 04:59:12 EST 2016   
+                                                           
+                                                           
+     Time Taken             2891 ms                        
+                                                           
+     TestCase Count         7                              
+                                                           
+                                                           
+     Failed TestCase Count  7                              
+                                                           
+     TestStep Count         7                              
+                                                           
+     Failed TestStep Count  7                              
+                                                           
+                                                           
+     Assertion Count        27                             
+                                                           
+     Failed Assertion Count 27                             
+                                                           
+                                                           
+   TestCase Results                                        
+                                                           
+                                                           
+                                                           
+   TestCase       StatuStart Time   Reason                 
+                  s    Time  Taken                         
+   Authtransac    FAIL 04:59:826 ms Cancelling due to      
+                                    failed test step       
+   SalesTransac   FAIL 04:59:87 ms  Cancelling due to      
+                                    failed test step       
+   CaptureTransac FAIL 04:59:81 ms  Cancelling due to      
+                                    failed test step       
+   RefundTransac_sFAIL 04:59:81 ms  Cancelling due to      
+   alesId                           failed test step       
+   RefundTransac_cFAIL 04:59:81 ms  Cancelling due to      
+   aptureid                         failed test step       
+   VoidTransac    FAIL 04:59:81 ms  Cancelling due to      
+                                    failed test step       
+   RecurringTransaFAIL 04:59:81 ms  Cancelling due to      
+   c                                failed test step       
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:16 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   Authtransac Summary                                     
+                                                           
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+   FAILED  04:59:09   826 ms   Cancelling due to failed    
+                                                           
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:16 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+   FAILE 04:59:09Step 1 [Reqpostauthtransac] FAILED: took  
+   D     .696    826 ms                                    
+                 -> [Assert [state]] Assertion failed for  
+                 path [$.state] :                          
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert Successful [status]]           
+                 Assertion failed for path [$.status] :    
+                 IllegalArgumentException:Invalid JSON:    
+     created with SoapUI Pro on Sun Jan 24 04:59:16 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 1"/>                                      
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert [message]] Assertion failed    
+                 for path [$.message] :                    
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:16 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert [trackingId]] Assertion        
+                 failed for path [$.trackingId] :          
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:16 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                    </head>                                
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert [HTTP OK 200]] assert          
+                 val=="HTTP/1.1 200 OK"                    
+                 |  |                                      
+                 |  false                                  
+                 HTTP/1.1 500 Internal Server Error        
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+                                                           
+   Failed TestStep: Reqpostauthtransac                     
+                                                           
+   [[Assert [state]] Assertion failed for path [$.state]   
+   : IllegalArgumentException:Invalid JSON: <!DOCTYPE      
+   html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"          
+                                                           
+   <Error Detail disabled>                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   SalesTransac Summary                                    
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FAILED  04:59:11   87 ms    Cancelling due to failed    
+                                                           
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+   FAILE 04:59:11Step 1 [ReqPostSalesTransac] FAILED:      
+   D     .525    took 87 ms                                
+                 -> [Match content of [state]] Assertion   
+                 failed for path [$.state] :               
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [status]] Assertion  
+                 failed for path [$.status] :              
+                 IllegalArgumentException:Invalid JSON:    
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 1"/>                                      
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [message]]           
+                 Assertion failed for path [$.message] :   
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [trackingId]]        
+                 Assertion failed for path [$.trackingId]  
+                 : IllegalArgumentException:Invalid JSON:  
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                    </head>                                
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert [HTTP OK 200]] assert          
+                 val=="HTTP/1.1 200 OK"                    
+                 |  |                                      
+                 |  false                                  
+                 HTTP/1.1 500 Internal Server Error        
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+                                                           
+   Failed TestStep: ReqPostSalesTransac                    
+                                                           
+   [[Match content of [state]] Assertion failed for path   
+   [$.state] : IllegalArgumentException:Invalid JSON:      
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0            
+                                                           
+   <Error Detail disabled>                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   CaptureTransac Summary                                  
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FAILED  04:59:11   81 ms    Cancelling due to failed    
+                                                           
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+   FAILE 04:59:11Step 1 [ReqPostCaptureTransac] FAILED:    
+   D     .696    took 81 ms                                
+                 -> [Match content of [state]] Assertion   
+                 failed for path [$.state] :               
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [status]] Assertion  
+                 failed for path [$.status] :              
+                 IllegalArgumentException:Invalid JSON:    
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 1"/>                                      
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [message]]           
+                 Assertion failed for path [$.message] :   
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert [HTTP OK 200]] assert          
+                 val=="HTTP/1.1 200 OK"                    
+                 |  |                                      
+                 |  false                                  
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+                                                           
+   Failed TestStep: ReqPostCaptureTransac                  
+                                                           
+   [[Match content of [state]] Assertion failed for path   
+   [$.state] : IllegalArgumentException:Invalid JSON:      
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0            
+                                                           
+   <Error Detail disabled>                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   RefundTransac_salesId Summary                           
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FAILED  04:59:11   81 ms    Cancelling due to failed    
+                                                           
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+   FAILE 04:59:11Step 1 [ReqPostCaptureTransac] FAILED:    
+   D     .853    took 81 ms                                
+                 -> [Match content of [state]] Assertion   
+                 failed for path [$.state] :               
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [status]] Assertion  
+                 failed for path [$.status] :              
+                 IllegalArgumentException:Invalid JSON:    
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 1"/>                                      
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [message]]           
+                 Assertion failed for path [$.message] :   
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert [HTTP OK 200]] assert          
+                 val=="HTTP/1.1 200 OK"                    
+                 |  |                                      
+                 |  false                                  
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+                                                           
+   Failed TestStep: ReqPostCaptureTransac                  
+                                                           
+   [[Match content of [state]] Assertion failed for path   
+   [$.state] : IllegalArgumentException:Invalid JSON:      
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0            
+                                                           
+   <Error Detail disabled>                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   RefundTransac_captureid Summary                         
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FAILED  04:59:12   81 ms    Cancelling due to failed    
+                                                           
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+   FAILE 04:59:12Step 1 [ReqPostCaptureTransac] FAILED:    
+   D     .009    took 81 ms                                
+                 -> [Match content of [state]] Assertion   
+                 failed for path [$.state] :               
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [status]] Assertion  
+                 failed for path [$.status] :              
+                 IllegalArgumentException:Invalid JSON:    
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 1"/>                                      
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [message]]           
+                 Assertion failed for path [$.message] :   
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert [HTTP OK 200]] assert          
+                 val=="HTTP/1.1 200 OK"                    
+                 |  |                                      
+                 |  false                                  
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+                                                           
+   Failed TestStep: ReqPostCaptureTransac                  
+                                                           
+   [[Match content of [state]] Assertion failed for path   
+   [$.state] : IllegalArgumentException:Invalid JSON:      
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0            
+                                                           
+   <Error Detail disabled>                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   VoidTransac Summary                                     
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FAILED  04:59:12   81 ms    Cancelling due to failed    
+                                                           
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                                                           
+   FAILE 04:59:12Step 1 [ReqPostVoidTransac] FAILED: took  
+   D     .181    81 ms                                     
+                 -> [Match content of [state]] Assertion   
+                 failed for path [$.state] :               
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [status]] Assertion  
+                 failed for path [$.status] :              
+                 IllegalArgumentException:Invalid JSON:    
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 1"/>                                      
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                 mily:Verdana, Arial, Helvetica,           
+                 sans-serif;background:#EEEEEE;}           
+                 fieldset{padding:0 15px 10px 15px;}       
+                 h1{font-size:2.4em;margin:0;color:#FFF;}  
+                 h2{font-size:1.7em;margin:0;color:#CC000  
+                 0;}                                       
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Match content of [message]]           
+                 Assertion failed for path [$.message] :   
+                 IllegalArgumentException:Invalid JSON:    
+                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML  
+                 1.0 Strict//EN" "http://www.w3.org/TR/xh  
+                 tml1/DTD/xhtml1-strict.dtd">              
+                 <html                                     
+                 xmlns="http://www.w3.org/1999/xhtml">     
+                 <head>                                    
+                 <meta http-equiv="Content-Type"           
+                 content="text/html;                       
+                 charset=iso-8859-1"/>                     
+                 <title>500 - Internal server              
+                 error.</title>                            
+                 <style type="text/css">                   
+                 <!--body{margin:0;font-size:.7em;font-fa  
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+                 h3{font-size:1.2em;margin:10px 0 0        
+                 0;color:#000000;}                         
+                 #header{width:96%;margin:0 0 0            
+                 0;padding:6px 2% 6px                      
+                 2%;font-family:"trebuchet MS", Verdana,   
+                 sans-serif;color:#FFF;                    
+                 background-color:#555555;}                
+                 #content{margin:0 0 0                     
+                 2%;position:relative;}                    
+                 .content-container{background:#FFF;width  
+                 :96%;margin-top:8px;padding:10px;positio  
+                 n:relative;}-->                           
+                 </style>                                  
+                 </head>                                   
+                 <body>                                    
+                 <div id="header">                         
+                 <h1>Server Error</h1>                     
+                 </div>                                    
+                 <div id="content">                        
+                 <div class="content-container">           
+                 <fieldset>                                
+                 <h2>500 - Internal server error.</h2>     
+                 <h3>There is a problem with the resource  
+                 you are looking for, and it cannot be     
+                 displayed.</h3>                           
+                 </fieldset>                               
+                 </div>                                    
+                 </div>                                    
+                 </body>                                   
+                 </html>                                   
+                 -> [Assert [HTTP OK 200]] assert          
+                 val=="HTTP/1.1 200 OK"                    
+                 |  |                                      
+                 |  false                                  
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+                                                           
+   Failed TestStep: ReqPostVoidTransac                     
+                                                           
+   [[Match content of [state]] Assertion failed for path   
+   [$.state] : IllegalArgumentException:Invalid JSON:      
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0            
+                                                           
+   <Error Detail disabled>                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+   RecurringTransac Summary                                
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FAILED  04:59:12   81 ms    Cancelling due to failed    
+                                                           
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+   FAILE 04:59:12Step 1 [ReqPostRecurringTrans] FAILED:    
+   D     .337    took 81 ms                                
+                 -> [Assert [HTTP OK 200]] assert          
+                 val=="HTTP/1.1 200 OK"                    
+                 |  |                                      
+                 |  false                                  
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   DirecyPay                                               
+                                                           
+                                                           
+                                                           
+                                                           
+   Failed TestStep: ReqPostRecurringTrans                  
+                                                           
+   [[Assert [HTTP OK 200]] assert val=="HTTP/1.1 200 OK"   
+   |  |                                                    
+                                                           
+                                                           
+   <Error Detail disabled>                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+     created with SoapUI Pro on Sun Jan 24 04:59:17 EST    
+                            2016                           
+                                                           
+                                                           
+                                                           
+                                                           
+
+

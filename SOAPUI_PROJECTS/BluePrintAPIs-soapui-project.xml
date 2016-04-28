@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="57edc843-f143-4aa5-9753-7f5c182c57d3" activeEnvironment="Default environment" name="BluePrintAPIs" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:authRepository/></con:soapui-project>

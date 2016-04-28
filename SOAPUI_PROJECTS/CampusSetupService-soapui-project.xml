@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="871b7948-96b3-41aa-b8a0-46d1da255155" activeEnvironment="Default" name="CampusSetupService" resourceRoot="" soapui-version="5.1.2" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="f7bb13bb-6118-4c34-a1be-7c6166f80a59" wsaVersion="NONE" name="BasicHttpBinding_ICampusSetupService" type="wsdl" bindingName="{http://tempuri.org/}BasicHttpBinding_ICampusSetupService" soapVersion="1_1" anonymous="optional" definition="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?wsdl"><con:part><con:url>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="CampusSetupService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd0" namespace="http://tempuri.org/"/>
+      <xsd:import schemaLocation="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+      <xsd:import schemaLocation="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICampusSetupService_GetCampusSetup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCampusSetup"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetCampusSetup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCampusSetupResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetClasses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClasses"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetClasses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClassesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetCourses_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCourses"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetCourses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCoursesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetPrograms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrograms"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetPrograms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgramsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetProgramVersions_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgramVersions"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetProgramVersions_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgramVersionsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetStartDates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStartDates"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetStartDates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStartDatesResponse"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetTerms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTerms"/>
+  </wsdl:message>
+  <wsdl:message name="ICampusSetupService_GetTerms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTermsResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="ICampusSetupService">
+    <wsdl:operation name="GetCampusSetup">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetCampusSetup" message="tns:ICampusSetupService_GetCampusSetup_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetCampusSetupResponse" message="tns:ICampusSetupService_GetCampusSetup_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetClasses">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetClasses" message="tns:ICampusSetupService_GetClasses_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetClassesResponse" message="tns:ICampusSetupService_GetClasses_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetCourses">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetCourses" message="tns:ICampusSetupService_GetCourses_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetCoursesResponse" message="tns:ICampusSetupService_GetCourses_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrograms">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetPrograms" message="tns:ICampusSetupService_GetPrograms_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetProgramsResponse" message="tns:ICampusSetupService_GetPrograms_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetProgramVersions">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetProgramVersions" message="tns:ICampusSetupService_GetProgramVersions_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetProgramVersionsResponse" message="tns:ICampusSetupService_GetProgramVersions_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartDates">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetStartDates" message="tns:ICampusSetupService_GetStartDates_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetStartDatesResponse" message="tns:ICampusSetupService_GetStartDates_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerms">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICampusSetupService/GetTerms" message="tns:ICampusSetupService_GetTerms_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/ICampusSetupService/GetTermsResponse" message="tns:ICampusSetupService_GetTerms_OutputMessage"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICampusSetupService" type="tns:ICampusSetupService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetCampusSetup">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetCampusSetup" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClasses">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetClasses" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCourses">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetCourses" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrograms">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetPrograms" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProgramVersions">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetProgramVersions" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartDates">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetStartDates" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTerms">
+      <soap:operation soapAction="http://tempuri.org/ICampusSetupService/GetTerms" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CampusSetupService">
+    <wsdl:port name="BasicHttpBinding_ICampusSetupService" binding="tns:BasicHttpBinding_ICampusSetupService">
+      <soap:address location="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd0</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/">
+  <xs:import schemaLocation="http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+  <xs:element name="GetCampusSetup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCampusSetupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCampusSetupResult" nillable="true" type="q1:CampusSetupDataContract" xmlns:q1="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClasses">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClassesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetClassesResult" nillable="true" type="q2:ClassesContract" xmlns:q2="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCourses">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCoursesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCoursesResult" nillable="true" type="q3:CoursesContract" xmlns:q3="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrograms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProgramsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetProgramsResult" nillable="true" type="q4:ProgramsContract" xmlns:q4="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProgramVersions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProgramVersionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetProgramVersionsResult" nillable="true" type="q5:ProgramVersionsContract" xmlns:q5="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStartDates">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStartDatesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetStartDatesResult" nillable="true" type="q6:StartDatesContract" xmlns:q6="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTerms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="campusCode" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTermsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTermsResult" nillable="true" type="q7:TermsContract" xmlns:q7="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd2</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC">
+  <xs:complexType name="CampusSetupDataContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Classes" nillable="true" type="tns:ClassesContract"/>
+      <xs:element minOccurs="0" name="Courses" nillable="true" type="tns:CoursesContract"/>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ProgramVersions" nillable="true" type="tns:ProgramVersionsContract"/>
+      <xs:element minOccurs="0" name="Programs" nillable="true" type="tns:ProgramsContract"/>
+      <xs:element minOccurs="0" name="StartDates" nillable="true" type="tns:StartDatesContract"/>
+      <xs:element minOccurs="0" name="Terms" nillable="true" type="tns:TermsContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CampusSetupDataContract" nillable="true" type="tns:CampusSetupDataContract"/>
+  <xs:complexType name="ClassesContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Classes" nillable="true" type="tns:ArrayOfClassContract"/>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClassesContract" nillable="true" type="tns:ClassesContract"/>
+  <xs:complexType name="ArrayOfClassContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ClassContract" nillable="true" type="tns:ClassContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfClassContract" nillable="true" type="tns:ArrayOfClassContract"/>
+  <xs:complexType name="ClassContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdTermId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CVueAdClassSchedId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ClassName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CourseId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Credits" type="xs:decimal"/>
+      <xs:element minOccurs="0" name="MaxRegistrations" type="xs:decimal"/>
+      <xs:element minOccurs="0" name="Section" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClassContract" nillable="true" type="tns:ClassContract"/>
+  <xs:complexType name="CoursesContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Courses" nillable="true" type="tns:ArrayOfCourseContract"/>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CoursesContract" nillable="true" type="tns:CoursesContract"/>
+  <xs:complexType name="ArrayOfCourseContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CourseContract" nillable="true" type="tns:CourseContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCourseContract" nillable="true" type="tns:ArrayOfCourseContract"/>
+  <xs:complexType name="CourseContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CVueAdCourseId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Course" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CourseNumber" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Credits" type="xs:decimal"/>
+      <xs:element minOccurs="0" name="Hours" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MaxFails" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CourseContract" nillable="true" type="tns:CourseContract"/>
+  <xs:complexType name="ProgramVersionsContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ProgramVersions" nillable="true" type="tns:ArrayOfAdProgramVersionContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProgramVersionsContract" nillable="true" type="tns:ProgramVersionsContract"/>
+  <xs:complexType name="ArrayOfAdProgramVersionContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdProgramVersionContract" nillable="true" type="tns:AdProgramVersionContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdProgramVersionContract" nillable="true" type="tns:ArrayOfAdProgramVersionContract"/>
+  <xs:complexType name="AdProgramVersionContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CVueAdProgramVersionID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateDiscontinued" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateOpened" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DegreeName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DegreeTypeId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ProgramId" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdProgramVersionContract" nillable="true" type="tns:AdProgramVersionContract"/>
+  <xs:complexType name="ProgramsContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Programs" nillable="true" type="tns:ArrayOfAdProgramContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProgramsContract" nillable="true" type="tns:ProgramsContract"/>
+  <xs:complexType name="ArrayOfAdProgramContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdProgramContract" nillable="true" type="tns:AdProgramContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdProgramContract" nillable="true" type="tns:ArrayOfAdProgramContract"/>
+  <xs:complexType name="AdProgramContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AreaOfStudy" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CVueAdProgramId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CVueAdProgramVersionId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CreditsRequired" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateDiscontinued" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DateOpened" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ProgramName" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdProgramContract" nillable="true" type="tns:AdProgramContract"/>
+  <xs:complexType name="StartDatesContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="StartDates" nillable="true" type="tns:ArrayOfAdStartDateContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StartDatesContract" nillable="true" type="tns:StartDatesContract"/>
+  <xs:complexType name="ArrayOfAdStartDateContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdStartDateContract" nillable="true" type="tns:AdStartDateContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdStartDateContract" nillable="true" type="tns:ArrayOfAdStartDateContract"/>
+  <xs:complexType name="AdStartDateContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CVueAdShiftID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CVueAdStartDateID" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CvueAdProgramVersionId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ExpGradDate" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MaxGradDate" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MidPointDate" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdStartDateContract" nillable="true" type="tns:AdStartDateContract"/>
+  <xs:complexType name="TermsContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Terms" nillable="true" type="tns:ArrayOfAdTermContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TermsContract" nillable="true" type="tns:TermsContract"/>
+  <xs:complexType name="ArrayOfAdTermContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AdTermContract" nillable="true" type="tns:AdTermContract"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdTermContract" nillable="true" type="tns:ArrayOfAdTermContract"/>
+  <xs:complexType name="AdTermContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AdTermId" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DropDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="EndDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="TermName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="Track" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AdTermContract" nillable="true" type="tns:AdTermContract"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc?xsd=xsd1</con:url><con:content><![CDATA[<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+  <xs:element name="anyType" nillable="true" type="xs:anyType"/>
+  <xs:element name="anyURI" nillable="true" type="xs:anyURI"/>
+  <xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/>
+  <xs:element name="boolean" nillable="true" type="xs:boolean"/>
+  <xs:element name="byte" nillable="true" type="xs:byte"/>
+  <xs:element name="dateTime" nillable="true" type="xs:dateTime"/>
+  <xs:element name="decimal" nillable="true" type="xs:decimal"/>
+  <xs:element name="double" nillable="true" type="xs:double"/>
+  <xs:element name="float" nillable="true" type="xs:float"/>
+  <xs:element name="int" nillable="true" type="xs:int"/>
+  <xs:element name="long" nillable="true" type="xs:long"/>
+  <xs:element name="QName" nillable="true" type="xs:QName"/>
+  <xs:element name="short" nillable="true" type="xs:short"/>
+  <xs:element name="string" nillable="true" type="xs:string"/>
+  <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/>
+  <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/>
+  <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/>
+  <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/>
+  <xs:element name="char" nillable="true" type="tns:char"/>
+  <xs:simpleType name="char">
+    <xs:restriction base="xs:int"/>
+  </xs:simpleType>
+  <xs:element name="duration" nillable="true" type="tns:duration"/>
+  <xs:simpleType name="duration">
+    <xs:restriction base="xs:duration">
+      <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/>
+      <xs:minInclusive value="-P10675199DT2H48M5.4775808S"/>
+      <xs:maxInclusive value="P10675199DT2H48M5.4775807S"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="guid" nillable="true" type="tns:guid"/>
+  <xs:simpleType name="guid">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attribute name="FactoryType" type="xs:QName"/>
+  <xs:attribute name="Id" type="xs:ID"/>
+  <xs:attribute name="Ref" type="xs:IDREF"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint></con:endpoints><con:operation id="5f0d5261-cd6b-4eb3-afdd-06542e61c8d2" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetCampusSetup" name="GetCampusSetup" bindingOperationName="GetCampusSetup" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="720df044-a818-4e43-8609-033b783bfa71" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetCampusSetup>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetCampusSetup>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetCampusSetup"/></con:call></con:operation><con:operation id="a36e76d7-98ee-416a-95e7-b113af8e9eca" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetClasses" name="GetClasses" bindingOperationName="GetClasses" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="326dfcf1-2c43-413d-8b96-001322af2a53" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetClasses>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetClasses>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetClasses"/></con:call></con:operation><con:operation id="0596486b-da52-42e3-a66a-d6d32237806f" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetCourses" name="GetCourses" bindingOperationName="GetCourses" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="54d742b9-d8af-4ce1-bfa2-52e9e19e7ab1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetCourses>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetCourses>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetCourses"/></con:call></con:operation><con:operation id="786b051a-7f80-4fdb-98f6-27573369e83c" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetPrograms" name="GetPrograms" bindingOperationName="GetPrograms" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="9e1414fd-f410-4471-9890-3d1842a6defc" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetPrograms>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetPrograms>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetPrograms"/></con:call></con:operation><con:operation id="abb13f1c-6689-4dd9-88b3-2b0e5df20b9f" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetProgramVersions" name="GetProgramVersions" bindingOperationName="GetProgramVersions" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5b122543-5e81-482c-874a-7db37a850d0d" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetProgramVersions>
+         <!--Optional:-->
+         <tem:campusCode>?</tem:campusCode>
+      </tem:GetProgramVersions>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetProgramVersions"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="15a2c008-9ade-47a0-a8a3-f1ac79cdaf2f" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetStartDates" name="GetStartDates" bindingOperationName="GetStartDates" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a8797dbf-c0a6-426c-a7c1-853cbba283fb" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetStartDates>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetStartDates>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetStartDates"/></con:call></con:operation><con:operation id="6b23d11a-248a-4672-8ec0-93bc13804110" isOneWay="false" action="http://tempuri.org/ICampusSetupService/GetTerms" name="GetTerms" bindingOperationName="GetTerms" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b4666750-72ae-4fb7-b074-23494ad58b8c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetTerms>\r
+         <!--Optional:-->\r
+         <tem:campusCode>?</tem:campusCode>\r
+      </tem:GetTerms>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetTerms"/></con:call></con:operation></con:interface><con:testSuite id="6992b766-493e-41fc-bcd0-97009af3852d" name="Suite_Test_GetPrgVerisonStartDate"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="3d87ed1d-a9d0-473d-913a-de229c0b0c5a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_GetPrgVersionandStartDate" searchProperties="true"><con:settings/><con:testStep type="request" id="0f9743ef-8d76-4772-b325-fb0b2b1e7b2f" name="GetProgramVersions - Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>BasicHttpBinding_ICampusSetupService</con:interface><con:operation>GetProgramVersions</con:operation><con:request name="GetProgramVersions - Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="3c663238-94fa-442a-9f3b-ea3014edde93"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetProgramVersions>
+         <!--Optional:-->
+         <tem:campusCode>043</tem:campusCode>
+      </tem:GetProgramVersions>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="4272fdb2-0af7-4884-9264-fa988b6c67bc" name="SOAP Response"/><con:assertion type="XPath Match" id="1fbe4e67-ddb9-4a39-9fb7-13aa748b2110" name="Match content of [@i:nil]"><con:configuration><path>declare namespace i='http://www.w3.org/2001/XMLSchema-instance';
+declare namespace ns1='http://tempuri.org/';
+declare namespace a='http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.MWC';
+//ns1:GetProgramVersionsResponse[1]/ns1:GetProgramVersionsResult[1]/a:Exception[1]/@i:nil</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetProgramVersions"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" id="01497aa8-fa22-44cc-9e09-98aac52f0db2" name="GetStartDates - Request"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>BasicHttpBinding_ICampusSetupService</con:interface><con:operation>GetStartDates</con:operation><con:request name="GetStartDates - Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="3d68af2f-619a-41f4-a805-2b356584b6a9"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://testsrmservices.int.kaplan.edu/CampusSetupService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetStartDates>
+         <!--Optional:-->
+         <tem:campusCode>043</tem:campusCode>
+      </tem:GetStartDates>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="ea0202ab-32d6-4348-b699-fceb861a0d2c" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/ICampusSetupService/GetStartDates"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>progveriosntc</con:name><con:value/></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>01497aa8-fa22-44cc-9e09-98aac52f0db2</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties><con:property><con:name>PrgVersionId</con:name><con:value/></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters><con:property><con:name>testparam</con:name><con:value/></con:property></con:parameters></con:reporting><con:sensitiveInformation/><con:environment name="tst"><con:service type="SOAP" name="BasicHttpBinding_ICampusSetupService"><con:endpoint/></con:service><con:property><con:name>PrgVersionId</con:name><con:value/></con:property><con:databaseConnectionContainer/></con:environment></con:soapui-project>

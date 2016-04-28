@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="b643b273-e59a-4d87-9ca2-7ab66af88b70" activeEnvironment="Stage" name="SRM PreEnroll" resourceRoot="" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Stage"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="Suite_SRMAPIs"/>
+  <con:entry key="Run in-process" value="false"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Program Files\SmartBear\ReadyAPI-1.3.1\bin"/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Export JUnit Results" value="true"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=".xml"/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value="C:\Documents and Settings\pimishra\My Documents\Results\STAGE"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value="TestSuite Report"/>
+</xml-fragment>]]></con:setting><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting></con:settings><con:interface xsi:type="con:WsdlInterface" id="3967f81f-b59f-4cfa-a634-55cbba84aedf" wsaVersion="NONE" name="BasicHttpBinding_IMarketingService" type="wsdl" bindingName="{http://tempuri.org/}BasicHttpBinding_IMarketingService" soapVersion="1_1" anonymous="optional" definition="http://10.78.101.184/MarketingService.svc?WSDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://10.78.101.184/MarketingService.svc?WSDL"><con:part><con:url>http://10.78.101.184/MarketingService.svc?WSDL</con:url><con:content><![CDATA[<wsdl:definitions name="MarketingService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://10.78.101.184/MarketingService.svc?xsd=xsd0" namespace="http://tempuri.org/"/>
+      <xsd:import schemaLocation="http://10.78.101.184/MarketingService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+      <xsd:import schemaLocation="http://10.78.101.184/MarketingService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      <xsd:import schemaLocation="http://10.78.101.184/MarketingService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMarketingService_AddVendor_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddVendor"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddVendor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddVendorResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateVendor_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateVendor"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateVendor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateVendorResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddSource_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddSource"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddSource_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddSourceResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateSource_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSource"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateSource_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSourceResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddChannelGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddChannelGroup"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddChannelGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddChannelGroupResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateChannelGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChannelGroup"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateChannelGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChannelGroupResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddMarketingChannel_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddMarketingChannel"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddMarketingChannel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddMarketingChannelResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateMarketingChannel_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMarketingChannel"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateMarketingChannel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMarketingChannelResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddDNIS_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddDNIS"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddDNIS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddDNISResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateDNIS_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDNIS"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdateDNIS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDNISResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddPromotion_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPromotion"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_AddPromotion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPromotionResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdatePromotion_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePromotion"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_UpdatePromotion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePromotionResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_GetTargetSkills_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTargetSkills"/>
+  </wsdl:message>
+  <wsdl:message name="IMarketingService_GetTargetSkills_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTargetSkillsResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="IMarketingService">
+    <wsdl:operation name="AddVendor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/AddVendor" message="tns:IMarketingService_AddVendor_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/AddVendorResponse" message="tns:IMarketingService_AddVendor_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVendor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/UpdateVendor" message="tns:IMarketingService_UpdateVendor_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/UpdateVendorResponse" message="tns:IMarketingService_UpdateVendor_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="AddSource">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/AddSource" message="tns:IMarketingService_AddSource_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/AddSourceResponse" message="tns:IMarketingService_AddSource_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSource">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/UpdateSource" message="tns:IMarketingService_UpdateSource_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/UpdateSourceResponse" message="tns:IMarketingService_UpdateSource_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="AddChannelGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/AddChannelGroup" message="tns:IMarketingService_AddChannelGroup_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/AddChannelGroupResponse" message="tns:IMarketingService_AddChannelGroup_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChannelGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/UpdateChannelGroup" message="tns:IMarketingService_UpdateChannelGroup_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/UpdateChannelGroupResponse" message="tns:IMarketingService_UpdateChannelGroup_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="AddMarketingChannel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/AddMarketingChannel" message="tns:IMarketingService_AddMarketingChannel_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/AddMarketingChannelResponse" message="tns:IMarketingService_AddMarketingChannel_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMarketingChannel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/UpdateMarketingChannel" message="tns:IMarketingService_UpdateMarketingChannel_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/UpdateMarketingChannelResponse" message="tns:IMarketingService_UpdateMarketingChannel_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="AddDNIS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/AddDNIS" message="tns:IMarketingService_AddDNIS_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/AddDNISResponse" message="tns:IMarketingService_AddDNIS_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDNIS">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/UpdateDNIS" message="tns:IMarketingService_UpdateDNIS_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/UpdateDNISResponse" message="tns:IMarketingService_UpdateDNIS_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="AddPromotion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/AddPromotion" message="tns:IMarketingService_AddPromotion_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/AddPromotionResponse" message="tns:IMarketingService_AddPromotion_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePromotion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/UpdatePromotion" message="tns:IMarketingService_UpdatePromotion_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/UpdatePromotionResponse" message="tns:IMarketingService_UpdatePromotion_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetTargetSkills">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarketingService/GetTargetSkills" message="tns:IMarketingService_GetTargetSkills_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarketingService/GetTargetSkillsResponse" message="tns:IMarketingService_GetTargetSkills_OutputMessage"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMarketingService" type="tns:IMarketingService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="AddVendor">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/AddVendor" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVendor">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/UpdateVendor" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSource">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/AddSource" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSource">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/UpdateSource" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddChannelGroup">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/AddChannelGroup" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChannelGroup">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/UpdateChannelGroup" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMarketingChannel">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/AddMarketingChannel" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMarketingChannel">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/UpdateMarketingChannel" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddDNIS">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/AddDNIS" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDNIS">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/UpdateDNIS" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPromotion">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/AddPromotion" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePromotion">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/UpdatePromotion" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTargetSkills">
+      <soap:operation soapAction="http://tempuri.org/IMarketingService/GetTargetSkills" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MarketingService">
+    <wsdl:port name="BasicHttpBinding_IMarketingService" binding="tns:BasicHttpBinding_IMarketingService">
+      <soap:address location="http://10.78.101.184/MarketingService.svc"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://10.78.101.184/MarketingService.svc?xsd=xsd0</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/">
+  <xs:import schemaLocation="http://10.78.101.184/MarketingService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+  <xs:import schemaLocation="http://10.78.101.184/MarketingService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+  <xs:element name="AddVendor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vendors" nillable="true" type="q1:ArrayOfVendor" xmlns:q1="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddVendorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddVendorResult" nillable="true" type="q2:ArrayOfCVueTransactionResult" xmlns:q2="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateVendor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vendors" nillable="true" type="q3:ArrayOfVendor" xmlns:q3="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateVendorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateVendorResult" nillable="true" type="q4:ArrayOfCVueTransactionResult" xmlns:q4="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddSource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sources" nillable="true" type="q5:ArrayOfSource" xmlns:q5="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddSourceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddSourceResult" nillable="true" type="q6:ArrayOfCVueTransactionResult" xmlns:q6="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateSource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sources" nillable="true" type="q7:ArrayOfSource" xmlns:q7="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateSourceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateSourceResult" nillable="true" type="q8:ArrayOfCVueTransactionResult" xmlns:q8="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddChannelGroup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="channelGroups" nillable="true" type="q9:ArrayOfChannelGroup" xmlns:q9="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddChannelGroupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddChannelGroupResult" nillable="true" type="q10:ArrayOfCVueTransactionResult" xmlns:q10="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateChannelGroup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="channelGroups" nillable="true" type="q11:ArrayOfChannelGroup" xmlns:q11="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateChannelGroupResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateChannelGroupResult" nillable="true" type="q12:ArrayOfCVueTransactionResult" xmlns:q12="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddMarketingChannel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="marketingChannels" nillable="true" type="q13:ArrayOfMarketingChannel" xmlns:q13="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddMarketingChannelResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddMarketingChannelResult" nillable="true" type="q14:ArrayOfCVueTransactionResult" xmlns:q14="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMarketingChannel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="marketingChannels" nillable="true" type="q15:ArrayOfMarketingChannel" xmlns:q15="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMarketingChannelResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateMarketingChannelResult" nillable="true" type="q16:ArrayOfCVueTransactionResult" xmlns:q16="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddDNIS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dnis" nillable="true" type="q17:ArrayOfDnis" xmlns:q17="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddDNISResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddDNISResult" nillable="true" type="q18:ArrayOfCVueTransactionResult" xmlns:q18="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDNIS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dnis" nillable="true" type="q19:ArrayOfDnis" xmlns:q19="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDNISResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateDNISResult" nillable="true" type="q20:ArrayOfCVueTransactionResult" xmlns:q20="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPromotion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="promotions" nillable="true" type="q21:ArrayOfPromotion" xmlns:q21="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPromotionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddPromotionResult" nillable="true" type="q22:ArrayOfCVueTransactionResult" xmlns:q22="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePromotion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="promotions" nillable="true" type="q23:ArrayOfPromotion" xmlns:q23="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePromotionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdatePromotionResult" nillable="true" type="q24:ArrayOfCVueTransactionResult" xmlns:q24="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTargetSkills">
+    <xs:complexType>
+      <xs:sequence/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTargetSkillsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTargetSkillsResult" nillable="true" type="q25:ArrayOfSkill" xmlns:q25="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://10.78.101.184/MarketingService.svc?xsd=xsd2</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+  <xs:complexType name="ArrayOfVendor">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Vendor" nillable="true" type="tns:Vendor"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVendor" nillable="true" type="tns:ArrayOfVendor"/>
+  <xs:complexType name="Vendor">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="IsCallCenter" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="IsWarmTransfer" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="MarketingChannelId" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="MkVendorID" type="xs:int"/>
+      <xs:element minOccurs="0" name="MkVendorTypeID" type="xs:int"/>
+      <xs:element minOccurs="0" name="ReplyEmail" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="VendorName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="isImportVendor" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="parentVendorId" nillable="true" type="xs:int"/>
+      <xs:element minOccurs="0" name="vendorInstitutionTypes" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Vendor" nillable="true" type="tns:Vendor"/>
+  <xs:complexType name="ArrayOfSource">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Source" nillable="true" type="tns:Source"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSource" nillable="true" type="tns:ArrayOfSource"/>
+  <xs:complexType name="Source">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CampusIDs" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="CategoryID" type="xs:int"/>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="GCLC_Active" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="MkSourceID" type="xs:int"/>
+      <xs:element minOccurs="0" name="MkSourceTypeID" type="xs:int"/>
+      <xs:element minOccurs="0" name="MkVendorID" type="xs:int"/>
+      <xs:element minOccurs="0" name="SourceCode" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="allowOnline" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="captureAdInfo" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="isGCLC" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Source" nillable="true" type="tns:Source"/>
+  <xs:complexType name="ArrayOfChannelGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChannelGroup" nillable="true" type="tns:ChannelGroup"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChannelGroup" nillable="true" type="tns:ArrayOfChannelGroup"/>
+  <xs:complexType name="ChannelGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="DisplayOrder" type="xs:int"/>
+      <xs:element minOccurs="0" name="GroupDescription" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="GroupName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MkChannelGroupID" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChannelGroup" nillable="true" type="tns:ChannelGroup"/>
+  <xs:complexType name="ArrayOfMarketingChannel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MarketingChannel" nillable="true" type="tns:MarketingChannel"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMarketingChannel" nillable="true" type="tns:ArrayOfMarketingChannel"/>
+  <xs:complexType name="MarketingChannel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="Aggregator" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="ChannelName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="MkChannelID" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MarketingChannel" nillable="true" type="tns:MarketingChannel"/>
+  <xs:complexType name="ArrayOfDnis">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Dnis" nillable="true" type="tns:Dnis"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDnis" nillable="true" type="tns:ArrayOfDnis"/>
+  <xs:complexType name="Dnis">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="DnisNumber" type="xs:int"/>
+      <xs:element minOccurs="0" name="GnDnisID" type="xs:int"/>
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Dnis" nillable="true" type="tns:Dnis"/>
+  <xs:complexType name="ArrayOfPromotion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Promotion" nillable="true" type="tns:Promotion"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPromotion" nillable="true" type="tns:ArrayOfPromotion"/>
+  <xs:complexType name="Promotion">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="DnisID" type="xs:int"/>
+      <xs:element minOccurs="0" name="MkPromotionID" type="xs:int"/>
+      <xs:element minOccurs="0" name="PromotionName" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="SkillNameID" type="xs:int"/>
+      <xs:element minOccurs="0" name="Source" nillable="true" type="tns:Source"/>
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="mkCampusID" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Promotion" nillable="true" type="tns:Promotion"/>
+  <xs:complexType name="ArrayOfSkill">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Skill" nillable="true" type="tns:Skill"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSkill" nillable="true" type="tns:ArrayOfSkill"/>
+  <xs:complexType name="Skill">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="SkillID" type="xs:int"/>
+      <xs:element minOccurs="0" name="SkillName" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Skill" nillable="true" type="tns:Skill"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://10.78.101.184/MarketingService.svc?xsd=xsd3</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+  <xs:complexType name="ArrayOfCVueTransactionResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CVueTransactionResult" nillable="true" type="tns:CVueTransactionResult"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCVueTransactionResult" nillable="true" type="tns:ArrayOfCVueTransactionResult"/>
+  <xs:complexType name="CVueTransactionResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsSuccess" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="ReturnValue" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CVueTransactionResult" nillable="true" type="tns:CVueTransactionResult"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://10.78.101.184/MarketingService.svc?xsd=xsd1</con:url><con:content><![CDATA[<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+  <xs:element name="anyType" nillable="true" type="xs:anyType"/>
+  <xs:element name="anyURI" nillable="true" type="xs:anyURI"/>
+  <xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/>
+  <xs:element name="boolean" nillable="true" type="xs:boolean"/>
+  <xs:element name="byte" nillable="true" type="xs:byte"/>
+  <xs:element name="dateTime" nillable="true" type="xs:dateTime"/>
+  <xs:element name="decimal" nillable="true" type="xs:decimal"/>
+  <xs:element name="double" nillable="true" type="xs:double"/>
+  <xs:element name="float" nillable="true" type="xs:float"/>
+  <xs:element name="int" nillable="true" type="xs:int"/>
+  <xs:element name="long" nillable="true" type="xs:long"/>
+  <xs:element name="QName" nillable="true" type="xs:QName"/>
+  <xs:element name="short" nillable="true" type="xs:short"/>
+  <xs:element name="string" nillable="true" type="xs:string"/>
+  <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/>
+  <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/>
+  <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/>
+  <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/>
+  <xs:element name="char" nillable="true" type="tns:char"/>
+  <xs:simpleType name="char">
+    <xs:restriction base="xs:int"/>
+  </xs:simpleType>
+  <xs:element name="duration" nillable="true" type="tns:duration"/>
+  <xs:simpleType name="duration">
+    <xs:restriction base="xs:duration">
+      <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/>
+      <xs:minInclusive value="-P10675199DT2H48M5.4775808S"/>
+      <xs:maxInclusive value="P10675199DT2H48M5.4775807S"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="guid" nillable="true" type="tns:guid"/>
+  <xs:simpleType name="guid">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attribute name="FactoryType" type="xs:QName"/>
+  <xs:attribute name="Id" type="xs:ID"/>
+  <xs:attribute name="Ref" type="xs:IDREF"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:endpoint>http://KUCY2QTP01:8088/</con:endpoint><con:endpoint>http://KUCY2QTP01:8089/</con:endpoint></con:endpoints><con:operation id="a04c0114-eafe-4261-96e5-77460afb400b" isOneWay="false" action="http://tempuri.org/IMarketingService/AddChannelGroup" name="AddChannelGroup" bindingOperationName="AddChannelGroup" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b2c0f09d-cf06-4e53-93b1-c7ba991d9677" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddChannelGroup>
+         <!--Optional:-->
+         <tem:channelGroups>
+            <!--Zero or more repetitions:-->
+            <kap:ChannelGroup>
+               <!--Optional:-->
+               <kap:Active>?</kap:Active>
+               <!--Optional:-->
+               <kap:DisplayOrder>?</kap:DisplayOrder>
+               <!--Optional:-->
+               <kap:GroupDescription>?</kap:GroupDescription>
+               <!--Optional:-->
+               <kap:GroupName>?</kap:GroupName>
+               <!--Optional:-->
+               <kap:MkChannelGroupID>?</kap:MkChannelGroupID>
+            </kap:ChannelGroup>
+         </tem:channelGroups>
+      </tem:AddChannelGroup>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddChannelGroup"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="dee058c6-4089-4478-9974-5c8c5086e2a1" isOneWay="false" action="http://tempuri.org/IMarketingService/AddDNIS" name="AddDNIS" bindingOperationName="AddDNIS" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="aebfd31e-7aeb-47fc-bdfc-5468c4272a51" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddDNIS>
+         <!--Optional:-->
+         <tem:dnis>
+            <!--Zero or more repetitions:-->
+            <kap:Dnis>
+               <!--Optional:-->
+               <kap:Active>?</kap:Active>
+               <!--Optional:-->
+               <kap:DnisNumber>?</kap:DnisNumber>
+               <!--Optional:-->
+               <kap:GnDnisID>?</kap:GnDnisID>
+               <!--Optional:-->
+               <kap:Note>?</kap:Note>
+            </kap:Dnis>
+         </tem:dnis>
+      </tem:AddDNIS>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddDNIS"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="e8a7b3ff-d088-42e6-a573-7f51cfd6a43c" isOneWay="false" action="http://tempuri.org/IMarketingService/AddMarketingChannel" name="AddMarketingChannel" bindingOperationName="AddMarketingChannel" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="df6c3ae9-e3aa-442c-bd91-78bd51aaffdb" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddMarketingChannel>
+         <!--Optional:-->
+         <tem:marketingChannels>
+            <!--Zero or more repetitions:-->
+            <kap:MarketingChannel>
+               <!--Optional:-->
+               <kap:Active>?</kap:Active>
+               <!--Optional:-->
+               <kap:Aggregator>?</kap:Aggregator>
+               <!--Optional:-->
+               <kap:ChannelName>?</kap:ChannelName>
+               <!--Optional:-->
+               <kap:MkChannelID>?</kap:MkChannelID>
+            </kap:MarketingChannel>
+         </tem:marketingChannels>
+      </tem:AddMarketingChannel>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddMarketingChannel"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="8dfab86e-de3a-4873-a376-e178888eb2c4" isOneWay="false" action="http://tempuri.org/IMarketingService/AddPromotion" name="AddPromotion" bindingOperationName="AddPromotion" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="27c7bdfe-4c5d-4268-a42b-ec5758c7c0f2" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:AddPromotion>\r
+         <!--Optional:-->\r
+         <tem:promotions>\r
+            <!--Zero or more repetitions:-->\r
+            <kap:Promotion>\r
+               <!--Optional:-->\r
+               <kap:Active>?</kap:Active>\r
+               <!--Optional:-->\r
+               <kap:Description>?</kap:Description>\r
+               <!--Optional:-->\r
+               <kap:DnisID>?</kap:DnisID>\r
+               <!--Optional:-->\r
+               <kap:MkPromotionID>?</kap:MkPromotionID>\r
+               <!--Optional:-->\r
+               <kap:PromotionName>?</kap:PromotionName>\r
+               <!--Optional:-->\r
+               <kap:SkillNameID>?</kap:SkillNameID>\r
+               <!--Optional:-->\r
+               <kap:Source>\r
+                  <!--Optional:-->\r
+                  <kap:CampusIDs>?</kap:CampusIDs>\r
+                  <!--Optional:-->\r
+                  <kap:CategoryID>?</kap:CategoryID>\r
+                  <!--Optional:-->\r
+                  <kap:Description>?</kap:Description>\r
+                  <!--Optional:-->\r
+                  <kap:GCLC_Active>?</kap:GCLC_Active>\r
+                  <!--Optional:-->\r
+                  <kap:MkSourceID>?</kap:MkSourceID>\r
+                  <!--Optional:-->\r
+                  <kap:MkSourceTypeID>?</kap:MkSourceTypeID>\r
+                  <!--Optional:-->\r
+                  <kap:MkVendorID>?</kap:MkVendorID>\r
+                  <!--Optional:-->\r
+                  <kap:SourceCode>?</kap:SourceCode>\r
+                  <!--Optional:-->\r
+                  <kap:allowOnline>?</kap:allowOnline>\r
+                  <!--Optional:-->\r
+                  <kap:captureAdInfo>?</kap:captureAdInfo>\r
+                  <!--Optional:-->\r
+                  <kap:isGCLC>?</kap:isGCLC>\r
+               </kap:Source>\r
+               <!--Optional:-->\r
+               <kap:StartDate>?</kap:StartDate>\r
+               <!--Optional:-->\r
+               <kap:mkCampusID>?</kap:mkCampusID>\r
+            </kap:Promotion>\r
+         </tem:promotions>\r
+      </tem:AddPromotion>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddPromotion"/></con:call></con:operation><con:operation id="b81c6640-b45d-499e-8273-f78667d3eddd" isOneWay="false" action="http://tempuri.org/IMarketingService/AddSource" name="AddSource" bindingOperationName="AddSource" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7d68b377-1d81-4a42-bcdd-06cb6452194a" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:AddSource>\r
+         <!--Optional:-->\r
+         <tem:sources>\r
+            <!--Zero or more repetitions:-->\r
+            <kap:Source>\r
+               <!--Optional:-->\r
+               <kap:CampusIDs>?</kap:CampusIDs>\r
+               <!--Optional:-->\r
+               <kap:CategoryID>?</kap:CategoryID>\r
+               <!--Optional:-->\r
+               <kap:Description>?</kap:Description>\r
+               <!--Optional:-->\r
+               <kap:GCLC_Active>?</kap:GCLC_Active>\r
+               <!--Optional:-->\r
+               <kap:MkSourceID>?</kap:MkSourceID>\r
+               <!--Optional:-->\r
+               <kap:MkSourceTypeID>?</kap:MkSourceTypeID>\r
+               <!--Optional:-->\r
+               <kap:MkVendorID>?</kap:MkVendorID>\r
+               <!--Optional:-->\r
+               <kap:SourceCode>?</kap:SourceCode>\r
+               <!--Optional:-->\r
+               <kap:allowOnline>?</kap:allowOnline>\r
+               <!--Optional:-->\r
+               <kap:captureAdInfo>?</kap:captureAdInfo>\r
+               <!--Optional:-->\r
+               <kap:isGCLC>?</kap:isGCLC>\r
+            </kap:Source>\r
+         </tem:sources>\r
+      </tem:AddSource>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddSource"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="9e73be22-fa52-4018-9799-63bdde341af5" isOneWay="false" action="http://tempuri.org/IMarketingService/AddVendor" name="AddVendor" bindingOperationName="AddVendor" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="af8bcca8-8ff4-4a22-a715-3acc60e76d42" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddVendor>
+         <!--Optional:-->
+         <tem:vendors>
+            <!--Zero or more repetitions:-->
+            <kap:Vendor>
+               <!--Optional:-->
+               
+               <!--Optional:-->
+               
+               <!--Optional:-->
+               
+               <!--Optional:-->
+               <kap:MarketingChannelId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               
+               <!--Optional:-->
+               
+               <!--Optional:-->
+               <kap:ReplyEmail xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <kap:VendorName>1</kap:VendorName>
+               <!--Optional:-->
+               
+               <!--Optional:-->
+               <kap:parentVendorId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <kap:vendorInstitutionTypes xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </kap:Vendor>
+         </tem:vendors>
+      </tem:AddVendor>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddVendor"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="18669f96-d9aa-4c29-8d1a-d84caa95a3c7" isOneWay="false" action="http://tempuri.org/IMarketingService/GetTargetSkills" name="GetTargetSkills" bindingOperationName="GetTargetSkills" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="766f3806-b4c6-44f1-8581-94ff27eb6369" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:GetTargetSkills/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/GetTargetSkills"/></con:call></con:operation><con:operation id="3fe2b698-1930-46ef-bfed-2c480b062742" isOneWay="false" action="http://tempuri.org/IMarketingService/UpdateChannelGroup" name="UpdateChannelGroup" bindingOperationName="UpdateChannelGroup" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d24076bd-15f7-4b11-9b8d-6191cf030c1b" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateChannelGroup>
+         <!--Optional:-->
+         <tem:channelGroups>
+            <!--Zero or more repetitions:-->
+            <kap:ChannelGroup>
+               <!--Optional:-->
+               <kap:Active>?</kap:Active>
+               <!--Optional:-->
+               <kap:DisplayOrder>?</kap:DisplayOrder>
+               <!--Optional:-->
+               <kap:GroupDescription>?</kap:GroupDescription>
+               <!--Optional:-->
+               <kap:GroupName>?</kap:GroupName>
+               <!--Optional:-->
+               <kap:MkChannelGroupID>?</kap:MkChannelGroupID>
+            </kap:ChannelGroup>
+         </tem:channelGroups>
+      </tem:UpdateChannelGroup>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateChannelGroup"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="ba93fe20-2de1-4311-9b33-cae055f47883" isOneWay="false" action="http://tempuri.org/IMarketingService/UpdateDNIS" name="UpdateDNIS" bindingOperationName="UpdateDNIS" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0af8e277-bc3d-445c-b30e-f5bf056e8c87" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateDNIS>
+         <!--Optional:-->
+         <tem:dnis>
+            <!--Zero or more repetitions:-->
+            <kap:Dnis>
+               <!--Optional:-->
+               <kap:Active>?</kap:Active>
+               <!--Optional:-->
+               <kap:DnisNumber>?</kap:DnisNumber>
+               <!--Optional:-->
+               <kap:GnDnisID>?</kap:GnDnisID>
+               <!--Optional:-->
+               <kap:Note>?</kap:Note>
+            </kap:Dnis>
+         </tem:dnis>
+      </tem:UpdateDNIS>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateDNIS"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="fb53541a-473d-4085-9b58-54d069c381a6" isOneWay="false" action="http://tempuri.org/IMarketingService/UpdateMarketingChannel" name="UpdateMarketingChannel" bindingOperationName="UpdateMarketingChannel" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e760aaf4-6d7c-45e5-9044-b3346be6ccb3" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateMarketingChannel>
+         <!--Optional:-->
+         <tem:marketingChannels>
+            <!--Zero or more repetitions:-->
+            <kap:MarketingChannel>
+               <!--Optional:-->
+               <kap:Active>?</kap:Active>
+               <!--Optional:-->
+               <kap:Aggregator>?</kap:Aggregator>
+               <!--Optional:-->
+               <kap:ChannelName>?</kap:ChannelName>
+               <!--Optional:-->
+               <kap:MkChannelID>?</kap:MkChannelID>
+            </kap:MarketingChannel>
+         </tem:marketingChannels>
+      </tem:UpdateMarketingChannel>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateMarketingChannel"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="84866f4d-30bf-4c9a-ad04-11d46f5c66f9" isOneWay="false" action="http://tempuri.org/IMarketingService/UpdatePromotion" name="UpdatePromotion" bindingOperationName="UpdatePromotion" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="39f1ca64-85bd-4c08-a1b6-8b1399821694" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:UpdatePromotion>\r
+         <!--Optional:-->\r
+         <tem:promotions>\r
+            <!--Zero or more repetitions:-->\r
+            <kap:Promotion>\r
+               <!--Optional:-->\r
+               <kap:Active>?</kap:Active>\r
+               <!--Optional:-->\r
+               <kap:Description>?</kap:Description>\r
+               <!--Optional:-->\r
+               <kap:DnisID>?</kap:DnisID>\r
+               <!--Optional:-->\r
+               <kap:MkPromotionID>?</kap:MkPromotionID>\r
+               <!--Optional:-->\r
+               <kap:PromotionName>?</kap:PromotionName>\r
+               <!--Optional:-->\r
+               <kap:SkillNameID>?</kap:SkillNameID>\r
+               <!--Optional:-->\r
+               <kap:Source>\r
+                  <!--Optional:-->\r
+                  <kap:CampusIDs>?</kap:CampusIDs>\r
+                  <!--Optional:-->\r
+                  <kap:CategoryID>?</kap:CategoryID>\r
+                  <!--Optional:-->\r
+                  <kap:Description>?</kap:Description>\r
+                  <!--Optional:-->\r
+                  <kap:GCLC_Active>?</kap:GCLC_Active>\r
+                  <!--Optional:-->\r
+                  <kap:MkSourceID>?</kap:MkSourceID>\r
+                  <!--Optional:-->\r
+                  <kap:MkSourceTypeID>?</kap:MkSourceTypeID>\r
+                  <!--Optional:-->\r
+                  <kap:MkVendorID>?</kap:MkVendorID>\r
+                  <!--Optional:-->\r
+                  <kap:SourceCode>?</kap:SourceCode>\r
+                  <!--Optional:-->\r
+                  <kap:allowOnline>?</kap:allowOnline>\r
+                  <!--Optional:-->\r
+                  <kap:captureAdInfo>?</kap:captureAdInfo>\r
+                  <!--Optional:-->\r
+                  <kap:isGCLC>?</kap:isGCLC>\r
+               </kap:Source>\r
+               <!--Optional:-->\r
+               <kap:StartDate>?</kap:StartDate>\r
+               <!--Optional:-->\r
+               <kap:mkCampusID>?</kap:mkCampusID>\r
+            </kap:Promotion>\r
+         </tem:promotions>\r
+      </tem:UpdatePromotion>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdatePromotion"/></con:call></con:operation><con:operation id="54883bc9-f4aa-471d-b499-2bced229b4ce" isOneWay="false" action="http://tempuri.org/IMarketingService/UpdateSource" name="UpdateSource" bindingOperationName="UpdateSource" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0e6351a9-be01-4c05-b69f-cdb488062acb" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:UpdateSource>\r
+         <!--Optional:-->\r
+         <tem:sources>\r
+            <!--Zero or more repetitions:-->\r
+            <kap:Source>\r
+               <!--Optional:-->\r
+               <kap:CampusIDs>?</kap:CampusIDs>\r
+               <!--Optional:-->\r
+               <kap:CategoryID>?</kap:CategoryID>\r
+               <!--Optional:-->\r
+               <kap:Description>?</kap:Description>\r
+               <!--Optional:-->\r
+               <kap:GCLC_Active>?</kap:GCLC_Active>\r
+               <!--Optional:-->\r
+               <kap:MkSourceID>?</kap:MkSourceID>\r
+               <!--Optional:-->\r
+               <kap:MkSourceTypeID>?</kap:MkSourceTypeID>\r
+               <!--Optional:-->\r
+               <kap:MkVendorID>?</kap:MkVendorID>\r
+               <!--Optional:-->\r
+               <kap:SourceCode>?</kap:SourceCode>\r
+               <!--Optional:-->\r
+               <kap:allowOnline>?</kap:allowOnline>\r
+               <!--Optional:-->\r
+               <kap:captureAdInfo>?</kap:captureAdInfo>\r
+               <!--Optional:-->\r
+               <kap:isGCLC>?</kap:isGCLC>\r
+            </kap:Source>\r
+         </tem:sources>\r
+      </tem:UpdateSource>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateSource"/></con:call></con:operation><con:operation id="422546e2-d006-4a12-a262-8c23ed19a6dc" isOneWay="false" action="http://tempuri.org/IMarketingService/UpdateVendor" name="UpdateVendor" bindingOperationName="UpdateVendor" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="bb378e9b-a746-4f80-b788-9050409bc5df" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.78.101.184/MarketingService.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateVendor>
+         <!--Optional:-->
+         <tem:vendors>
+            <!--Zero or more repetitions:-->
+            <kap:Vendor>
+               <!--Optional:-->
+               <kap:Active>?</kap:Active>
+               <!--Optional:-->
+               <kap:IsCallCenter>?</kap:IsCallCenter>
+               <!--Optional:-->
+               <kap:IsWarmTransfer>?</kap:IsWarmTransfer>
+               <!--Optional:-->
+               <kap:MarketingChannelId>?</kap:MarketingChannelId>
+               <!--Optional:-->
+               <kap:MkVendorID>?</kap:MkVendorID>
+               <!--Optional:-->
+               <kap:MkVendorTypeID>?</kap:MkVendorTypeID>
+               <!--Optional:-->
+               <kap:ReplyEmail>?</kap:ReplyEmail>
+               <!--Optional:-->
+               <kap:VendorName>?</kap:VendorName>
+               <!--Optional:-->
+               <kap:isImportVendor>?</kap:isImportVendor>
+               <!--Optional:-->
+               <kap:parentVendorId>?</kap:parentVendorId>
+               <!--Optional:-->
+               <kap:vendorInstitutionTypes>?</kap:vendorInstitutionTypes>
+            </kap:Vendor>
+         </tem:vendors>
+      </tem:UpdateVendor>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateVendor"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:interface xsi:type="con:RestService" id="a803759d-33ec-45b6-a407-8ead44a0680d" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://testsrmservices.int.kaplan.edu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://testsrmservices.int.kaplan.edu</con:endpoint></con:endpoints><con:resource name="SearchByPhone" path="/ANIService.svc/SearchByPhone/" id="0a9e5c0d-e986-430a-a61f-a81e59a22bb2"><con:settings/><con:parameters/><con:method name="SearchByPhone" id="3334837f-2d39-49a9-8558-362b016d5caf" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:sear="http://testsrmservices.int.kaplan.edu/ANIService.svc/SearchByPhone/">sear:Response</con:element></con:representation><con:request name="Request 1" id="ed86f859-c109-4bfa-afd1-01fea22fd154" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request> {
+"PhoneNumber":"(991) 003-3083"
+}</con:request><con:originalUri>http://testsrmservices.int.kaplan.edu/ANIService.svc/SearchByPhone/</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="31da8557-c294-4aea-b0da-918c98aa5a6e" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://devsrmservices.int.kaplan.edu" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://devsrmservices.int.kaplan.edu</con:endpoint></con:endpoints><con:resource name="SearchByPhone" path="/ANIService.svc/SearchByPhone/" id="a9881bf5-ded0-4524-9bc3-da6493059727"><con:settings/><con:parameters/><con:method name="SearchByPhone" id="52f37232-8842-4eb3-8721-b2d2c2dc93eb" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:sear="http://devsrmservices.int.kaplan.edu/ANIService.svc/SearchByPhone/">sear:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="e7eb3210-6474-42f6-95b5-80a5d1e0d85d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request>   {
+"PhoneNumber":"9873073273"
+}</con:request><con:originalUri>http://devsrmservices.int.kaplan.edu/ANIService.svc/SearchByPhone/</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:mockService id="57a962bd-5e0f-4ef0-84c3-cbfcfd7ddf29" port="8088" path="/" host="KUCY2QTP01" name="BasicHttpBinding_IMarketingService Virt"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:properties/><con:constraints><con:congestion>0</con:congestion><con:inputBandwidth>-1</con:inputBandwidth><con:outputBandwidth>-1</con:outputBandwidth><con:maxThreadPoolCapacity>20</con:maxThreadPoolCapacity><con:coreThreadPoolCapacity>5</con:coreThreadPoolCapacity><con:virtError><con:start>0</con:start><con:endless>true</con:endless></con:virtError></con:constraints><con:dataSources/><con:headerValidator type="NONE"/><con:mockOperation name="AddChannelGroup" id="597e69bd-f242-4f8c-aa09-2a1a3b1d4dfe" interface="BasicHttpBinding_IMarketingService" operation="AddChannelGroup"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="7607acdc-816a-465f-8cd2-763926547f3f" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddChannelGroupResponse>
+         <!--Optional:-->
+         <tem:AddChannelGroupResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddChannelGroupResult>
+      </tem:AddChannelGroupResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddChannelGroup"/></con:response></con:mockOperation><con:mockOperation name="AddDNIS" id="e2ff3f66-8509-456e-943e-9b9204ae82e1" interface="BasicHttpBinding_IMarketingService" operation="AddDNIS"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="dd6b51d0-2c4f-437b-a795-50b0e2c65c93" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddDNISResponse>
+         <!--Optional:-->
+         <tem:AddDNISResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddDNISResult>
+      </tem:AddDNISResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddDNIS"/></con:response></con:mockOperation><con:mockOperation name="AddMarketingChannel" id="9da67e2f-a14a-404b-8c87-b8e69d86740d" interface="BasicHttpBinding_IMarketingService" operation="AddMarketingChannel"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="6893d24b-e529-41cf-bfd4-2ff49a1d4ca9" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddMarketingChannelResponse>
+         <!--Optional:-->
+         <tem:AddMarketingChannelResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddMarketingChannelResult>
+      </tem:AddMarketingChannelResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddMarketingChannel"/></con:response></con:mockOperation><con:mockOperation name="AddPromotion" id="89335b65-d197-4d24-aa22-3b37388a6bb9" interface="BasicHttpBinding_IMarketingService" operation="AddPromotion"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="26ef9161-7cac-4712-b084-7010bbead430" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddPromotionResponse>
+         <!--Optional:-->
+         <tem:AddPromotionResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddPromotionResult>
+      </tem:AddPromotionResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddPromotion"/></con:response></con:mockOperation><con:mockOperation name="AddSource" id="8b00427b-9815-4624-8ffa-33677a381698" interface="BasicHttpBinding_IMarketingService" operation="AddSource"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="6febd944-3a48-4a14-8b29-ec1e03bbd6bd" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddSourceResponse>
+         <!--Optional:-->
+         <tem:AddSourceResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddSourceResult>
+      </tem:AddSourceResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddSource"/></con:response></con:mockOperation><con:mockOperation name="AddVendor" id="e14873ff-a70c-4d1a-8377-9d619a829294" interface="BasicHttpBinding_IMarketingService" operation="AddVendor"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="888e9241-73f7-45e3-b035-d7539a46742b" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddVendorResponse>
+         <!--Optional:-->
+         <tem:AddVendorResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddVendorResult>
+      </tem:AddVendorResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddVendor"/></con:response></con:mockOperation><con:mockOperation name="GetTargetSkills" id="c9cabc1f-f070-4ff2-b7f3-90de41e10cb5" interface="BasicHttpBinding_IMarketingService" operation="GetTargetSkills"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="2833e189-84d7-46e1-9cfc-44e83e88ecfe" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetTargetSkillsResponse>
+         <!--Optional:-->
+         <tem:GetTargetSkillsResult>
+            <!--Zero or more repetitions:-->
+            <kap:Skill>
+               <!--Optional:-->
+               <kap:SkillID>?</kap:SkillID>
+               <!--Optional:-->
+               <kap:SkillName>?</kap:SkillName>
+            </kap:Skill>
+         </tem:GetTargetSkillsResult>
+      </tem:GetTargetSkillsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/GetTargetSkills"/></con:response></con:mockOperation><con:mockOperation name="UpdateChannelGroup" id="41876d5d-2521-48d1-8067-1479a80ab842" interface="BasicHttpBinding_IMarketingService" operation="UpdateChannelGroup"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="95dbae3e-422c-4f5f-af42-2cc45e05d150" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateChannelGroupResponse>
+         <!--Optional:-->
+         <tem:UpdateChannelGroupResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateChannelGroupResult>
+      </tem:UpdateChannelGroupResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateChannelGroup"/></con:response></con:mockOperation><con:mockOperation name="UpdateDNIS" id="803b62fe-d85f-4e25-980f-db2f1ba99901" interface="BasicHttpBinding_IMarketingService" operation="UpdateDNIS"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="9d4b9014-41d1-4f8a-bafc-bcf3afbb7001" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateDNISResponse>
+         <!--Optional:-->
+         <tem:UpdateDNISResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateDNISResult>
+      </tem:UpdateDNISResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateDNIS"/></con:response></con:mockOperation><con:mockOperation name="UpdateMarketingChannel" id="e710e483-b261-4380-a60f-cb93a3c81c2a" interface="BasicHttpBinding_IMarketingService" operation="UpdateMarketingChannel"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="9231890f-10f7-47dc-9107-5b5bfb508887" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateMarketingChannelResponse>
+         <!--Optional:-->
+         <tem:UpdateMarketingChannelResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateMarketingChannelResult>
+      </tem:UpdateMarketingChannelResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateMarketingChannel"/></con:response></con:mockOperation><con:mockOperation name="UpdatePromotion" id="64d81031-d9a2-406e-b835-877879fd3fca" interface="BasicHttpBinding_IMarketingService" operation="UpdatePromotion"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="8a3c5302-9662-4bd8-a4e1-8a498e093435" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdatePromotionResponse>
+         <!--Optional:-->
+         <tem:UpdatePromotionResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdatePromotionResult>
+      </tem:UpdatePromotionResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdatePromotion"/></con:response></con:mockOperation><con:mockOperation name="UpdateSource" id="0e0992ff-b794-44b1-80b2-1a16dde08b9e" interface="BasicHttpBinding_IMarketingService" operation="UpdateSource"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="31959780-2959-4864-9234-226617e3f658" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateSourceResponse>
+         <!--Optional:-->
+         <tem:UpdateSourceResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateSourceResult>
+      </tem:UpdateSourceResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateSource"/></con:response></con:mockOperation><con:mockOperation name="UpdateVendor" id="47043f4e-f123-4e52-bde8-33d541dc7bd2" interface="BasicHttpBinding_IMarketingService" operation="UpdateVendor"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="06324b37-4d65-4565-8c8f-760db130bc4f" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateVendorResponse>
+         <!--Optional:-->
+         <tem:UpdateVendorResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateVendorResult>
+      </tem:UpdateVendorResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateVendor"/></con:response></con:mockOperation></con:mockService><con:mockService id="c6437680-9b10-4214-a9f8-eb35fe07bbce" port="8089" path="/" host="KUCY2QTP01" name="_BasicHttpBinding_IMarketingService"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:properties/><con:constraints><con:congestion>0</con:congestion><con:inputBandwidth>-1</con:inputBandwidth><con:outputBandwidth>-1</con:outputBandwidth><con:maxThreadPoolCapacity>20</con:maxThreadPoolCapacity><con:coreThreadPoolCapacity>5</con:coreThreadPoolCapacity><con:virtError><con:start>0</con:start><con:endless>true</con:endless></con:virtError></con:constraints><con:dataSources/><con:headerValidator type="NONE"/><con:mockOperation name="AddChannelGroup" id="c2c2031f-53eb-42ef-9faa-1c75ecafa14c" interface="BasicHttpBinding_IMarketingService" operation="AddChannelGroup"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="d1465ea6-532a-4e9e-b075-d0314b4d48e9" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddChannelGroupResponse>
+         <!--Optional:-->
+         <tem:AddChannelGroupResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddChannelGroupResult>
+      </tem:AddChannelGroupResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddChannelGroup"/></con:response></con:mockOperation><con:mockOperation name="AddDNIS" id="1af13cc8-8744-4ffd-8ef1-c0ed6a33c5cd" interface="BasicHttpBinding_IMarketingService" operation="AddDNIS"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="996e4a98-c986-4d68-8085-d8dc1b8ceb2c" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddDNISResponse>
+         <!--Optional:-->
+         <tem:AddDNISResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddDNISResult>
+      </tem:AddDNISResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddDNIS"/></con:response></con:mockOperation><con:mockOperation name="AddMarketingChannel" id="edbda5c7-4c04-4fa8-a061-0b6be8c1f5f9" interface="BasicHttpBinding_IMarketingService" operation="AddMarketingChannel"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="a79db747-49ff-41c0-ac1b-db1ba7efc4d2" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddMarketingChannelResponse>
+         <!--Optional:-->
+         <tem:AddMarketingChannelResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddMarketingChannelResult>
+      </tem:AddMarketingChannelResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddMarketingChannel"/></con:response></con:mockOperation><con:mockOperation name="AddPromotion" id="308767cb-97d0-4681-9b71-0bc37d853698" interface="BasicHttpBinding_IMarketingService" operation="AddPromotion"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="cc74a49c-b0e1-4bfa-85e6-8a610dfba8e8" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddPromotionResponse>
+         <!--Optional:-->
+         <tem:AddPromotionResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddPromotionResult>
+      </tem:AddPromotionResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddPromotion"/></con:response></con:mockOperation><con:mockOperation name="AddSource" id="3700171a-7a83-4dff-9c78-e23325aa8179" interface="BasicHttpBinding_IMarketingService" operation="AddSource"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="536528b7-037b-4c31-aa0b-4cf1339460b4" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddSourceResponse>
+         <!--Optional:-->
+         <tem:AddSourceResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddSourceResult>
+      </tem:AddSourceResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddSource"/></con:response></con:mockOperation><con:mockOperation name="AddVendor" id="7532a279-a446-4d38-b549-55725cc7c033" interface="BasicHttpBinding_IMarketingService" operation="AddVendor"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="03d98109-e1f5-4162-997d-eed1d21bc130" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddVendorResponse>
+         <!--Optional:-->
+         <tem:AddVendorResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:AddVendorResult>
+      </tem:AddVendorResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/AddVendor"/></con:response></con:mockOperation><con:mockOperation name="GetTargetSkills" id="c7e802b2-a488-42f5-9903-b35c2a2d9b3a" interface="BasicHttpBinding_IMarketingService" operation="GetTargetSkills"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="ce1c2a8f-b5cd-4f27-840b-2951fec8caf6" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetTargetSkillsResponse>
+         <!--Optional:-->
+         <tem:GetTargetSkillsResult>
+            <!--Zero or more repetitions:-->
+            <kap:Skill>
+               <!--Optional:-->
+               <kap:SkillID>?</kap:SkillID>
+               <!--Optional:-->
+               <kap:SkillName>?</kap:SkillName>
+            </kap:Skill>
+         </tem:GetTargetSkillsResult>
+      </tem:GetTargetSkillsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/GetTargetSkills"/></con:response></con:mockOperation><con:mockOperation name="UpdateChannelGroup" id="5010eb8a-d9ca-453c-809e-f5cc875f8d93" interface="BasicHttpBinding_IMarketingService" operation="UpdateChannelGroup"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="a4852319-e6d4-498f-95fc-ffa700990e78" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateChannelGroupResponse>
+         <!--Optional:-->
+         <tem:UpdateChannelGroupResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateChannelGroupResult>
+      </tem:UpdateChannelGroupResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateChannelGroup"/></con:response></con:mockOperation><con:mockOperation name="UpdateDNIS" id="29e1d9fe-623f-40c1-b46f-6e88f37f1620" interface="BasicHttpBinding_IMarketingService" operation="UpdateDNIS"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="2cdeb45c-80ce-47be-84b1-133d9f9687bd" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateDNISResponse>
+         <!--Optional:-->
+         <tem:UpdateDNISResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateDNISResult>
+      </tem:UpdateDNISResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateDNIS"/></con:response></con:mockOperation><con:mockOperation name="UpdateMarketingChannel" id="c4cfa217-64ae-40ae-8b75-21b64b865360" interface="BasicHttpBinding_IMarketingService" operation="UpdateMarketingChannel"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="6b924949-eb63-4eaa-b3cc-5f9fd97405ad" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateMarketingChannelResponse>
+         <!--Optional:-->
+         <tem:UpdateMarketingChannelResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateMarketingChannelResult>
+      </tem:UpdateMarketingChannelResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateMarketingChannel"/></con:response></con:mockOperation><con:mockOperation name="UpdatePromotion" id="5f95939b-6031-46da-8558-934a4700d02b" interface="BasicHttpBinding_IMarketingService" operation="UpdatePromotion"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="a88085c9-2c07-424a-8a62-9165261abc71" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdatePromotionResponse>
+         <!--Optional:-->
+         <tem:UpdatePromotionResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdatePromotionResult>
+      </tem:UpdatePromotionResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdatePromotion"/></con:response></con:mockOperation><con:mockOperation name="UpdateSource" id="744ab175-c5cf-44d8-bf39-664f0ae923ae" interface="BasicHttpBinding_IMarketingService" operation="UpdateSource"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="d2fe9d61-827f-4d62-92b0-01cea67d505f" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateSourceResponse>
+         <!--Optional:-->
+         <tem:UpdateSourceResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateSourceResult>
+      </tem:UpdateSourceResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateSource"/></con:response></con:mockOperation><con:mockOperation name="UpdateVendor" id="0edd34fb-f0ee-42dd-9c5c-f8a6015ae7fd" interface="BasicHttpBinding_IMarketingService" operation="UpdateVendor"><con:settings/><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:response name="Response 1" id="5fb52e68-e43b-4b26-8045-cd5858ab7c02" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateVendorResponse>
+         <!--Optional:-->
+         <tem:UpdateVendorResult>
+            <!--Zero or more repetitions:-->
+            <kap:CVueTransactionResult>
+               <!--Optional:-->
+               <kap:IsSuccess>?</kap:IsSuccess>
+               <!--Optional:-->
+               <kap:Message>?</kap:Message>
+               <!--Optional:-->
+               <kap:ReturnValue>?</kap:ReturnValue>
+            </kap:CVueTransactionResult>
+         </tem:UpdateVendorResult>
+      </tem:UpdateVendorResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMarketingService/UpdateVendor"/></con:response></con:mockOperation></con:mockService><con:requirements/><con:properties><con:property><con:name>ConString</con:name></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer><con:databaseConnection><con:name>Orion</con:name><con:driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</con:driver><con:connectionString>jdbc:sqlserver://mssql-stg-ORION.charlie.kaplaninc.com\stgorion;databaseName=orion;user=kcctech;password=24giveis24get</con:connectionString><con:password>24giveis24get</con:password></con:databaseConnection></con:databaseConnectionContainer><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/><con:environment name="Stage"><con:service type="SOAP" name="BasicHttpBinding_IMarketingService"><con:endpoint username="" password="" domain="" wssType="" wssTimeToLive="" outgoingWss="" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="" authProfile="No Authorization">http://stagesrmservices.int.kaplan.edu/MarketingService.svc</con:endpoint></con:service><con:service type="REST" name="http://testsrmservices.int.kaplan.edu"><con:endpoint authProfile="No Authorization">http://testsrmservices.int.kaplan.edu</con:endpoint></con:service><con:service type="REST" name="http://devsrmservices.int.kaplan.edu"><con:endpoint authProfile="No Authorization">http://devsrmservices.int.kaplan.edu</con:endpoint></con:service><con:property><con:name>ConString</con:name><con:value>jdbc:sqlserver://mssql-stg-ORION.charlie.kaplaninc.com\stgorion;databaseName=orion;user=kcctech;password=24giveis24get</con:value></con:property><con:databaseConnectionContainer><con:databaseConnection><con:name>Orion</con:name><con:driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</con:driver><con:connectionString>jdbc:sqlserver://mssql-stg-ORION.charlie.kaplaninc.com\stgorion;databaseName=orion;user=kcctech;password=24giveis24get</con:connectionString><con:password>24giveis24get</con:password></con:databaseConnection></con:databaseConnectionContainer></con:environment><con:environment name="Test"><con:service type="SOAP" name="BasicHttpBinding_IMarketingService"><con:endpoint username="" password="" domain="" wssType="" wssTimeToLive="" outgoingWss="" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="" authProfile="No Authorization">http://testsrmservices.int.kaplan.edu/MarketingService.svc</con:endpoint></con:service><con:service type="REST" name="http://testsrmservices.int.kaplan.edu"><con:endpoint authProfile="No Authorization"/></con:service><con:service type="REST" name="http://devsrmservices.int.kaplan.edu"><con:endpoint authProfile="No Authorization"/></con:service><con:property><con:name>ConString</con:name><con:value>jdbc:sqlserver://KUCY2TSQLC02\TSTORION;databaseName=orion;user=kcctech;password=24giveis24get</con:value></con:property><con:databaseConnectionContainer><con:databaseConnection><con:name>Orion</con:name><con:driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</con:driver><con:connectionString>jdbc:sqlserver://KUCY2TSQLC02\TSTORION;databaseName=orion;user=kcctech;password=24giveis24get</con:connectionString><con:password>24giveis24get</con:password></con:databaseConnection></con:databaseConnectionContainer></con:environment><con:environment name="Dev"><con:service type="SOAP" name="BasicHttpBinding_IMarketingService"><con:endpoint username="" password="" domain="" wssType="" wssTimeToLive="" outgoingWss="" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="" authProfile="No Authorization">http://10.78.101.184/MarketingService.svc</con:endpoint></con:service><con:service type="REST" name="http://testsrmservices.int.kaplan.edu"><con:endpoint authProfile="No Authorization"/></con:service><con:service type="REST" name="http://devsrmservices.int.kaplan.edu"><con:endpoint authProfile="No Authorization"/></con:service><con:property><con:name>ConString</con:name><con:value>jdbc:sqlserver://KUCY2DSQLC02\DEVORION;databaseName=orion;user=kcctech;password=24giveis24get</con:value></con:property><con:databaseConnectionContainer><con:databaseConnection><con:name>Orion</con:name><con:driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</con:driver><con:connectionString>jdbc:sqlserver://KUCY2DSQLC02\DEVORION;databaseName=orion;user=kcctech;password=24giveis24get</con:connectionString><con:password>24giveis24get</con:password></con:databaseConnection></con:databaseConnectionContainer></con:environment><con:authRepository/></con:soapui-project>

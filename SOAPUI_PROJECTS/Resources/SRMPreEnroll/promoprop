@@ -1,0 +1,8 @@
+ConString=jdbc:sqlserver://mssql-stg-ORION.charlie.kaplaninc.com\stgorion;databaseName=orion;user=kcctech;password=24giveis24get
+promodnisid=1010
+promoskillnameid=577
+sourcemksourceid=1503457
+sourcemksourcetypeid=5
+sourcemkvendorid=61639
+sourcecode=SF11821
+sourcemkcampusid=2

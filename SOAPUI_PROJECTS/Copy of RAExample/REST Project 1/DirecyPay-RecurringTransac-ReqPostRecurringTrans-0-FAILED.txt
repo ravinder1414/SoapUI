@@ -1,0 +1,82 @@
+Status: FAILED
+Time Taken: 81
+Size: 1208
+Timestamp: Sun Jan 24 05:02:24 EST 2016
+TestStep: ReqPostRecurringTrans
+
+----------------- Messages ------------------------------
+[Assert [HTTP OK 200]] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.alliedwallet.com
+Method: POST
+StatusCode: 500
+URL: https://api.alliedwallet.com/recurringtransactions?merchantid=10262
+
+---------------- Request ---------------------------
+Authorization: [Bearer AAEAABgIesBDu7xboqDL_QsG-JaMhOyWVDFy9nJVH8I0EfzLVKBduap77jnUiIC3w-KJj-PrbHCjEbAjNwUVScoEZ9E4TS8TpaJFZrheCZWWJ-E-o1IovViNTTxQKC_8d7h4e5c2ZXOayAu6PFuWjMdpPdYdnYzwYnTX1wP5TlRk2RKCYDhWfo_L9QaxqlBXup1o6WRHQ24M5ZdoqT4p49uHZQ6WDXcAdwGIXPSwYiiAuwu0katfsJ4o5in_J_xVP6zKO8oMuzk_oW3Y201Ox7hYCzD4QsBLPEjJ5aESQ6smGV6dWalpmM_chIGg7cf8q_LpZKLlTeJsHRvzGB8r1iPjsOm0AQAAAAEAACTbl-EW2htuQ8eMOpyrs1DDJQjzaIhHybdX6DWm7NnjVmpzuvtSKQTw3YoWZtNCxnvZFKTn7xlvg8SG804BOHJRwhna70WoB9aKraN5_IemZ7oTAeUB-MPQO99TsPi7e11m8vRODKgFinbOyFwOhfAmAAvd7QHnPbTvyyI8BWE_ujYG8ATJoYyoavLZwl9cZ5ruCkejeVZ9_nPkcnmeKi7vj79PHqDT9ZAg6lv4zffHGYk0-ZiwPfUWWFl-BfHmt1E4ApsiWoOy9Xmud0B_52sYrbrqEEh4TOk2BfncglYyeioBd3DRPdc7zkLL4viTyTD3EK2YB2n-xWMVy8fzxkkl5cW2kW2cHvGQsNtQre9VzWK0WQRtvkrdf97Xv2_EftoAW_jEZnI7xQXb2BDK3Jbe2ZSI03vFQjaE-GaGcwppHgaz8BGmYULp0U7JoKkXB30cshtNSsIIOpwEUz461I73OPEmSfcJ3VsiJMZXXOMH4xoCmVbJY3WuZ5GT5E1TEHfNxXn3JpxfK-adsF8nHomVM3358nZh0Qw9uC9FCoJQElTEvUVke6H7np_4WZQouA]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Host: [api.alliedwallet.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [51]
+Content-Type: [application/json]
+
+POST https://api.alliedwallet.com/recurringtransactions?merchantid=10262 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Bearer AAEAABgIesBDu7xboqDL_QsG-JaMhOyWVDFy9nJVH8I0EfzLVKBduap77jnUiIC3w-KJj-PrbHCjEbAjNwUVScoEZ9E4TS8TpaJFZrheCZWWJ-E-o1IovViNTTxQKC_8d7h4e5c2ZXOayAu6PFuWjMdpPdYdnYzwYnTX1wP5TlRk2RKCYDhWfo_L9QaxqlBXup1o6WRHQ24M5ZdoqT4p49uHZQ6WDXcAdwGIXPSwYiiAuwu0katfsJ4o5in_J_xVP6zKO8oMuzk_oW3Y201Ox7hYCzD4QsBLPEjJ5aESQ6smGV6dWalpmM_chIGg7cf8q_LpZKLlTeJsHRvzGB8r1iPjsOm0AQAAAAEAACTbl-EW2htuQ8eMOpyrs1DDJQjzaIhHybdX6DWm7NnjVmpzuvtSKQTw3YoWZtNCxnvZFKTn7xlvg8SG804BOHJRwhna70WoB9aKraN5_IemZ7oTAeUB-MPQO99TsPi7e11m8vRODKgFinbOyFwOhfAmAAvd7QHnPbTvyyI8BWE_ujYG8ATJoYyoavLZwl9cZ5ruCkejeVZ9_nPkcnmeKi7vj79PHqDT9ZAg6lv4zffHGYk0-ZiwPfUWWFl-BfHmt1E4ApsiWoOy9Xmud0B_52sYrbrqEEh4TOk2BfncglYyeioBd3DRPdc7zkLL4viTyTD3EK2YB2n-xWMVy8fzxkkl5cW2kW2cHvGQsNtQre9VzWK0WQRtvkrdf97Xv2_EftoAW_jEZnI7xQXb2BDK3Jbe2ZSI03vFQjaE-GaGcwppHgaz8BGmYULp0U7JoKkXB30cshtNSsIIOpwEUz461I73OPEmSfcJ3VsiJMZXXOMH4xoCmVbJY3WuZ5GT5E1TEHfNxXn3JpxfK-adsF8nHomVM3358nZh0Qw9uC9FCoJQElTEvUVke6H7np_4WZQouA
+Content-Length: 51
+Host: api.alliedwallet.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+{
+"saleTransactionID":  68748,
+"amount": 1200.00
+}
+
+
+---------------- Response --------------------------
+Server: [Microsoft-IIS/8.0]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [1208]
+Date: [Sun, 24 Jan 2016 10:02:20 GMT]
+Content-Type: [text/html]
+X-Powered-By: [ASP.NET]
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+      <title>500 - Internal server error.</title>
+      <style type="text/css">
+         <!--body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}-->
+      </style>
+   </head>
+   <body>
+      <div id="header">
+         <h1>Server Error</h1>
+      </div>
+      <div id="content">
+         <div class="content-container">
+            <fieldset>
+               <h2>500 - Internal server error.</h2>
+               <h3>There is a problem with the resource you are looking for, and it cannot be displayed.</h3>
+            </fieldset>
+         </div>
+      </div>
+   </body>
+</html>
