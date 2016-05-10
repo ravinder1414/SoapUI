@@ -1,0 +1,46 @@
+Status: FAILED
+Time Taken: 121
+Size: 58
+Timestamp: Thu Apr 07 06:05:27 EDT 2016
+TestStep: GetGenesysMarketingskills
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Method: GET
+StatusCode: 500
+URL: https://test.webapi.kaplan.edu/api/v1/genesys/skills?section=console&property=marketing&value=1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TLJszsUBxwQyhgIK3wzxIpiSbxpJ]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://test.webapi.kaplan.edu/api/v1/genesys/skills?section=console&property=marketing&value=1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TLJszsUBxwQyhgIK3wzxIpiSbxpJ
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [58]
+Date: [Thu, 07 Apr 2016 10:05:27 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TLJszsUBxwQyhgIK3wzxIpiSbxpJ]
+
+{"Message":"Error retrieving Geneys Configuration Skills"}

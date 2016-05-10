@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 793
+Size: 928
+Timestamp: Fri May 06 05:03:26 EDT 2016
+TestStep: GetEquivalencybyID
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [h1ppC8Y2L96hKkdWgkYvCEIh0haI]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: h1ppC8Y2L96hKkdWgkYvCEIh0haI
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [928]
+Date: [Fri, 06 May 2016 09:03:26 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [h1ppC8Y2L96hKkdWgkYvCEIh0haI]
+X-Powered-By: [ASP.NET]
+
+{"EquivalencyId":1,"Status":{"ID":1,"Name":"Active"},"CETCreated":false,"InstitutionId":7926,"PriorLearningCourses":{"CollegeCourses":[{"Code":"HUM224","CreditsNotMatched":false,"Credits":4.00,"CreditTypeNotMatched":false,"CreditType":{"ID":2,"Name":"Semester"},"CourseLevelNotMatched":false,"CourseLevel":null,"SoftMatch":false,"CourseTypeId":1,"PriorLearningCourseId":1,"Title":"20th Cent. Women's Movements","CETCreated":true,"EarliestDateEligibleNotMatched":false,"EarliestDateEligible":null,"LatestDateEligibleNotMatched":false,"LatestDateEligible":null,"MaximumCourseAgeNotMatched":false,"MaximumCourseAge":null}],"MilitaryMainCourses":null,"MilitaryCollegeLevelTestScoreCourses":null,"MilitaryOtherLearningExperienceCourses":[]},"KaplanCourses":[{"Course":{"AdCourseId":504332,"Code":"TC6.2","Title":"Transfer Credit","Credits":6.0000,"Description":""},"SubjectMatters":null}],"Programs":null,"TranscriptDescriptions":[]}

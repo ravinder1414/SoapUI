@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 131
+Size: 0
+Timestamp: Thu Dec 31 12:31:18 EST 2015
+TestStep: DB_GetEnrollDetails
+
+----------------- Messages ------------------------------

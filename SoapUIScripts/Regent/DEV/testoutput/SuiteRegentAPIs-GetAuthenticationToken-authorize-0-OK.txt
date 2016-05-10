@@ -1,0 +1,46 @@
+Status: OK
+Time Taken: 543
+Size: 104
+Timestamp: Mon May 09 05:40:12 EDT 2016
+TestStep: authorize
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: POST
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/auth/authorize
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [86]
+Content-Type: [application/json]
+
+POST https://dev.webapi.kaplan.edu/api/v1/auth/authorize HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 86
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+   "ClientID": "Regent_Dev",
+   "ClientSecret": "TwhsnrXFJutd3RehmmzfbEvGbROLYBPz"
+}
+
+---------------- Response --------------------------
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [104]
+Date: [Mon, 09 May 2016 09:40:13 GMT]
+Content-Type: [application/json; charset=utf-8]
+
+{"expires_in":1800,"access_token":"my1GHL4MOfcC4ZVN5tUpOqRssVeF","token_type":"Bearer","client_id":null}

@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 112
+Size: 1599
+Timestamp: Mon May 02 04:27:02 EDT 2016
+TestStep: GetAllCourseModuleGrps in BP
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v1/CourseModuleGroups
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [d531vwoMeQiKSMzsGMTB51caEU4B]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v1/CourseModuleGroups HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: d531vwoMeQiKSMzsGMTB51caEU4B
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1599]
+Date: [Mon, 02 May 2016 08:27:02 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [d531vwoMeQiKSMzsGMTB51caEU4B]
+X-Powered-By: [ASP.NET]
+
+[{"AdCourseId":503071,"Code":"AB204","Title":"Macroeconomics","Credits":5.0000,"ModuleGroupId":25,"Modules":1},{"AdCourseId":506685,"Code":"AS495","Title":"College of Social and Behavioral Sciences Bachelors Internship","Credits":6.0000,"ModuleGroupId":40,"Modules":1},{"AdCourseId":501656,"Code":"BU250","Title":"Business Math","Credits":5.0000,"ModuleGroupId":16,"Modules":1},{"AdCourseId":375342,"Code":"CM107","Title":"College Composition I","Credits":5.0000,"ModuleGroupId":11,"Modules":5},{"AdCourseId":375342,"Code":"CM107","Title":"College Composition I","Credits":5.0000,"ModuleGroupId":15,"Modules":1},{"AdCourseId":412258,"Code":"DED099","Title":"Basic Mathematics","Credits":3.0000,"ModuleGroupId":26,"Modules":1},{"AdCourseId":316041,"Code":"EC135","Title":"Economics","Credits":4.0000,"ModuleGroupId":38,"Modules":1},{"AdCourseId":343815,"Code":"ED535","Title":"Methods of Teaching Elementary Mathematics","Credits":4.0000,"ModuleGroupId":14,"Modules":1},{"AdCourseId":343815,"Code":"ED535","Title":"Methods of Teaching Elementary Mathematics","Credits":4.0000,"ModuleGroupId":20,"Modules":1},{"AdCourseId":20657,"Code":"IT133","Title":"Microsoft Office Applications On Demand","Credits":5.0000,"ModuleGroupId":13,"Modules":5},{"AdCourseId":503410,"Code":"MATHGED","Title":"Gen Ed Math Requirement","Credits":5.0000,"ModuleGroupId":17,"Modules":2},{"AdCourseId":501632,"Code":"MM150","Title":"Survey of Mathematics","Credits":5.0000,"ModuleGroupId":12,"Modules":5},{"AdCourseId":21086,"Code":"MT203","Title":"Human Resource Management","Credits":5.0000,"ModuleGroupId":42,"Modules":5}]

@@ -1,0 +1,67 @@
+Status: OK
+Time Taken: 109
+Size: 458
+Timestamp: Tue Mar 01 06:17:42 EST 2016
+TestStep: ReqAddDNIS
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: http://10.78.101.184/MarketingService.svc
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "http://tempuri.org/IMarketingService/AddDNIS"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.3.1 (java 1.5)
+Host : 10.78.101.184
+Accept-Encoding : gzip,deflate
+Content-Length : 738
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddDNIS>
+         <!--Optional:-->
+         <tem:dnis>
+            <!--Zero or more repetitions:-->
+            <kap:Dnis>
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:DnisNumber>93911</kap:DnisNumber>
+               <kap:Note>TestDNISK0JZGMKUJW</kap:Note>
+            </kap:Dnis>
+         </tem:dnis>
+      </tem:AddDNIS>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Cache-Control : private
+Server : Microsoft-IIS/8.0
+X-AspNet-Version : 4.0.30319
+Set-Cookie : ASP.NET_SessionId=biihgrbdgoeesb5senfq5dpc; path=/; HttpOnly
+#status# : HTTP/1.1 200 OK
+Content-Length : 458
+Date : Tue, 01 Mar 2016 11:17:42 GMT
+Content-Type : text/xml; charset=utf-8
+X-Powered-By : ASP.NET
+
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <AddDNISResponse xmlns="http://tempuri.org/">
+         <AddDNISResult xmlns:a="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <a:CVueTransactionResult>
+               <a:IsSuccess>true</a:IsSuccess>
+               <a:Message>Success</a:Message>
+               <a:ReturnValue>2017</a:ReturnValue>
+            </a:CVueTransactionResult>
+         </AddDNISResult>
+      </AddDNISResponse>
+   </s:Body>
+</s:Envelope>

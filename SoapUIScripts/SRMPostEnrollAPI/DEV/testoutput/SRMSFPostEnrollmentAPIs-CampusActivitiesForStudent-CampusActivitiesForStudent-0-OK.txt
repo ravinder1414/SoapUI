@@ -1,0 +1,114 @@
+Status: OK
+Time Taken: 5
+Size: 3063
+Timestamp: Mon May 09 05:46:03 EDT 2016
+TestStep: CampusActivitiesForStudent
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/?id=34543865
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [WQe7iy8kn6nkCYYg7aTjGLR9JFJq]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/?id=34543865 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: WQe7iy8kn6nkCYYg7aTjGLR9JFJq
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+Cache-Control: [private]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [3063]
+Date: [Mon, 09 May 2016 09:46:02 GMT]
+Content-Type: [text/html; charset=utf-8]
+X-AspNetMvc-Version: [5.2]
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="/Content/bootstrap" rel="stylesheet"/>
+
+    <link href="/Content/css?v=TJg4zWuWv5f0pfUSHwRmcPMmqN0Gjs69SIYByOdB3qk1" rel="stylesheet"/>
+
+    <link href="/Content/bootstrapresponsive" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="/">Application name</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/Help">API</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        
+<div class="hero-unit">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+<div class="row">
+    <div class="span4">
+        <h2>Getting started</h2>
+        <p>ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
+        a broad range of clients, including browsers and mobile devices. ASP.NET Web API
+        is an ideal platform for building RESTful applications on the .NET Framework.</p>
+        <p><a class="btn" href="http://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>
+    </div>
+    <div class="span4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn" href="http://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
+    </div>
+    <div class="span4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn" href="http://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+        <hr />
+        <footer>
+            <p>&copy; 2016 - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    <script src="/bundles/jquery?v=gkWyJthHPtwkFjvHuNinBjchIfwLwc_KbE-H26J2kAI1"></script>
+
+    <script src="/bundles/bootstrap?v=JLknwTB2_ayTD-BKepbggojBJvg0d97oT92OUfRNMA41"></script>
+
+    
+</body>
+</html>
+

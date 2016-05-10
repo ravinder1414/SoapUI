@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 1747
+Size: 85
+Timestamp: Thu May 05 05:02:15 EDT 2016
+TestStep: GetInstitutionList StartswithKeyword
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.api.blueprint.kaplan.edu/v1/Institutions?setting=&name=Alabama%20A%20%26%20M%20University
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [BpvdYXCex0XHIkYUIrDj5iWqBIVM]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/v1/Institutions?setting=&name=Alabama%20A%20%26%20M%20University HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: BpvdYXCex0XHIkYUIrDj5iWqBIVM
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [85]
+Date: [Thu, 05 May 2016 09:02:16 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [BpvdYXCex0XHIkYUIrDj5iWqBIVM]
+X-Powered-By: [ASP.NET]
+
+[{"AmCollegeID":8216,"Name":"Alabama A & M University","City":"Normal","State":"AL"}]

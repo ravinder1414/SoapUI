@@ -1,0 +1,67 @@
+<html xmlns:stringutils="xalan://com.eviware.soapui.support.StringUtils" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SoapUI Test Results: All Failures</title>
+<link title="Style" type="text/css" rel="stylesheet" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>SoapUI Test Results</h1>
+<hr size="1">
+<h2>All Failures</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time (s)</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetAllModularizationOptions"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetAllModularizationOptions">TC_GetAllModularizationOptions</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetAllModularizationOptions Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"<br/>       |  |<br/>       |  false<br/>       HTTP/1.1 204 No Content<br/>[Check for existence of [ModuleGroupId]] Assertion failed for path [$[0].ModuleGroupId] : IllegalArgumentException:Invalid JSON: null<br/>[Check for existence of [Modules]] Assertion failed for path [$[0].Modules] : IllegalArgumentException:Invalid JSON: null<br/>[Check for existence of [CourseTitle]] Assertion failed for path [$[0].Modules[0].CourseTitle] : IllegalArgumentException:Invalid JSON: null<br/></pre><hr/></code></td><td>0.119</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetDeterminesWhether_nonreqCourses inside SPVElectivePool consists of either groundcampus/recommendcoursesorneither"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetDeterminesWhether_nonreqCourses inside SPVElectivePool consists of either groundcampus/recommendcoursesorneither">TC_GetDeterminesWhether_nonreqCourses inside SPVElectivePool consists of either groundcampus/recommendcoursesorneither</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetDeterminesWhether_nonreqCourses inside SPVElectivePool consists of either groundcampus/recommendcourses or neither Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"<br/>       |  |<br/>       |  false<br/>       HTTP/1.1 500 Internal Server Error<br/>[Check for existence of [IsOfferedAtGroundCampus]] Comparison failed for path [$.IsOfferedAtGroundCampus], expecting [true], actual was [false]<br/>[Check for existence of [IsRecommended]] Comparison failed for path [$.IsRecommended], expecting [true], actual was [false]<br/>[Check for existence of [HasOfferedAtGroundCampus]] Comparison failed for path [$.HasOfferedAtGroundCampus], expecting [true], actual was [false]<br/>[Check for existence of [HasRecommended]] Comparison failed for path [$.HasRecommended], expecting [true], actual was [false]<br/></pre><hr/></code></td><td>0.373</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetElectivePoolCourses in Student Program"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetElectivePoolCourses in Student Program">TC_GetElectivePoolCourses in Student Program</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetElectivePoolCourses in Student Program Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"<br/>       |  |<br/>       |  false<br/>       HTTP/1.1 204 No Content<br/>[Check for existence of [Code]] Assertion failed for path [$[0].Code] : IllegalArgumentException:Invalid JSON: null<br/>[Check for existence of [Title]] Assertion failed for path [$[0].Title] : IllegalArgumentException:Invalid JSON: null<br/>[Check for existence of [Credits]] Assertion failed for path [$[0].Credits] : IllegalArgumentException:Invalid JSON: null<br/>[Check for existence of [AdCourseId]] Assertion failed for path [$[0].AdCourseId] : IllegalArgumentException:Invalid JSON: null<br/>[Check for existence of [IsOfferedAtGroundCampus]] Assertion failed for path [$[0].IsOfferedAtGroundCampus] : IllegalArgumentException:Invalid JSON: null<br/>[Check for existence of [IsRecommended]] Assertion failed for path [$[0].IsRecommended] : IllegalArgumentException:Invalid JSON: null<br/></pre><hr/></code></td><td>0.824</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetStudentProgram_Courses in SequenceandTranferred"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetStudentProgram_Courses in SequenceandTranferred">TC_GetStudentProgram_Courses in SequenceandTranferred</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetStudentProgram_Courses in SequenceandTranferred Failed</b></h3><pre>java.net.SocketTimeoutException: Read timed out<br/></pre><hr/></code></td><td>0.000</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetTransferCredit for StudentandCourse"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetTransferCredit for StudentandCourse">TC_GetTransferCredit for StudentandCourse</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetTransferCredit for StudentandCourse Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"<br/>       |  |<br/>       |  false<br/>       HTTP/1.1 204 No Content<br/>[Check for existence of [CollegeName]] Assertion failed for path [$.CollegeName] : IllegalArgumentException:Invalid JSON: null<br/></pre><hr/></code></td><td>0.380</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetCourseDesc in StudentProgram"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetCourseDesc in StudentProgram">TC_GetCourseDesc in StudentProgram</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetCourseDesc in StudentProgram Failed</b></h3><pre>java.net.SocketTimeoutException: Read timed out<br/></pre><hr/></code></td><td>0.000</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetStudentEnrollments"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetStudentEnrollments">TC_GetStudentEnrollments</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetStudentEnrollments Failed</b></h3><pre>[Match content of [EnrollID]] Comparison failed for path [$[0].EnrollID], expecting [2911374], actual was [null]<br/></pre><hr/></code></td><td>0.285</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetPriorKUCourseRecomnd for Association"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetPriorKUCourseRecomnd for Association">TC_GetPriorKUCourseRecomnd for Association</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetPriorKUCourseRecomnd for Association Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"<br/>       |  |<br/>       |  false<br/>       HTTP/1.1 404 Not Found<br/></pre><hr/></code></td><td>0.943</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetStuProgVersion"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetStuProgVersion">TC_GetStuProgVersion</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>GetStuProgVersion Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"<br/>       |  |<br/>       |  false<br/>       HTTP/1.1 400 Bad Request<br/>[Check for existence of [Categories]] Comparison failed for path [$.Categories], expecting [true], actual was [false]<br/>[Match content of [AdProgramVersionID]] Comparison failed for path [$.AdProgramVersionID], expecting [452664], actual was [null]<br/></pre><hr/></code></td><td>0.188</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html">BluePrintAPIs.PROD_TestSuite_BluePrintAPIs</a></td><td><a name="TC_GetAdmin StuProgVersion"></a><a href="BluePrintAPIs/1_BluePrintAPIs.PROD_TestSuite_BluePrintAPIs.html#TC_GetAdmin StuProgVersion">TC_GetAdmin StuProgVersion</a></td><td>Failure</td><td>Failing due to failed test step<br>
+<br>
+<code><h3><b>PropertyTransfer 1 Failed</b></h3><pre>Error performing transfer [AdmStuProgVer_StuID] - Invalid JSON: null<br/></pre><hr/><h3><b>GetAdmin StuProgVersion Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"<br/>       |  |<br/>       |  false<br/>       HTTP/1.1 404 Not Found<br/>[Check for existence of [SyStudentId]] Comparison failed for path [$.SyStudentId], expecting [true], actual was [false]<br/>[Check for existence of [EnrollmentId]] Comparison failed for path [$.EnrollmentId], expecting [true], actual was [false]<br/>[Check for existence of [AdProgramVersionId]] Comparison failed for path [$.AdProgramVersionId], expecting [true], actual was [false]<br/>[Check for existence of [CreditsPerTerm]] Comparison failed for path [$.CreditsPerTerm], expecting [true], actual was [false]<br/></pre><hr/></code></td><td>0.114</td>
+</tr>
+</table>
+</body>
+</html>

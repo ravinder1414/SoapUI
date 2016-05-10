@@ -1,0 +1,86 @@
+Status: FAILED
+Time Taken: 60
+Size: 1293
+Timestamp: Fri Apr 08 04:25:10 EDT 2016
+TestStep: PutAdmin_UpdateStuProgVersion
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code:401 is not in acceptable list of status codes
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 401 Unauthorized
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: PUT
+StatusCode: 401
+URL: http://test.api.blueprint.kaplan.edu/
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [C62k208lPK5G8g6uhQFo2B7PljGY]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [92]
+Content-Type: [application/x-www-form-urlencoded]
+
+PUT http://test.api.blueprint.kaplan.edu/ HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/x-www-form-urlencoded
+Token: C62k208lPK5G8g6uhQFo2B7PljGY
+Content-Length: 92
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+  "SyStudentId": ,
+  "EnrollmentId": ,
+  "AdProgramVersionId": ,
+  "CreditsPerTerm": "1"
+}
+
+---------------- Response --------------------------
+Cache-Control: [private]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+#status#: [HTTP/1.1 401 Unauthorized]
+Content-Length: [1293]
+Date: [Fri, 08 Apr 2016 08:25:09 GMT]
+Content-Type: [text/html]
+X-Powered-By: [ASP.NET]
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+      <title>401 - Unauthorized: Access is denied due to invalid credentials.</title>
+      <style type="text/css">
+         <!--body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}-->
+      </style>
+   </head>
+   <body>
+      <div id="header">
+         <h1>Server Error</h1>
+      </div>
+      <div id="content">
+         <div class="content-container">
+            <fieldset>
+               <h2>401 - Unauthorized: Access is denied due to invalid credentials.</h2>
+               <h3>You do not have permission to view this directory or page using the credentials that you supplied.</h3>
+            </fieldset>
+         </div>
+      </div>
+   </body>
+</html>

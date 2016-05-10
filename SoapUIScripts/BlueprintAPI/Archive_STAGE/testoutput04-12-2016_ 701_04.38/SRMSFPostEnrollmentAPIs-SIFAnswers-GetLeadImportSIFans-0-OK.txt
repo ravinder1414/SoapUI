@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 963
+Size: 1494
+Timestamp: Thu Apr 07 05:56:44 EDT 2016
+TestStep: GetLeadImportSIFans
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.webapi.kaplan.edu/api/v1/leads/sifs/35171269/answers
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [0A4td9HZsP0IgVBCkaJLOpb9d4H7]
+Host: [stage.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.webapi.kaplan.edu/api/v1/leads/sifs/35171269/answers HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: 0A4td9HZsP0IgVBCkaJLOpb9d4H7
+Host: stage.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1494]
+Date: [Thu, 07 Apr 2016 09:56:45 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [0A4td9HZsP0IgVBCkaJLOpb9d4H7]
+
+{"mkLeadImportID":35171269,"SIFAnswers":[{"Answer":"BIZ","QuestionID":19925,"QuestionName":"AreaStudy"},{"Answer":"AASBA_FHM","QuestionID":19918,"QuestionName":"Program"},{"Answer":"Augusta","QuestionID":19915,"QuestionName":"Fname"},{"Answer":"Easley","QuestionID":19916,"QuestionName":"Lname"},{"Answer":"augusta_easley@yahoo.com","QuestionID":19917,"QuestionName":"Email"},{"Answer":"1059 w foster ave.","QuestionID":19919,"QuestionName":"Address"},{"Answer":"","QuestionID":19920,"QuestionName":"Address2"},{"Answer":"Chicago","QuestionID":19921,"QuestionName":"City"},{"Answer":"Illinois","QuestionID":19926,"QuestionName":"State"},{"Answer":"60640","QuestionID":19922,"QuestionName":"Zip"},{"Answer":"United States","QuestionID":19927,"QuestionName":"Country"},{"Answer":"7739309046","QuestionID":19914,"QuestionName":"HPhone"},{"Answer":"7739309046","QuestionID":19913,"QuestionName":"WPhone"},{"Answer":"HighSchool","QuestionID":19932,"QuestionName":"HighestEducation"},{"Answer":"Yes","QuestionID":19924,"QuestionName":"USCitizen"},{"Answer":"No","QuestionID":19923,"QuestionName":"military"},{"Answer":"1984-1974","QuestionID":19931,"QuestionName":"GradYear"},{"Answer":"Yes","QuestionID":19933,"QuestionName":"TCPA_Disc"},{"Answer":"No","QuestionID":19928,"QuestionName":"Military2"},{"Answer":"http//classesusa.com/school-form/?clientId=25113","QuestionID":19929,"QuestionName":"URL"},{"Answer":"74E8EEDE-A772-6878-CFBC-AFEA4E0BF6CB","QuestionID":19930,"QuestionName":"AGGLeadID"}]}

@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 323
+Size: 621
+Timestamp: Tue Mar 15 05:45:53 EDT 2016
+TestStep: StudentFileClose
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/students/33565325/filecloses
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Token: [GgqUj3RrczaBPsiSo8EtCBSDM1xO]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/students/33565325/filecloses HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: GgqUj3RrczaBPsiSo8EtCBSDM1xO
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [621]
+Date: [Tue, 15 Mar 2016 09:45:54 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [GgqUj3RrczaBPsiSo8EtCBSDM1xO]
+
+{"FileCloses":[{"ActionResult":"Currently Being Serviced By Another Advisor","ChangedBy":"Ruiz, Danesha","DateAdded":"2014-10-13T12:29:25.74","FromStatus":"Application Received","ToStatus":"File Close","syTaskActionID":292633278},{"ActionResult":"Currently Being Serviced By Another Advisor","ChangedBy":"Ruiz, Danesha","DateAdded":"2014-10-13T12:29:26.437","FromStatus":"File Close","ToStatus":"File Close","syTaskActionID":292633280},{"ActionResult":"Migrated to Salesforce","ChangedBy":"User, System","DateAdded":"2015-06-20T00:40:46.517","FromStatus":"File Close","ToStatus":"File Close","syTaskActionID":309626531}]}

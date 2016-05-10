@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 4155
+Size: 118
+Timestamp: Tue Apr 12 06:51:22 EDT 2016
+TestStep: GetCourses
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v1/Courses?title=Elective%20Course&adCourseId=478333
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [kPsDaYgYZJa3Airwe2QScN9gbBMM]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v1/Courses?title=Elective%20Course&adCourseId=478333 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: kPsDaYgYZJa3Airwe2QScN9gbBMM
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [118]
+Date: [Tue, 12 Apr 2016 10:51:26 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [kPsDaYgYZJa3Airwe2QScN9gbBMM]
+X-Powered-By: [ASP.NET]
+
+[{"AdCourseID":478333,"CourseCode":"*ELECT*","CourseTitle":"Elective Course","CourseDescription":"","Credits":0.0000}]

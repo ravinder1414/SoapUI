@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Wed May 04 03:51:10 EDT 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [access_token]
+----------------------------------------------------
+access_token transferred [[imcdSEJGUW1oUr2FYfTPmISVvq0d]] from [authorize.Response] to [Properties.access_token]
+------------ source path -------------
+$.access_token
+------------ target path -------------
+

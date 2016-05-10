@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 5163
+Size: 310
+Timestamp: Tue May 03 03:12:41 EDT 2016
+TestStep: GetCourseDesc in StudentProgram
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.api.blueprint.kaplan.edu/v2/Students/36361313/Enrollment/2911374/ProgramVersion/452664/Course/375342/Description
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [b11NJPfAZoT0uIdw3s5WxoR3fznS]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/v2/Students/36361313/Enrollment/2911374/ProgramVersion/452664/Course/375342/Description HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: b11NJPfAZoT0uIdw3s5WxoR3fznS
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [310]
+Date: [Tue, 03 May 2016 07:12:46 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [b11NJPfAZoT0uIdw3s5WxoR3fznS]
+X-Powered-By: [ASP.NET]
+
+{"AdCourseID":375342,"CourseDescription":"Building on your existing writing strengths will help develop a foundation for a successful education and career. You will learn strategies to express yourself with confidence and communicate your ideas effectively in personal, academic, and professional situations."}

@@ -1,0 +1,47 @@
+Status: OK
+Time Taken: 1149
+Size: 40
+Timestamp: Sun May 08 12:15:14 EDT 2016
+TestStep: InvalidToken_ClientID
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Encoding: UTF-8
+Method: POST
+StatusCode: 500
+URL: https://test.webapi.kaplan.edu/api/v1/auth/authorize
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [104]
+Content-Type: [application/json;charset=UTF-8]
+
+POST https://test.webapi.kaplan.edu/api/v1/auth/authorize HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json;charset=UTF-8
+Content-Length: 104
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+   "ClientID": "SRMIntegrationSalesforce_Dev2",
+   "ClientSecret": "Rg6UTOxz4bIn0gq1cljEFS7M7jOkvu5"
+}
+
+---------------- Response --------------------------
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [40]
+Date: [Sun, 08 May 2016 16:15:16 GMT]
+Content-Type: [application/json; charset=utf-8]
+
+{"Message":"Error Getting Access Token"}

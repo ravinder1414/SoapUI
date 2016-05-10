@@ -1,0 +1,16 @@
+Status: OK
+Time Taken: 16
+Size: 0
+Timestamp: Wed Mar 16 06:47:14 EDT 2016
+TestStep: PropertyTransfer 2
+
+----------------- Messages ------------------------------
+Performed transfer [a:ReturnValue]
+----------------------------------------------------
+a:ReturnValue transferred [[214]] from [Req_UpdateMarketingChannel.Response] to [Properties.upmkmarketingchannelid]
+------------ source path -------------
+declare namespace a='http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts';
+declare namespace ns1='http://tempuri.org/';
+//ns1:UpdateMarketingChannelResponse[1]/ns1:UpdateMarketingChannelResult[1]/a:CVueTransactionResult[1]/a:ReturnValue[1]
+------------ target path -------------
+

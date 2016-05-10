@@ -1,0 +1,46 @@
+Status: OK
+Time Taken: 248
+Size: 104
+Timestamp: Thu Dec 31 12:15:38 EST 2015
+TestStep: Auth - GetToken
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Method: POST
+StatusCode: 200
+URL: https://test.webapi.kaplan.edu/api/v1/auth/authorize
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [106]
+Content-Type: [application/json]
+
+POST https://test.webapi.kaplan.edu/api/v1/auth/authorize HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 106
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+{
+   "ClientID": "SRMIntegrationSalesforce_Stage",
+   "ClientSecret": "2VFEYQ9VY3lqZEHggx5yU1urkkplLPvT"
+}
+
+---------------- Response --------------------------
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [104]
+Date: [Thu, 31 Dec 2015 17:15:38 GMT]
+Content-Type: [application/json; charset=utf-8]
+
+{"expires_in":7200,"access_token":"QFZaKP6D9FgMzjbJo5IEeQVvCVS7","token_type":"Bearer","client_id":null}

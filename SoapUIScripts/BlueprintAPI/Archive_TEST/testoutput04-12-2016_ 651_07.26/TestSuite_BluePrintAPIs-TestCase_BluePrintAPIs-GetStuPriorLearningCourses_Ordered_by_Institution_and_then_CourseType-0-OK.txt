@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 2794
+Size: 1112
+Timestamp: Fri Apr 08 05:25:36 EDT 2016
+TestStep: GetStuPriorLearningCourses_Ordered by Institution and then CourseType
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/CoursesByInstitution
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [i2rWPMisufzO7lvvbceFfVMAWyoJ]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/CoursesByInstitution HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: i2rWPMisufzO7lvvbceFfVMAWyoJ
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1112]
+Date: [Fri, 08 Apr 2016 09:25:38 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [i2rWPMisufzO7lvvbceFfVMAWyoJ]
+X-Powered-By: [ASP.NET]
+
+[{"InstitutionID":12955,"InstitutionName":"ITT Technical Institute","CollegeCourses":[{"Code":"GE150","Credits":4.00,"CalendarSystem":"Quarter","CreditTypeId":1,"AdCourseLevelId":null,"Grade":"A","ID":5,"Title":"Survey of Sciences","Month":11,"Year":2009,"Official":true,"Blacklisted":null,"AvailableForTransfer":false},{"Code":"GE184","Credits":4.00,"CalendarSystem":"Quarter","CreditTypeId":1,"AdCourseLevelId":null,"Grade":"A","ID":6,"Title":"Problem Solving","Month":4,"Year":2010,"Official":true,"Blacklisted":null,"AvailableForTransfer":true},{"Code":"GE375","Credits":4.00,"CalendarSystem":"Quarter","CreditTypeId":1,"AdCourseLevelId":null,"Grade":"B+","ID":7,"Title":"Psychology","Month":9,"Year":2010,"Official":true,"Blacklisted":null,"AvailableForTransfer":true},{"Code":"Eng101","Credits":2.00,"CalendarSystem":"Semester","CreditTypeId":2,"AdCourseLevelId":6,"Grade":"B","ID":19597,"Title":"English","Month":4,"Year":2011,"Official":true,"Blacklisted":false,"AvailableForTransfer":true}],"MilitaryMainCourses":[],"MilitaryCollegeLevelTestScoreCourses":[],"MilitaryOtherLearningExperienceCourses":[]}]

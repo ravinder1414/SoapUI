@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Sun May 08 04:01:59 EDT 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [encryptedDiDocumentID]
+----------------------------------------------------
+encryptedDiDocumentID transferred [[CLc3C0jG9wM/DN/dyxSi634lgH33wl89]] from [GetTranscriptDocTree for Student.Response] to [#TestSuite#.encryptedDiDocumentID]
+------------ source path -------------
+$[0].encryptedDiDocumentID
+------------ target path -------------
+

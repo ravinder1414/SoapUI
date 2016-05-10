@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 229
+Size: 259
+Timestamp: Thu Apr 07 05:47:03 EDT 2016
+TestStep: GetDNC
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/DoNotCall/DoNotCallLocal?phoneNumber=9545551234&syStudentID=33565325
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/DoNotCall/DoNotCallLocal?phoneNumber=9545551234&syStudentID=33565325 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TZ6BlxLRygVkc0CpG0QeroEif6HH
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [259]
+Date: [Thu, 07 Apr 2016 09:47:03 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+
+[{"DNCReasonCode":5,"ExpirationDate":"2016-01-10T02:56:52.22","IsSuccess":true,"LastModifiedDate":"2016-01-11T02:56:52.22","Message":"Success","ReturnValue":"","mkLeadID":25851124,"modifiedBy_syUserID":21800,"phoneNumber":"9545551234","syStudentID":33565325}]

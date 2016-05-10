@@ -1,0 +1,49 @@
+Status: FAILED
+Time Taken: 102
+Size: 37
+Timestamp: Fri Apr 08 04:25:12 EDT 2016
+TestStep: PutUpdateEquivalencybyID
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 400
+URL: http://test.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/equivalencyid
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [C62k208lPK5G8g6uhQFo2B7PljGY]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/equivalencyid HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: C62k208lPK5G8g6uhQFo2B7PljGY
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 400 Bad Request]
+Content-Length: [37]
+Date: [Fri, 08 Apr 2016 08:25:11 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [C62k208lPK5G8g6uhQFo2B7PljGY]
+X-Powered-By: [ASP.NET]
+
+{"Message":"The request is invalid."}

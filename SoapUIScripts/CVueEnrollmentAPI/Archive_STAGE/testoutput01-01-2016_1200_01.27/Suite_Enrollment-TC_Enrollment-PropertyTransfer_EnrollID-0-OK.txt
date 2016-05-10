@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Thu Dec 31 12:01:06 EST 2015
+TestStep: PropertyTransfer_EnrollID
+
+----------------- Messages ------------------------------
+Performed transfer [enrollmentIdField]
+----------------------------------------------------
+enrollmentIdField transferred [[0]] from [EnrollStudent.Response] to [Properties.Response_EnrollID]
+------------ source path -------------
+$.AddNewEnrollmentResponse.enrollmentsField[0].enrollmentIdField
+------------ target path -------------
+

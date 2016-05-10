@@ -1,0 +1,15 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun May 08 04:04:02 EDT 2016
+TestStep: PropertyTransfer 1
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Invalid JSON: null
+
+----------------- Messages ------------------------------
+Error performing transfer [AdmStuProgVer_StuID] - Invalid JSON: null
+----------------------------------------------------
+AdmStuProgVer_StuID transferred [[Invalid JSON: null]] from [GetAdmin StuProgVersion.Response] to [#TestSuite#.AdminPrgVersion_Stuid]
+------------ source path -------------
+$.SyStudentId
+------------ target path -------------
+

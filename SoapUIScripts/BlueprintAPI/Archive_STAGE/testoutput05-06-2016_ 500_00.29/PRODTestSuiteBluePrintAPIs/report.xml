@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BluePrintAPIs.PROD_TestSuite_BluePrintAPIs" tests="48" failures="9" errors="0" time="70.832" package="BluePrintAPIs" id="1">
+    <properties>
+      <property name="soapui.properties" value="soapui.properties"/>
+      <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+      <property name="sun.boot.library.path" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\bin"/>
+      <property name="java.vm.version" value="25.66-b17"/>
+      <property name="soapui.ext.actions" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\actions"/>
+      <property name="soapui.ext.libraries" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\ext"/>
+      <property name="java.vm.vendor" value="Oracle Corporation"/>
+      <property name="java.vendor.url" value="http://java.oracle.com/"/>
+      <property name="path.separator" value=";"/>
+      <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+      <property name="file.encoding.pkg" value="sun.io"/>
+      <property name="user.country" value="US"/>
+      <property name="user.script" value=""/>
+      <property name="sun.java.launcher" value="SUN_STANDARD"/>
+      <property name="sun.os.patch.level" value="Service Pack 2"/>
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+      <property name="user.dir" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin"/>
+      <property name="java.runtime.version" value="1.8.0_66-b17"/>
+      <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+      <property name="java.endorsed.dirs" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\endorsed"/>
+      <property name="os.arch" value="x86"/>
+      <property name="java.io.tmpdir" value="C:\DOCUME~1\pimishra\LOCALS~1\Temp\"/>
+      <property name="line.separator" value="
+"/>
+      <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+      <property name="user.variant" value=""/>
+      <property name="os.name" value="Windows 2003"/>
+      <property name="sun.jnu.encoding" value="Cp1252"/>
+      <property name="java.library.path" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\Windows Imaging\;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Java\jre7\bin;C:\Program Files\System Center Operations Manager 2007\;C:\ANT\apache-ant-1.9.4\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\AutoIt3;."/>
+      <property name="soapui.home" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\"/>
+      <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+      <property name="java.specification.name" value="Java Platform API Specification"/>
+      <property name="java.class.version" value="52.0"/>
+      <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+      <property name="os.version" value="5.2"/>
+      <property name="user.home" value="C:\Documents and Settings\pimishra"/>
+      <property name="user.timezone" value="America/New_York"/>
+      <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+      <property name="file.encoding" value="Cp1252"/>
+      <property name="java.specification.version" value="1.8"/>
+      <property name="java.class.path" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\ready-api-ui-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\activation-1.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\activeQueryBuilder-activeQueryBuilder.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\analytics-core-2.3.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\annotations-2.0.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\aopalliance-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\archaius-core-0.5.12.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\asm-1.0.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\asm-3.3.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\asm-all-3.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\asm-all-repackaged-2.2.0-b10.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\autocomplete-2.5.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\aws-java-sdk-core-1.10.14.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\aws-java-sdk-ec2-1.10.14.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\axis-ant-protection.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\axis-protection.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\bcmail-jdk15-1.46.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\bcprov-jdk15-1.46.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\bctsp-jdk15-1.46.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\binding-2.0.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\btf-1.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\cajo-1.142.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\cglib-2.2.0-b10.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\com.springsource.javax.servlet-2.5.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-beanutils-1.8.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-cli-1.3.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-codec-1.6.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-collections-3.2.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-configuration-1.8.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-csv-1.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-digester-2.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-discovery-0.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-httpclient-3.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-io-2.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-lang-2.6.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-lang3-3.3.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-logging-1.1.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-math-1.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\commons-validator-1.3.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\cssparser-0.9.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\dom4j-1.6.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ezmorph-1.0.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\flex-messaging-common-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\flex-messaging-core-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\flex-messaging-opt-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\flex-messaging-proxy-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\flex-messaging-remoting-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\forms-1.0.7.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\governator-1.2.19.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\groovy-all-2.4.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\gson-2.3.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\guava-15.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\guice-3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\guice-assistedinject-3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\guice-grapher-3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\guice-multibindings-3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\h2-1.3.176.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\hamcrest-core-1.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\hermes-1.14.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\hibernate-validator-4.1.0.Final.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\hk2-api-2.2.0-b10.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\hk2-locator-2.2.0-b10.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\hk2-utils-2.2.0-b10.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\htmlunit-2.7.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\htmlunit-core-js-2.7.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\httpasyncclient-4.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\httpclient-4.5.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\httpclient-cache-4.5.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\httpcore-4.4.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\httpcore-nio-4.4.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\httpmime-4.5.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\idw-1.6.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\itext-2.1.7.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ivy-2.3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-annotations-2.3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-core-2.3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-core-asl-1.9.13.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-coreutils-1.8.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-databind-2.3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-dataformat-xml-2.4.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-dataformat-yaml-2.4.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-datatype-joda-2.4.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-jaxrs-base-2.4.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-jaxrs-json-provider-2.4.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-mapper-asl-1.9.13.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-module-jaxb-annotations-2.4.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jackson-module-jsonSchema-2.4.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jacob-1.14.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\japura-1.18.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jasperreports-4.0.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\javassist-3.16.1-GA.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\javax.annotation-api-1.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\javax.inject-1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\javax.inject-2.2.0-b10.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\javax.ws.rs-api-2.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jaxen-1.1-beta-8.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jaxrpc-protection.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jcalendar-1.3.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jcifs-1.2.9.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jcommon-1.0.15.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jdom-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jdtcore-3.2.0.v_658.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jersey-client-1.18.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jersey-client-2.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jersey-common-2.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jersey-container-servlet-core-2.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jersey-core-1.18.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jersey-media-multipart-2.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jersey-server-2.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jettison-1.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jetty-6.1.26.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jetty-util-6.1.26.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jfreechart-1.0.12.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jhall-protection.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jide-charts-3.6.6.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jide-common-3.6.6.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jms-1.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jna-4.1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\joda-time-2.8.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jopt-simple-4.6.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\json-lib-2.2.2-jdk15.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\json-path-2.0.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\json-schema-core-1.2.5.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\json-schema-validator-2.2.6.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\json-smart-2.1.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jsoup-1.6.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jsr166y-1.7.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jsr173_api-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jsr305-2.0.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jtidy-r872-jdk15.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jug-protection.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\junit-4.11.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\juniversalchardet-1.0.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\jxl-2.6.12.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\keen-client-api-java-2.0.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\l2fprod-common-fontchooser-7.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\languagesupport-r795.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\libphonenumber-6.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\license4j-1.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\liquibase-core-3.3.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\liquibase-slf4j-1.2.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-api-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-base-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-cmd-base-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-component-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-controller-base-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-groovy-component-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-groovy-utils-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-layout-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-pro-agent-base-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-pro-base-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-pro-socket-client-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-reporting-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-rest-runner-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-soapui-runner-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-store-h2-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-test-utils-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-ui-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\loadui-utils-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\log4j-1.2.17.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\looks-2.2.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\mail-1.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\mailapi-1.4.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\maven-plugin-api-2.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\mbassador-1.1.10.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\miglayout-core-5.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\miglayout-swing-5.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\mimepull-1.8.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\msg-simple-1.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\nekohtml-1.9.14.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\not-yet-commons-ssl-0.3.17.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\opencsv-2.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\opensaml-2.5.1-1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\openws-1.4.2-1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\org.apache.oltu.oauth2.client-0.31.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\org.apache.oltu.oauth2.common-0.31.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\org.apache.oltu.oauth2.httpclient4-0.31.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\osgi-resource-locator-1.0.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\out-app-analytics-provider-2.3.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\poi-3.12.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\poi-ooxml-3.12.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\poi-ooxml-schemas-3.12.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\Protection-4.6.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ProtectionPriv-4.6.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\proxy-vole-20131209.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\raml-parser-0.9-20150213.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-core-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-db-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-license-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-module-base-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-projects-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-runners-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-security-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-service-v-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-service-v-core-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-soapui-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-soapui-ng-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-soapui-pro-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-starterpage-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ready-api-testserver-api-1.6.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\reflections-0.9.9-RC1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\reports-1.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\rhino-1.7R4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\rsyntaxtextarea-2.5.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\sac-1.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\saxon-9.1.0.8j.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\saxon-dom-9.1.0.8j.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\serializer-2.7.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\servlet-api-2.5-20081211.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\slf4j-api-1.6.3.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\slf4j-log4j12-1.7.7.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\snakeyaml-1.13.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\snmp4j-1.10.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\snmp4j-agent-1.3.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\spring-aop-4.1.6.RELEASE.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\spring-beans-4.1.6.RELEASE.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\spring-context-4.1.6.RELEASE.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\spring-core-4.1.6.RELEASE.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\spring-expression-4.1.6.RELEASE.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\spring-jdbc-4.1.6.RELEASE.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\spring-tx-4.1.6.RELEASE.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\sqljdbc4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\stax-api-1.0.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\stax2-api-3.1.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\swagger-annotations-1.5.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\swagger-core-1.5.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\swagger-jaxrs-1.5.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\swagger-jersey2-jaxrs-1.5.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\swagger-models-1.5.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\swingx-soapui.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\uri-template-0.9.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\validation-api-1.0.0.GA.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\vt-crypt-2.1.4.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\vt-dictionary-3.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\vt-password-3.1.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\ws-commons-util-1.0.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\wsdl4j-1.6.2-fixed.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\wss4j-1.6.18.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xalan-2.7.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xbean-bundleutils-3.11.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xbean-finder-3.11.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xbean-fixed-2.4.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xbean_xpath-2.4.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xercesImpl-2.9.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xlsx-streamer-0.2.11.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xml-apis-1.3.04.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xml-apis-2.9.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xmlbeans-2.4.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xmlParserAPIs-2.6.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xmlpublic-2.4.0.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xmlsec-1.4.8.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xmltooling-1.3.2-1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xmlunit-1.2.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xom-1.1.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\..\lib\xstream-1.3.1.jar"/>
+      <property name="user.name" value="PIMISHRA"/>
+      <property name="soapui.ext.listeners" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\bin\listeners"/>
+      <property name="java.vm.specification.version" value="1.8"/>
+      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -sPROD_TestSuite_BluePrintAPIs -a -f\\10.78.7.60\Selenium_Scripts\SoapUIScripts\BlueprintAPI\STAGE\testoutput -RJUnit-Style HTML Report -F.xml -EStage -I c:\SOAPUI_PROJECTS\Blue PrintAPIs-soapui-project.xml"/>
+      <property name="java.home" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre"/>
+      <property name="sun.arch.data.model" value="32"/>
+      <property name="groovy.source.encoding" value="iso-8859-1"/>
+      <property name="h2.bindAddress" value="localhost"/>
+      <property name="user.language" value="en"/>
+      <property name="java.specification.vendor" value="Oracle Corporation"/>
+      <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+      <property name="java.vm.info" value="mixed mode"/>
+      <property name="java.version" value="1.8.0_66"/>
+      <property name="java.ext.dirs" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+      <property name="sun.boot.class.path" value="C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\resources.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\rt.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\sunrsasign.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\jsse.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\jce.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\charsets.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\lib\jfr.jar;C:\Program Files\SmartBear\ReadyAPI-1.6.0\jre\classes"/>
+      <property name="java.vendor" value="Oracle Corporation"/>
+      <property name="sun.stderr.encoding" value="cp437"/>
+      <property name="file.separator" value="\"/>
+      <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+      <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+      <property name="sun.cpu.endian" value="little"/>
+      <property name="sun.stdout.encoding" value="cp437"/>
+      <property name="sun.desktop" value="windows"/>
+      <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    </properties>
+    <testcase name="GetAuthenticationToken" time="0.709"/>
+    <testcase name="TC_GetCalendarSystem" time="4.022"/>
+    <testcase name="TC_GetCourses" time="14.899"/>
+    <testcase name="TC_GetCampusesList" time="3.685"/>
+    <testcase name="TC_GetCampus" time="0.306"/>
+    <testcase name="TC_GetProgVersion(starts with Keyword)" time="5.633"/>
+    <testcase name="TC_GetCVueCourseGroupsbyCampusID" time="0.76"/>
+    <testcase name="TC_GetCVueCourseGroupbyCourseGroupID" time="0.37"/>
+    <testcase name="TC_GetCVueCourseLevels" time="0.306"/>
+    <testcase name="TC_GetAllCourseModuleGrpsinBP" time="5.513"/>
+    <testcase name="TC_GetAllModularizationOptions" time="0.096">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>GetAllModularizationOptions Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 204 No Content
+[Check for existence of [ModuleGroupId]] Assertion failed for path [$[0].ModuleGroupId] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [Modules]] Assertion failed for path [$[0].Modules] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [CourseTitle]] Assertion failed for path [$[0].Modules[0].CourseTitle] : IllegalArgumentException:Invalid JSON: null
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetAllModulesofCourseModuleGrp" time="0.104"/>
+    <testcase name="TC_GetTranscriptDocTreeforStudent" time="11.628"/>
+    <testcase name="Copy of GetAuthenticationToken" time="0.288"/>
+    <testcase name="TC_GetInstitutionListStartswithKeyword" time="1.747"/>
+    <testcase name="TC_GetBPErrLogs" time="3.643"/>
+    <testcase name="TC_GetAllMilitaryLevels" time="0.094"/>
+    <testcase name="TC_GetMilitaryTestTypes" time="0.092"/>
+    <testcase name="TC_GetAutoCompleteforCollegeCourses" time="0.163"/>
+    <testcase name="TC_GetAutoCompleteforMiltaryCLTCourses" time="0.116"/>
+    <testcase name="TC_GetAutoCompleteforMilitaryCourses" time="0.113"/>
+    <testcase name="TC_GetAutoCompleteforMilitaryOLE" time="0.102"/>
+    <testcase name="TC_GetProgVersionbyID" time="0.655"/>
+    <testcase name="TC_GetCourseAttemptHisforStudent" time="1.657"/>
+    <testcase name="TC_GetDeterminesWhether_nonreqCourses inside SPVElectivePool consists of either groundcampus/recommendcoursesorneither" time="0.607">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>GetDeterminesWhether_nonreqCourses inside SPVElectivePool consists of either groundcampus/recommendcourses or neither Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error
+[Check for existence of [IsOfferedAtGroundCampus]] Comparison failed for path [$.IsOfferedAtGroundCampus], expecting [true], actual was [false]
+[Check for existence of [IsRecommended]] Comparison failed for path [$.IsRecommended], expecting [true], actual was [false]
+[Check for existence of [HasOfferedAtGroundCampus]] Comparison failed for path [$.HasOfferedAtGroundCampus], expecting [true], actual was [false]
+[Check for existence of [HasRecommended]] Comparison failed for path [$.HasRecommended], expecting [true], actual was [false]
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetElectivePoolCourses in Student Program" time="1.349">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>GetElectivePoolCourses in Student Program Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 204 No Content
+[Check for existence of [Code]] Assertion failed for path [$[0].Code] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [Title]] Assertion failed for path [$[0].Title] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [Credits]] Assertion failed for path [$[0].Credits] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [AdCourseId]] Assertion failed for path [$[0].AdCourseId] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [IsOfferedAtGroundCampus]] Assertion failed for path [$[0].IsOfferedAtGroundCampus] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [IsRecommended]] Assertion failed for path [$[0].IsRecommended] : IllegalArgumentException:Invalid JSON: null
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetStudentProgram_Courses in SequenceandTranferred" time="0.0">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>GetStudentProgram_Courses in SequenceandTranferred Failed</b></h3><pre>java.net.SocketTimeoutException: Read timed out
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetTransferCredit for StudentandCourse" time="0.737">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>GetTransferCredit for StudentandCourse Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error
+[Check for existence of [CollegeName]] Comparison failed for path [$.CollegeName], expecting [true], actual was [false]
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetCourseDesc in StudentProgram" time="0.113"/>
+    <testcase name="TC_GetStudentEnrollments" time="0.157">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>GetStudentEnrollments Failed</b></h3><pre>[Match content of [EnrollID]] Comparison failed for path [$[0].EnrollID], expecting [2911374], actual was [null]
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetStudentKUPriorCourses readyforAssociate" time="0.98"/>
+    <testcase name="TC_GetPriorKUCourseRecomnd for Association" time="0.897">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>GetPriorKUCourseRecomnd for Association Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 404 Not Found
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetTranscript (College or Miltary)" time="0.315"/>
+    <testcase name="TC_GetRecomendationsforCreditTranfers" time="0.243"/>
+    <testcase name="TC_GetStuPriorLearningCourses_Ordered by Institution and then CourseType" time="2.989"/>
+    <testcase name="TC_GetCourseGroupStudentCourses" time="0.105"/>
+    <testcase name="TC_GetStuProgVersion" time="0.377">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>GetStuProgVersion Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request
+[Check for existence of [Categories]] Comparison failed for path [$.Categories], expecting [true], actual was [false]
+[Match content of [AdProgramVersionID]] Comparison failed for path [$.AdProgramVersionID], expecting [452664], actual was [null]
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetAdmin StuProgVersion" time="0.098">
+      <failure type="Failing due to failed test step" message="Failing due to failed test step"><![CDATA[<h3><b>PropertyTransfer 1 Failed</b></h3><pre>Error performing transfer [AdmStuProgVer_StuID] - Invalid JSON: null
+</pre><hr/><h3><b>GetAdmin StuProgVersion Failed</b></h3><pre>[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 404 Not Found
+[Check for existence of [SyStudentId]] Comparison failed for path [$.SyStudentId], expecting [true], actual was [false]
+[Check for existence of [EnrollmentId]] Comparison failed for path [$.EnrollmentId], expecting [true], actual was [false]
+[Check for existence of [AdProgramVersionId]] Comparison failed for path [$.AdProgramVersionId], expecting [true], actual was [false]
+[Check for existence of [CreditsPerTerm]] Comparison failed for path [$.CreditsPerTerm], expecting [true], actual was [false]
+</pre><hr/>]]></failure>
+    </testcase>
+    <testcase name="TC_GetTransferGrades by EnrollID" time="0.27"/>
+    <testcase name="TC_GetListofallTranscriptTypes" time="0.098"/>
+    <testcase name="TC_GetCVuePrograms" time="0.757"/>
+    <testcase name="TC_GetSubjectMatters" time="0.312"/>
+    <testcase name="TC_GetTranscriptDescription" time="2.743"/>
+    <testcase name="TC_GetEquivalencybyID" time="0.561"/>
+    <testcase name="TC_GetSearchEquivalencies" time="0.131"/>
+    <testcase name="TC_GetEquivalecyStatues" time="0.084"/>
+    <testcase name="TC_GetEquivalencyInstCoursesAuto" time="0.126"/>
+    <testcase name="TC_GetEquivalencyInstCoursesTypes" time="0.082"/>
+  </testsuite>
+</testsuites>

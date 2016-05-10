@@ -1,0 +1,53 @@
+Status: FAILED
+Time Taken: 114
+Size: 55
+Timestamp: Fri May 06 04:33:57 EDT 2016
+TestStep: GetAdmin StuProgVersion
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 404 Not Found
+[Check for existence of [SyStudentId]] Comparison failed for path [$.SyStudentId], expecting [true], actual was [false]
+[Check for existence of [EnrollmentId]] Comparison failed for path [$.EnrollmentId], expecting [true], actual was [false]
+[Check for existence of [AdProgramVersionId]] Comparison failed for path [$.AdProgramVersionId], expecting [true], actual was [false]
+[Check for existence of [CreditsPerTerm]] Comparison failed for path [$.CreditsPerTerm], expecting [true], actual was [false]
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 404
+URL: http://test.api.blueprint.kaplan.edu/admin/v1/StudentProgramVersion/Students/36361313/Enrollments/2911374/ProgramVersions/452664
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [bscyad1XzKw4pnns9S4sbxhdRtYl]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/admin/v1/StudentProgramVersion/Students/36361313/Enrollments/2911374/ProgramVersions/452664 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: bscyad1XzKw4pnns9S4sbxhdRtYl
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 404 Not Found]
+Content-Length: [55]
+Date: [Fri, 06 May 2016 08:33:56 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [bscyad1XzKw4pnns9S4sbxhdRtYl]
+X-Powered-By: [ASP.NET]
+
+{"Message":"U802. Student Program Version Not Found. "}

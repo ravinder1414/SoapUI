@@ -1,0 +1,72 @@
+Status: OK
+Time Taken: 12649
+Size: 1001
+Timestamp: Sun May 08 12:15:21 EDT 2016
+TestStep: EnrollStudent
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Encoding: UTF-8
+Method: POST
+StatusCode: 200
+URL: https://test.webapi.kaplan.edu/api/v1/enrollment
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [HhdwaThro1pJ6zqNaxKt1Qyq0RTl]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [679]
+Content-Type: [application/json]
+
+POST https://test.webapi.kaplan.edu/api/v1/enrollment HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: HhdwaThro1pJ6zqNaxKt1Qyq0RTl
+Content-Type: application/json
+Content-Length: 679
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+	"MessageState" : "",
+	"StudentId" : 167818,
+	"CampusId" : 43,
+	"SchoolStatusId" : 5,
+	"ProgramVersionId" : 452369,
+	"BillingMethodId" : 5,
+	"GradeLevelId" : 1,
+	"ShiftId" : 15,
+	"ApplicationReceivedDate" : "2015-03-12T00:00:00",
+	"EnrollDate" : "2015-03-12T00:00:00",
+	"ExpectedStartDate" : "2015-03-25T00:00:00",
+	"MidPointDate" : "2015-12-30T00:00:00",
+	"GraduationDate" : "2017-03-25T00:00:00",
+	"IsApplicant" : false,
+	"StartDateId" : 823575,
+	"StudentNumber" : "",
+	"ProgramVersionDescription" : "",
+	"Comment" : "",
+	"StatusChangeComment" : "",
+	"IPEDSStateOfResidence" : "",
+	"StartDate" : "0001-01-01T00:00:00",
+	"TermId" : 505952 ,
+	"UpdateOriginalGradDate" : false
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1001]
+Date: [Sun, 08 May 2016 16:15:34 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [HhdwaThro1pJ6zqNaxKt1Qyq0RTl]
+
+{"ResponseHeader":{"headersField":[],"anyAttrField":null,"PropertyChanged":null},"AddNewEnrollmentResponse":{"enrollmentsField":[{"enrollmentIdField":2921250,"messageResultField":"","messageStatusField":0,"messageErrorCodeField":"","messageIdField":-1,"customAttributesField":null,"correlationIdField":1,"skipSemanticValidationField":false,"PropertyChanged":null}],"statusField":0,"trxResultField":"OK","tokenIdField":"cCKTS+o1adljP/jwsXJvTSrnLx0VwnGT2q6c5XU8NWKybN9558f3aEV20Xld2hWolQGMMFyyAoYHppLvN5hUwxITvzw82pCaFREso/XJyA4KAphpfHwwimwQbTzVap/T7BGi6+QGApE5BDvFqoWOkRpCTPNesygDE6OozqBsrqPiOBig9IrJDUC0LiA39AUJNFWQ8lTR66K31O2oT+Vz3rPIe+SNbHStB+nWar8IZdQghn/E+4UgIRr5N9bgn1S5AUOXs2DBRuudhaoTUIzqjqluCV8xOocmfqJhZxywIqmCQkYciKYfZkLcM5nGXygZ5VcqadKIKPGsRXGmjRbdf4dGP3uHs/3IFq8PV31nop+kzU8f6N8AVEWrzydMVtpdXLqYq48+s1Iz+wTderh+o9dnvj/1kdbO4iTpF2GR+vOGNVAGYB8w8wROGZmslWFB3xQ5f6ySCMKXLekjzb1tcRQzBzmyKKrLATUDbN/xUtB1CRM5q8hwEZQsMWu0GLkP6Jxo4iv6fO4EaK7WppfinRkd6hD2qb8Gci7Lj9mpf08=","PropertyChanged":null}}

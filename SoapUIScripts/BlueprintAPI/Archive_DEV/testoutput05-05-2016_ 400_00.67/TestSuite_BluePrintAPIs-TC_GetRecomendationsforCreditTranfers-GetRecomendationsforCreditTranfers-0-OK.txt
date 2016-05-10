@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 1378
+Size: 1024
+Timestamp: Tue Apr 12 06:48:42 EDT 2016
+TestStep: GetRecomendationsforCreditTranfers
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://dev.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [rwmBQKFjhxR91memZrIpUWWnwS44]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: rwmBQKFjhxR91memZrIpUWWnwS44
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1024]
+Date: [Tue, 12 Apr 2016 10:48:44 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [rwmBQKFjhxR91memZrIpUWWnwS44]
+X-Powered-By: [ASP.NET]
+
+[{"CategoryName":"major","Courses":[{"ActiveEQ":null,"AdCourseID":457383,"CourseCode":"CJ305","CourseTitle":"Legal Foundations of Criminal Evidence","Credits":6.0,"Path":{"Recommended":false,"KUCategoryTypeID":2,"KUElectivePoolID":null,"KUAdCourseGroupID":null},"PossibleMatches":[{"TranscriptCourseID":8079,"InstitutionID":12955,"Code":"DLPT","Title":"Defense","Month":6,"Year":2002,"Grade":"34.00","CalendarSystem":"Quarter Calculated","Recommended":false,"Type":"MilitaryCLSTCourses"}]}],"ElectivePools":[{"ElectiveName":"elective","AdjustedCredits":13.0,"Courses":[{"ActiveEQ":8469,"AdCourseID":506985,"CourseCode":"HM505","CourseTitle":"Planning for WMD and Mass Casualty Crises","Credits":5.0,"Path":{"Recommended":true,"KUCategoryTypeID":2,"KUElectivePoolID":1,"KUAdCourseGroupID":271},"PossibleMatches":[{"TranscriptCourseID":8079,"InstitutionID":12955,"Code":"DLPT","Title":"Defense","Month":6,"Year":2002,"Grade":"34.00","CalendarSystem":"Quarter Calculated","Recommended":true,"Type":"MilitaryCLSTCourses"}]}]}]}]

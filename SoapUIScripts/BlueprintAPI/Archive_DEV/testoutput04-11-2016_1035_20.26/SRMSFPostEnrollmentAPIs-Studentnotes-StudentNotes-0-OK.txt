@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 1097
+Size: 661
+Timestamp: Thu Apr 07 05:46:05 EDT 2016
+TestStep: StudentNotes
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/students/36360102/notes
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/students/36360102/notes HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TZ6BlxLRygVkc0CpG0QeroEif6HH
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [661]
+Date: [Thu, 07 Apr 2016 09:46:06 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+
+{"Notes":[{"BusinessUnit":"118 KULC, Indianapolis","DateCreated":"2016-01-08T21:20:03.05Z","Department":"Admissions","EditedBy":null,"Note":"Genesys SLD Initiated","NoteBy":"GenesysIWD System","NoteID":132860785,"NoteType":"TKT","TaskType":"GCLC Admissions (118)","syDepartmentID":5,"syStudentID":36360102},{"BusinessUnit":"","DateCreated":"2016-01-08T20:19:56.203Z","Department":"","EditedBy":null,"Note":"<b>C2k Activity:</b><i> AM - New Lead </i><BR><b>Subject:</b><i>AM - New Lead</i><br> Program of Interest:  0\r\nComments:             ","NoteBy":"Dale Weldon","NoteID":144416894,"NoteType":"C2K","TaskType":"","syDepartmentID":0,"syStudentID":36360102}]}

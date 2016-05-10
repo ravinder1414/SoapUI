@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 143
+Size: 2817
+Timestamp: Mon May 09 05:46:02 EDT 2016
+TestStep: GetGenesysRerouteskills
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/genesys/skills?section=console&property=reroute_skill&value=1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [WQe7iy8kn6nkCYYg7aTjGLR9JFJq]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/genesys/skills?section=console&property=reroute_skill&value=1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: WQe7iy8kn6nkCYYg7aTjGLR9JFJq
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2817]
+Date: [Mon, 09 May 2016 09:46:02 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [WQe7iy8kn6nkCYYg7aTjGLR9JFJq]
+
+{"GenesysConfigSkills":[{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"ELS/B2B LaCrosse","reroute_skill":"1"}}],"SkillDBID":1030,"SkillName":"ADM_ReRoute_ELS"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Intl. All Schools","reroute_skill":"1"}}],"SkillDBID":1031,"SkillName":"ADM_ReRoute_International"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"GOK Graduate","reroute_skill":"1"}}],"SkillDBID":1035,"SkillName":"ADM_ReRoute_GOK_Grad"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Military Grad","reroute_skill":"1"}}],"SkillDBID":1037,"SkillName":"ADM_ReRoute_MLT_Grad"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Military ORS","reroute_skill":"1"}}],"SkillDBID":1038,"SkillName":"ADM_ReRoute_MLT_ORS"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"WT Core","reroute_skill":"1"}}],"SkillDBID":1040,"SkillName":"ADM_ReRoute_WT_Core"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"WT MLT","reroute_skill":"1"}}],"SkillDBID":1041,"SkillName":"ADM_ReRoute_WT_MLT"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Military Nursing","reroute_skill":"1"}}],"SkillDBID":1042,"SkillName":"ADM_ReRoute_MLT_NU"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"ORS","reroute_skill":"1"}}],"SkillDBID":1060,"SkillName":"ADM_ReRoute_ORS"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"School of Nursing","reroute_skill":"1"}}],"SkillDBID":1061,"SkillName":"ADM_ReRoute_NU"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Military UG","reroute_skill":"1"}}],"SkillDBID":1062,"SkillName":"ADM_ReRoute_MLT_UG"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Military Outreach","reroute_skill":"1"}}],"SkillDBID":1067,"SkillName":"ADM_ReRoute_MLT_Outreach"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"GOK Undergraduate","reroute_skill":"1"}}],"SkillDBID":1068,"SkillName":"ADM_ReRoute_GOK_UG"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Single Courses","reroute_skill":"1"}}],"SkillDBID":1077,"SkillName":"ADM_ReRoute_SingleCourses"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Graduate Programs","reroute_skill":"1"}}],"SkillDBID":1083,"SkillName":"ADM_ReRoute_Grad"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"School of LS/IT","reroute_skill":"1"}}],"SkillDBID":1106,"SkillName":"ADM_ReRoute_LSIT"},{"AnnexSections":[{"SectionKey":"console","UserProperties":{"description":"Core UG","reroute_skill":"1"}}],"SkillDBID":1108,"SkillName":"ADM_ReRoute_UG"}]}

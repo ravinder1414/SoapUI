@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 1568
+Size: 576
+Timestamp: Tue Apr 12 06:53:44 EDT 2016
+TestStep: GetRecomendationsforCreditTranfers
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [qWtFZrA3KB9wW5SNhN1u4zLZwgId]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: qWtFZrA3KB9wW5SNhN1u4zLZwgId
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [576]
+Date: [Tue, 12 Apr 2016 10:53:46 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [qWtFZrA3KB9wW5SNhN1u4zLZwgId]
+X-Powered-By: [ASP.NET]
+
+[{"CategoryName":"major","Courses":null,"ElectivePools":[{"ElectiveName":"elective","AdjustedCredits":13.0,"Courses":[{"ActiveEQ":4239,"AdCourseID":375339,"CourseCode":"CM104","CourseTitle":"College Comp I- Effective Writing I for Legal Studies Majors","Credits":5.0,"Path":{"Recommended":true,"KUCategoryTypeID":2,"KUElectivePoolID":1,"KUAdCourseGroupID":null},"PossibleMatches":[{"TranscriptCourseID":19597,"InstitutionID":12955,"Code":"Eng101","Title":"English","Month":4,"Year":2011,"Grade":"B","CalendarSystem":"Semester","Recommended":true,"Type":"CollegeCourse"}]}]}]}]

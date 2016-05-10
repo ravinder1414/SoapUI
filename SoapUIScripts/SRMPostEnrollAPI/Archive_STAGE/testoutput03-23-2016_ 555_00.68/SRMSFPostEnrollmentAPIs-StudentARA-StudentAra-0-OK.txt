@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 667
+Size: 331
+Timestamp: Tue Mar 22 05:55:34 EDT 2016
+TestStep: StudentAra
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.webapi.kaplan.edu/api/v1/students/34543865/aras
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+Host: [stage.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.webapi.kaplan.edu/api/v1/students/34543865/aras HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: LqoEXn9zPnMPOTSffoqNAkDIz8br
+Host: stage.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [331]
+Date: [Tue, 22 Mar 2016 09:55:34 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+
+{"Aras":[{"AmProspectTestId":3224140,"AmTestId":159,"Code":"WNDER1","Descrip":"Wonderlic Score 1","Required":true,"Score":"21","TestDate":"2015-01-28T18:09:57.883"},{"AmProspectTestId":3224141,"AmTestId":166,"Code":"CSCS","Descrip":"Cumulative Score/Combo Score","Required":true,"Score":"21","TestDate":"2015-01-28T18:09:57.883"}]}

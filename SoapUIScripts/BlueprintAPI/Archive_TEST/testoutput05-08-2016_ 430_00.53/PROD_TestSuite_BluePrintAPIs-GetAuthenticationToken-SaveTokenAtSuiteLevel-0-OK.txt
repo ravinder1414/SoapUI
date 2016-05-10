@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 69
+Size: 0
+Timestamp: Sat May 07 04:30:16 EDT 2016
+TestStep: SaveTokenAtSuiteLevel
+
+----------------- Messages ------------------------------

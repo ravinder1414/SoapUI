@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 19410
+Size: 2366
+Timestamp: Tue Mar 22 05:55:36 EDT 2016
+TestStep: StudentStatusHistory
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.webapi.kaplan.edu/api/v1/students/4104496/statuses
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+Host: [stage.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.webapi.kaplan.edu/api/v1/students/4104496/statuses HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: LqoEXn9zPnMPOTSffoqNAkDIz8br
+Host: stage.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2366]
+Date: [Tue, 22 Mar 2016 09:55:54 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+
+{"Statuses":[{"ChangedBy":"DNCQueue,DNCQueue","DateAdded":"2010-08-17T03:29:22.637","FromStatus":"Enrollment Confirmed","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"File Close DNC","syTaskActionID":141082879},{"ChangedBy":" ","DateAdded":"2005-05-04T15:19:30.88","FromStatus":"Funding Confirmed","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Enrollment Confirmed","syTaskActionID":140086655},{"ChangedBy":" ","DateAdded":"2005-05-02T19:39:48.77","FromStatus":"Cash Pay Received","StatusReason":"Generated from Tuition Finance Wizard","TaskTypeName":"KU Admissions","ToStatus":"Funding Confirmed","syTaskActionID":140086423},{"ChangedBy":"Hinds,Terrance","DateAdded":"2005-05-02T19:29:41.72","FromStatus":"Application Received","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Cash Pay Received","syTaskActionID":140086418},{"ChangedBy":" ","DateAdded":"2005-05-02T19:25:37.45","FromStatus":"Interview Complete","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Application Received","syTaskActionID":140086416},{"ChangedBy":"Hinds,Terrance","DateAdded":"2005-05-02T19:04:31.617","FromStatus":"Interview Scheduled","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Interview Complete","syTaskActionID":140086407},{"ChangedBy":"Hinds,Terrance","DateAdded":"2005-05-02T19:04:22.367","FromStatus":"Contact","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Interview Scheduled","syTaskActionID":140086406},{"ChangedBy":"Hinds,Terrance","DateAdded":"2005-05-02T18:48:56.877","FromStatus":"Contact Attempted","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Contact","syTaskActionID":140086403},{"ChangedBy":"Hinds,Terrance","DateAdded":"2005-05-02T13:07:01.76","FromStatus":"Contact Attempted","StatusReason":"Left Message","TaskTypeName":"KU Admissions","ToStatus":"Contact Attempted","syTaskActionID":140086315},{"ChangedBy":"Hinds,Terrance","DateAdded":"2005-04-29T16:10:34.907","FromStatus":"New Assigned","StatusReason":"Not Home","TaskTypeName":"KU Admissions","ToStatus":"Contact Attempted","syTaskActionID":140086201},{"ChangedBy":"Import,Auto","DateAdded":"2005-04-29T10:25:35.267","FromStatus":"","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"New Assigned","syTaskActionID":140086098}]}

@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 591
+Size: 1701
+Timestamp: Tue Mar 22 05:55:35 EDT 2016
+TestStep: StudentTaskHistory
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.webapi.kaplan.edu/api/v1/students/185900/tasks
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+Host: [stage.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.webapi.kaplan.edu/api/v1/students/185900/tasks HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: LqoEXn9zPnMPOTSffoqNAkDIz8br
+Host: stage.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1701]
+Date: [Tue, 22 Mar 2016 09:55:34 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+
+{"Tasks":[{"AlertEnabled":true,"AssignTo":null,"AssignTo_syUserID":0,"BusinessUnit":"","Closed":true,"Creator_SyStaffID":291264,"Creator_SyStudentID":null,"DateClosed":"2010-12-23T00:00:09.347","DateCreated":"2009-12-10T12:29:24.41","DateScheduled":null,"Department":"","DepartmentID":0,"FirstName":"Margarito","IgnoreEnabled":true,"LastName":"McDonald","LastNote":"Student Profile view","LastNoteDate":"2010-02-27T16:07:26.093","Phone":"(563)570-0218   ","SLAAlert":"2009-12-14T12:29:24.41","SLAEnabled":true,"SLAIgnore":"2009-12-15T12:29:24.41","SLAWarning":null,"SnoozeEnabled":false,"TaskStatus":"Closed","TaskType":"Performance Alert","WarningEnabled":false,"eMail":"SanchoMcDonald79@yahoo.com","mkLeadId":0,"syStudentID":185900,"syTaskID":18650410,"syUserID":3},{"AlertEnabled":true,"AssignTo":null,"AssignTo_syUserID":0,"BusinessUnit":"","Closed":true,"Creator_SyStaffID":291264,"Creator_SyStudentID":null,"DateClosed":"2010-12-23T00:00:09.347","DateCreated":"2009-12-10T12:28:47.227","DateScheduled":null,"Department":"","DepartmentID":0,"FirstName":"Margarito","IgnoreEnabled":true,"LastName":"McDonald","LastNote":"Instructor : Vickie Palzewicz<BR/>Work Phone :  <BR/> Email : vpalzewicz@kaplan.edu <BR/> Class : MT340-01AU <BR/><BR/>Emailed student regarding missed assignments and participation. No response.","LastNoteDate":"2010-01-28T08:19:28.033","Phone":"(563)570-0218   ","SLAAlert":"2009-12-14T12:28:47.227","SLAEnabled":true,"SLAIgnore":"2009-12-15T12:28:47.227","SLAWarning":null,"SnoozeEnabled":false,"TaskStatus":"Closed","TaskType":"Outreach Note","WarningEnabled":false,"eMail":"SanchoMcDonald79@yahoo.com","mkLeadId":0,"syStudentID":185900,"syTaskID":18650398,"syUserID":3}]}

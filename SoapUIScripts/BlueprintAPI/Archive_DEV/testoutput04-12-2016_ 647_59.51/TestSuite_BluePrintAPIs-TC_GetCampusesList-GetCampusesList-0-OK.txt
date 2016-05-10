@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 298
+Size: 2230
+Timestamp: Mon Apr 11 10:36:27 EDT 2016
+TestStep: GetCampusesList
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://dev.api.blueprint.kaplan.edu/v1/Campuses
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [e9NQSADG3JcCidjmZQUxY98fJs2E]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/v1/Campuses HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: e9NQSADG3JcCidjmZQUxY98fJs2E
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2230]
+Date: [Mon, 11 Apr 2016 14:36:27 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [e9NQSADG3JcCidjmZQUxY98fJs2E]
+X-Powered-By: [ASP.NET]
+
+[{"CampusId":1,"Campus":"025 Kaplan University, Hagerstown","Code":"25","SyCampusId":17,"UndergraduateCredits":9,"GraduateCredits":10},{"CampusId":2,"Campus":"026 Kaplan University, Omaha","Code":"26","SyCampusId":36,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":3,"Campus":"027 Kaplan University, Lincoln","Code":"27","SyCampusId":37,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":4,"Campus":"036 Kaplan University, Cedar Falls","Code":"36","SyCampusId":38,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":5,"Campus":"037 Kaplan University, Davenport","Code":"37","SyCampusId":39,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":6,"Campus":"038 Kaplan University, Cedar Rapids","Code":"38","SyCampusId":41,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":7,"Campus":"039 Kaplan University, Des Moines","Code":"39","SyCampusId":40,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":8,"Campus":"040 Kaplan University, Mason City","Code":"40","SyCampusId":42,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":9,"Campus":"042 Kaplan University, Online","Code":"42","SyCampusId":43,"UndergraduateCredits":0,"GraduateCredits":0},{"CampusId":10,"Campus":"094 Kaplan University, Council Bluffs","Code":"94","SyCampusId":83,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":11,"Campus":"098 Kaplan University, Lewiston","Code":"98","SyCampusId":92,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":12,"Campus":"099 Kaplan University, Portland","Code":"99","SyCampusId":91,"UndergraduateCredits":18,"GraduateCredits":7},{"CampusId":13,"Campus":"117 KULC, Milwaukee","Code":"117","SyCampusId":111,"UndergraduateCredits":12,"GraduateCredits":7},{"CampusId":14,"Campus":"118 KULC, Indianapolis","Code":"118","SyCampusId":112,"UndergraduateCredits":12,"GraduateCredits":7},{"CampusId":15,"Campus":"119 KULC, St. Louis","Code":"119","SyCampusId":117,"UndergraduateCredits":12,"GraduateCredits":7},{"CampusId":16,"Campus":"147 KULC, Rockville","Code":"147","SyCampusId":124,"UndergraduateCredits":12,"GraduateCredits":7},{"CampusId":17,"Campus":"152 Kaplan University, Augusta","Code":"152","SyCampusId":129,"UndergraduateCredits":18,"GraduateCredits":7}]

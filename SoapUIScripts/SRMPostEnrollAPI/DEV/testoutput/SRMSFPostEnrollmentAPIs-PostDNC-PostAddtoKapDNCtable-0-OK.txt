@@ -1,0 +1,62 @@
+Status: OK
+Time Taken: 89
+Size: 1099
+Timestamp: Mon May 09 05:46:02 EDT 2016
+TestStep: PostAddtoKapDNCtable
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: POST
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/DoNotCall/DoNotCallLocal
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [WQe7iy8kn6nkCYYg7aTjGLR9JFJq]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [287]
+Content-Type: [application/json]
+
+POST https://dev.webapi.kaplan.edu/api/v1/DoNotCall/DoNotCallLocal HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Token: WQe7iy8kn6nkCYYg7aTjGLR9JFJq
+Content-Length: 287
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+  "doNotCallLocals": [
+    {
+      "mkLeadID": 1,
+      "modifiedBy_syUserID": 2,
+      "phoneNumber": "sample string 3",
+      "syStudentID": 4
+    },
+    {
+      "mkLeadID": 1,
+      "modifiedBy_syUserID": 2,
+      "phoneNumber": "sample string 3",
+      "syStudentID": 4
+    }
+  ]
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1099]
+Date: [Mon, 09 May 2016 09:46:02 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [WQe7iy8kn6nkCYYg7aTjGLR9JFJq]
+
+[{"DNCReasonCode":0,"ExpirationDate":null,"IsSuccess":false,"LastModifiedDate":"0001-01-01T00:00:00","Message":"Kaplan.SRM.Business.DoNotCallLocalManager.AddDoNotCallLocal.  Message: phoneNumber is not valid., StackTrace:     at Kaplan.SRM.Business.DoNotCall.DoNotCallLocalManager.AddDoNotCallLocal(List`1 doNotCallLocals) in c:\\TFS\\SRM Integration\\Features\\SRM6\\Kaplan.SRM.Integration\\Kaplan.SRM.Business\\DoNotCall\\DoNotCallLocalManager.cs:line 84","ReturnValue":"","mkLeadID":null,"modifiedBy_syUserID":2,"phoneNumber":"3","syStudentID":4},{"DNCReasonCode":0,"ExpirationDate":null,"IsSuccess":false,"LastModifiedDate":"0001-01-01T00:00:00","Message":"Kaplan.SRM.Business.DoNotCallLocalManager.AddDoNotCallLocal.  Message: phoneNumber is not valid., StackTrace:     at Kaplan.SRM.Business.DoNotCall.DoNotCallLocalManager.AddDoNotCallLocal(List`1 doNotCallLocals) in c:\\TFS\\SRM Integration\\Features\\SRM6\\Kaplan.SRM.Integration\\Kaplan.SRM.Business\\DoNotCall\\DoNotCallLocalManager.cs:line 84","ReturnValue":"","mkLeadID":null,"modifiedBy_syUserID":2,"phoneNumber":"3","syStudentID":4}]

@@ -1,0 +1,78 @@
+Status: OK
+Time Taken: 134
+Size: 479
+Timestamp: Wed Mar 16 06:45:51 EDT 2016
+TestStep: Req_UpdateVendor
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: http://testsrmservices.int.kaplan.edu/MarketingService.svc
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "http://tempuri.org/IMarketingService/UpdateVendor"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.3.1 (java 1.5)
+Host : testsrmservices.int.kaplan.edu
+Accept-Encoding : gzip,deflate
+Content-Length : 1483
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:UpdateVendor>
+         <!--Optional:-->
+         <tem:vendors>
+            <!--Zero or more repetitions:-->
+            <kap:Vendor>
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:MarketingChannelId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:MkVendorID>61950</kap:MkVendorID>
+               <kap:ReplyEmail xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <kap:VendorName>TestVendorG0RRQAXCRQupdated</kap:VendorName>
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:parentVendorId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <kap:vendorInstitutionTypes xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </kap:Vendor>
+         </tem:vendors>
+      </tem:UpdateVendor>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Cache-Control : private
+Server : Microsoft-IIS/8.0
+X-AspNet-Version : 4.0.30319
+Set-Cookie : ASP.NET_SessionId=ffhkbq0npk0sblcajexy44af; path=/; HttpOnly
+#status# : HTTP/1.1 200 OK
+Content-Length : 479
+Date : Wed, 16 Mar 2016 10:45:52 GMT
+Content-Type : text/xml; charset=utf-8
+X-Powered-By : ASP.NET
+
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <UpdateVendorResponse xmlns="http://tempuri.org/">
+         <UpdateVendorResult xmlns:a="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <a:CVueTransactionResult>
+               <a:IsSuccess>true</a:IsSuccess>
+               <a:Message>Success</a:Message>
+               <a:ReturnValue>61950</a:ReturnValue>
+            </a:CVueTransactionResult>
+         </UpdateVendorResult>
+      </UpdateVendorResponse>
+   </s:Body>
+</s:Envelope>

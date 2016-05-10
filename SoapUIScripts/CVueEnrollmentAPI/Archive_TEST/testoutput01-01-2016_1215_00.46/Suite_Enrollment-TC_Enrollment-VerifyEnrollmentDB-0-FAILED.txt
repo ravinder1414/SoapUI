@@ -1,0 +1,22 @@
+Status: FAILED
+Time Taken: 30
+Size: 0
+Timestamp: Thu Dec 31 12:16:50 EST 2015
+TestStep: VerifyEnrollmentDB
+Error:Assertion failed: 
+
+assert adEnroll_SyStudentID == s_SyStudentId
+       |                    |  |
+       50159                |  91732
+                            false
+
+
+----------------- Messages ------------------------------
+Assertion failed: 
+
+assert adEnroll_SyStudentID == s_SyStudentId
+       |                    |  |
+       50159                |  91732
+                            false
+
+error at line: 13

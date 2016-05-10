@@ -1,0 +1,52 @@
+Status: FAILED
+Time Taken: 1349
+Size: 0
+Timestamp: Thu May 05 05:02:24 EDT 2016
+TestStep: GetElectivePoolCourses in Student Program
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 204 No Content
+[Check for existence of [Code]] Assertion failed for path [$[0].Code] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [Title]] Assertion failed for path [$[0].Title] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [Credits]] Assertion failed for path [$[0].Credits] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [AdCourseId]] Assertion failed for path [$[0].AdCourseId] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [IsOfferedAtGroundCampus]] Assertion failed for path [$[0].IsOfferedAtGroundCampus] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [IsRecommended]] Assertion failed for path [$[0].IsRecommended] : IllegalArgumentException:Invalid JSON: null
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 204
+URL: https://stage.api.blueprint.kaplan.edu/v2/Students/36361313/Campus/43/Enrollments/2911374/ElectivePools/6861/Courses/Exclude/375342/Term/1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [BpvdYXCex0XHIkYUIrDj5iWqBIVM]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/v2/Students/36361313/Campus/43/Enrollments/2911374/ElectivePools/6861/Courses/Exclude/375342/Term/1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: BpvdYXCex0XHIkYUIrDj5iWqBIVM
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 204 No Content]
+Date: [Thu, 05 May 2016 09:02:25 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [BpvdYXCex0XHIkYUIrDj5iWqBIVM]
+X-Powered-By: [ASP.NET]

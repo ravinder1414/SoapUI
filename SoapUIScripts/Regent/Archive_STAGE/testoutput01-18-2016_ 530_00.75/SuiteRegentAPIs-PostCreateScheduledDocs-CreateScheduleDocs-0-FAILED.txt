@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Jan 16 05:31:07 EST 2016
+TestStep: CreateScheduleDocs
+
+----------------- Messages ------------------------------
+java.net.SocketTimeoutException: Read timed out
+
+- missing response / garbage collected -

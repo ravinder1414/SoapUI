@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Wed May 04 04:04:09 EDT 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [ProgramVersionName]
+----------------------------------------------------
+ProgramVersionName transferred [[Pharmacy Technician]] from [GetProgVersion(starts with Keyword).Response] to [Properties 1.GetProgVer_ProgVerName]
+------------ source path -------------
+$[0].ProgramVersionName
+------------ target path -------------
+

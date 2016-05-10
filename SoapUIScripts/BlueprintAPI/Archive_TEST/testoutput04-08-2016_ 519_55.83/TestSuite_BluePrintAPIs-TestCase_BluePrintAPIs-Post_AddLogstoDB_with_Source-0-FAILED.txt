@@ -1,0 +1,67 @@
+Status: FAILED
+Time Taken: 132
+Size: 43
+Timestamp: Fri Apr 08 04:22:58 EDT 2016
+TestStep: Post AddLogstoDB with Source
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: POST
+StatusCode: 400
+URL: http://test.api.blueprint.kaplan.edu/v1/Logs?source=1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [C62k208lPK5G8g6uhQFo2B7PljGY]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [256]
+Content-Type: [application/json]
+
+POST http://test.api.blueprint.kaplan.edu/v1/Logs?source=1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Token: C62k208lPK5G8g6uhQFo2B7PljGY
+Content-Length: 256
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+   "Timestamp": "3/8/2016",
+   "Source": "",
+   "Application": "",
+   "MachineName": "",
+   "AppDomainName": "",
+   "Severity": "",
+   "Message": "",
+   "Controller": "",
+   "TargetSite": "",
+   "ErrorType": "",
+   "Description": "",
+   "Exception": ""
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 400 Bad Request]
+Content-Length: [43]
+Date: [Fri, 08 Apr 2016 08:22:58 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [C62k208lPK5G8g6uhQFo2B7PljGY]
+X-Powered-By: [ASP.NET]
+
+{"Message":"Wrong source parameter value."}

@@ -1,0 +1,126 @@
+Status: OK
+Time Taken: 2978
+Size: 6693
+Timestamp: Wed Mar 16 06:45:48 EDT 2016
+TestStep: reqAddVendor_nonnumericmarchannelID
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: http://testsrmservices.int.kaplan.edu/MarketingService.svc
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "http://tempuri.org/IMarketingService/AddVendor"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.3.1 (java 1.5)
+Host : testsrmservices.int.kaplan.edu
+Accept-Encoding : gzip,deflate
+Content-Length : 1377
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddVendor>
+         <!--Optional:-->
+         <tem:vendors>
+            <!--Zero or more repetitions:-->
+            <kap:Vendor>
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:MarketingChannelId>sdfsdf</kap:MarketingChannelId>
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:ReplyEmail xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <kap:VendorName>test</kap:VendorName>
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:parentVendorId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <kap:vendorInstitutionTypes xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </kap:Vendor>
+         </tem:vendors>
+      </tem:AddVendor>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Cache-Control : private
+Server : Microsoft-IIS/8.0
+X-AspNet-Version : 4.0.30319
+Set-Cookie : ASP.NET_SessionId=0hrzhosry5qthsgvqr0bne4e; path=/; HttpOnly
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 6693
+Date : Wed, 16 Mar 2016 10:45:52 GMT
+Content-Type : text/xml; charset=utf-8
+X-Powered-By : ASP.NET
+
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <s:Fault>
+         <faultcode xmlns:a="http://schemas.microsoft.com/net/2005/12/windowscommunicationfoundation/dispatcher">a:DeserializationFailed</faultcode>
+         <faultstring xml:lang="en-US">The formatter threw an exception while trying to deserialize the message: There was an error while trying to deserialize parameter http://tempuri.org/:vendors. The InnerException message was 'There was an error deserializing the object of type System.Collections.Generic.List`1[[Kaplan.SRM.Contracts.Marketing.Vendor, Kaplan.SRM.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. The value 'sdfsdf' cannot be parsed as the type 'Int32'.'.  Please see InnerException for more details.</faultstring>
+         <detail>
+            <ExceptionDetail xmlns="http://schemas.datacontract.org/2004/07/System.ServiceModel" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+               <HelpLink i:nil="true"/>
+               <InnerException>
+                  <HelpLink i:nil="true"/>
+                  <InnerException>
+                     <HelpLink i:nil="true"/>
+                     <InnerException>
+                        <HelpLink i:nil="true"/>
+                        <InnerException i:nil="true"/>
+                        <Message>Input string was not in a correct format.</Message>
+                        <StackTrace>at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Xml.XmlConverter.ToInt32(String value)</StackTrace>
+                        <Type>System.FormatException</Type>
+                     </InnerException>
+                     <Message>The value 'sdfsdf' cannot be parsed as the type 'Int32'.</Message>
+                     <StackTrace>at System.Xml.XmlConverter.ToInt32(String value)
+   at System.Xml.XmlConverter.ToInt32(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Xml.XmlBaseReader.ReadContentAsInt()
+   at System.Xml.XmlDictionaryReader.ReadElementContentAsInt()
+   at ReadVendorFromXml(XmlReaderDelegator , XmlObjectSerializerReadContext , XmlDictionaryString[] , XmlDictionaryString[] )
+   at System.Runtime.Serialization.ClassDataContract.ReadXmlValue(XmlReaderDelegator xmlReader, XmlObjectSerializerReadContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract&amp; dataContract)
+   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator xmlReader, Int32 id, RuntimeTypeHandle declaredTypeHandle, String name, String ns)
+   at ReadArrayOfVendorFromXml(XmlReaderDelegator , XmlObjectSerializerReadContext , XmlDictionaryString , XmlDictionaryString , CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.ReadXmlValue(XmlReaderDelegator xmlReader, XmlObjectSerializerReadContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator reader, String name, String ns, Type declaredType, DataContract&amp; dataContract)
+   at System.Runtime.Serialization.XmlObjectSerializerReadContext.InternalDeserialize(XmlReaderDelegator xmlReader, Type declaredType, DataContract dataContract, String name, String ns)
+   at System.Runtime.Serialization.DataContractSerializer.InternalReadObject(XmlReaderDelegator xmlReader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)</StackTrace>
+                     <Type>System.Xml.XmlException</Type>
+                  </InnerException>
+                  <Message>There was an error deserializing the object of type System.Collections.Generic.List`1[[Kaplan.SRM.Contracts.Marketing.Vendor, Kaplan.SRM.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. The value 'sdfsdf' cannot be parsed as the type 'Int32'.</Message>
+                  <StackTrace>at System.Runtime.Serialization.XmlObjectSerializer.ReadObjectHandleExceptions(XmlReaderDelegator reader, Boolean verifyObjectName, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.ReadObject(XmlDictionaryReader reader, Boolean verifyObjectName)
+   at System.ServiceModel.Dispatcher.DataContractSerializerOperationFormatter.PartInfo.ReadObject(XmlDictionaryReader reader, XmlObjectSerializer serializer)
+   at System.ServiceModel.Dispatcher.DataContractSerializerOperationFormatter.DeserializeParameterPart(XmlDictionaryReader reader, PartInfo part, Boolean isRequest)</StackTrace>
+                  <Type>System.Runtime.Serialization.SerializationException</Type>
+               </InnerException>
+               <Message>The formatter threw an exception while trying to deserialize the message: There was an error while trying to deserialize parameter http://tempuri.org/:vendors. The InnerException message was 'There was an error deserializing the object of type System.Collections.Generic.List`1[[Kaplan.SRM.Contracts.Marketing.Vendor, Kaplan.SRM.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. The value 'sdfsdf' cannot be parsed as the type 'Int32'.'.  Please see InnerException for more details.</Message>
+               <StackTrace>at System.ServiceModel.Dispatcher.DataContractSerializerOperationFormatter.DeserializeParameterPart(XmlDictionaryReader reader, PartInfo part, Boolean isRequest)
+   at System.ServiceModel.Dispatcher.DataContractSerializerOperationFormatter.DeserializeParameters(XmlDictionaryReader reader, PartInfo[] parts, Object[] parameters, Boolean isRequest)
+   at System.ServiceModel.Dispatcher.DataContractSerializerOperationFormatter.DeserializeBody(XmlDictionaryReader reader, MessageVersion version, String action, MessageDescription messageDescription, Object[] parameters, Boolean isRequest)
+   at System.ServiceModel.Dispatcher.OperationFormatter.DeserializeBodyContents(Message message, Object[] parameters, Boolean isRequest)
+   at System.ServiceModel.Dispatcher.OperationFormatter.DeserializeRequest(Message message, Object[] parameters)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.DeserializeInputs(MessageRpc&amp; rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc&amp; rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc&amp; rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc&amp; rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)</StackTrace>
+               <Type>System.ServiceModel.Dispatcher.NetDispatcherFaultException</Type>
+            </ExceptionDetail>
+         </detail>
+      </s:Fault>
+   </s:Body>
+</s:Envelope>

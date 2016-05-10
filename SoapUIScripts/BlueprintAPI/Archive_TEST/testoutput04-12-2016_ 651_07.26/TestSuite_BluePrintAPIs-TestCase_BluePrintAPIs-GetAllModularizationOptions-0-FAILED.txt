@@ -1,0 +1,48 @@
+Status: FAILED
+Time Taken: 125
+Size: 0
+Timestamp: Fri Apr 08 05:23:21 EDT 2016
+TestStep: GetAllModularizationOptions
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 204 No Content
+[Check for existence of [ModuleGroupId]] Assertion failed for path [$[0].ModuleGroupId] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [Modules]] Assertion failed for path [$[0].Modules] : IllegalArgumentException:Invalid JSON: null
+[Check for existence of [CourseTitle]] Assertion failed for path [$[0].Modules[0].CourseTitle] : IllegalArgumentException:Invalid JSON: null
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 204
+URL: http://test.api.blueprint.kaplan.edu/v1/CourseModuleGroups/507934/Groups
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [LP5gWS9fZ9DqRLvLFeuMU5FjMlUE]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v1/CourseModuleGroups/507934/Groups HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: LP5gWS9fZ9DqRLvLFeuMU5FjMlUE
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 204 No Content]
+Date: [Fri, 08 Apr 2016 09:23:20 GMT]
+authenticationToken: [LP5gWS9fZ9DqRLvLFeuMU5FjMlUE]
+X-Powered-By: [ASP.NET]

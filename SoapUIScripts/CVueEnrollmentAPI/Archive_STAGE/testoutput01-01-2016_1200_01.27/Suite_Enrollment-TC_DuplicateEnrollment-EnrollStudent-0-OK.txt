@@ -1,0 +1,72 @@
+Status: OK
+Time Taken: 22700
+Size: 1323
+Timestamp: Thu Dec 31 12:00:25 EST 2015
+TestStep: EnrollStudent
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.webapi.kaplan.edu
+Encoding: UTF-8
+Method: POST
+StatusCode: 200
+URL: https://stage.webapi.kaplan.edu/api/v1/enrollment
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Token: [89xhTwirWRMDdkNecd3VDoYrpLGz]
+Host: [stage.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [678]
+Content-Type: [application/json]
+
+POST https://stage.webapi.kaplan.edu/api/v1/enrollment HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: 89xhTwirWRMDdkNecd3VDoYrpLGz
+Content-Type: application/json
+Content-Length: 678
+Host: stage.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+{
+	"MessageState" : "",
+	"StudentId" : 54445,
+	"CampusId" : 43,
+	"SchoolStatusId" : 5,
+	"ProgramVersionId" : 444649,
+	"BillingMethodId" : 5,
+	"GradeLevelId" : 1,
+	"ShiftId" : 15,
+	"ApplicationReceivedDate" : "2015-03-12T00:00:00",
+	"EnrollDate" : "2015-03-12T00:00:00",
+	"ExpectedStartDate" : "2015-03-25T00:00:00",
+	"MidPointDate" : "2015-12-30T00:00:00",
+	"GraduationDate" : "2017-03-25T00:00:00",
+	"IsApplicant" : false,
+	"StartDateId" : 685603,
+	"StudentNumber" : "",
+	"ProgramVersionDescription" : "",
+	"Comment" : "",
+	"StatusChangeComment" : "",
+	"IPEDSStateOfResidence" : "",
+	"StartDate" : "0001-01-01T00:00:00",
+	"TermId" : 505952 ,
+	"UpdateOriginalGradDate" : false
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1323]
+Date: [Thu, 31 Dec 2015 17:00:47 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [89xhTwirWRMDdkNecd3VDoYrpLGz]
+
+{"ResponseHeader":{"headersField":[],"anyAttrField":null,"PropertyChanged":null},"AddNewEnrollmentResponse":{"enrollmentsField":[{"enrollmentIdField":0,"messageResultField":"AddNewEnrollment.Execution Error: The Student specified in the message is already enrolled for this program version and campus.\nParameter name: StudentId","messageStatusField":2,"messageErrorCodeField":"AdStudentAlreadyEnrolledExceptionMessage","messageIdField":-1,"customAttributesField":null,"correlationIdField":1,"skipSemanticValidationField":false,"PropertyChanged":null}],"statusField":2,"trxResultField":"GeTrxResultBusinessLogicFailedMessage~One or more messages failed execution. Please check each message TrxResult value for more details.","tokenIdField":"cCKTS+o1adljP/jwsXJvTSrnLx0VwnGT2q6c5XU8NWKybN9558f3aEV20Xld2hWolQGMMFyyAoYHppLvN5hUwxITvzw82pCaFREso/XJyA4KAphpfHwwimwQbTzVap/T7BGi6+QGApE5BDvFqoWOkRpCTPNesygDE6OozqBsrqPiOBig9IrJDUC0LiA39AUJNFWQ8lTR66K31O2oT+Vz3rPIe+SNbHStB+nWar8IZdQghn/E+4UgIRr5N9bgn1S5AUOXs2DBRuudhaoTUIzqjqluCV8xOocmfqJhZxywIqmCQkYciKYfZkLcM5nGXygZ5VcqadKIKPGsRXGmjRbdf4dGP3uHs/3IFq8PV31nop+kzU8f6N8AVEWrzydMVtpdXLqYq48+s1Iz+wTderh+ozF/7nydDGmgbm9AFKzdcNT9HAjtd3ZkMGTIrV0xHO16vh6C52vEdufRQHuH8iVpnU9uPjSUq+6E1ePnxNCi4Ee6IpS6h5Fiwalb+fByJS0EPOZ+5b3EZOlcUkCBF8pXZaEFBfg9HqRKzNvkSmCsVWo=","PropertyChanged":null}}

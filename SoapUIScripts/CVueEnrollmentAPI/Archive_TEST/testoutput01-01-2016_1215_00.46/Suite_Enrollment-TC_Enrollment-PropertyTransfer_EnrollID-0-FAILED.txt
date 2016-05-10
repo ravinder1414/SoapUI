@@ -1,0 +1,18 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Thu Dec 31 12:16:30 EST 2015
+TestStep: PropertyTransfer_EnrollID
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Path 'AddNewEnrollmentResponse' not found in the current context:
+{"Message": "Error retrieving enrollment"}
+
+----------------- Messages ------------------------------
+Error performing transfer [enrollmentIdField] - Path 'AddNewEnrollmentResponse' not found in the current context:
+{"Message": "Error retrieving enrollment"}
+----------------------------------------------------
+enrollmentIdField transferred [[Path 'AddNewEnrollmentResponse' not found in the current context:
+{"Message": "Error retrieving enrollment"}]] from [EnrollStudent.Response] to [Properties.Response_EnrollID]
+------------ source path -------------
+$.AddNewEnrollmentResponse.enrollmentsField[0].enrollmentIdField
+------------ target path -------------
+

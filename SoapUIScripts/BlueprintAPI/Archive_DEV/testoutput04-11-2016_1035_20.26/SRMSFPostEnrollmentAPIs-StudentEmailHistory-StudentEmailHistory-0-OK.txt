@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 322
+Size: 1861
+Timestamp: Thu Apr 07 05:46:51 EDT 2016
+TestStep: StudentEmailHistory
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/students/34543865/emails
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/students/34543865/emails HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TZ6BlxLRygVkc0CpG0QeroEif6HH
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1861]
+Date: [Thu, 07 Apr 2016 09:46:50 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+
+{"Emails":[{"EmailType":"Email","ErrorMSG":"Unable to load \"ImagePath\" item from AppSettings.","LetterName":"FA Exit Letter - Withdrawal or Dismissal","Resend":0,"SentBy":"User,System","SentDate":"2015-08-01T01:05:46.393","SyLetterSentID":105531033,"ViewDate":null,"isRead":false,"syDepartmentID":4,"syLetterID":6820},{"EmailType":"Email","ErrorMSG":"OK","LetterName":"SE Enrollment Steps Email","Resend":0,"SentBy":"User,System","SentDate":"2015-01-27T13:13:45.277","SyLetterSentID":102422457,"ViewDate":null,"isRead":false,"syDepartmentID":5,"syLetterID":8342},{"EmailType":"Email","ErrorMSG":"OK","LetterName":"SE Background Check: School of Public Safety","Resend":0,"SentBy":"User,System","SentDate":"2015-01-27T13:13:44.737","SyLetterSentID":102422456,"ViewDate":null,"isRead":false,"syDepartmentID":5,"syLetterID":8341},{"EmailType":"Email","ErrorMSG":"OK","LetterName":"Academic Readiness Assessment Process Email","Resend":1,"SentBy":"Locher,Kelley","SentDate":"2015-01-27T13:03:34.787","SyLetterSentID":102422136,"ViewDate":null,"isRead":false,"syDepartmentID":5,"syLetterID":7949},{"EmailType":"Email","ErrorMSG":"OK","LetterName":"Student Enrollment Portal Post Interview","Resend":0,"SentBy":"Locher,Kelley","SentDate":"2015-01-27T13:03:29.813","SyLetterSentID":102422133,"ViewDate":null,"isRead":false,"syDepartmentID":5,"syLetterID":8519},{"EmailType":"Email","ErrorMSG":"OK","LetterName":"Student Enrollment Portal Post Interview","Resend":0,"SentBy":"Locher,Kelley","SentDate":"2015-01-27T12:57:35.933","SyLetterSentID":102421928,"ViewDate":null,"isRead":false,"syDepartmentID":5,"syLetterID":8519},{"EmailType":"Email","ErrorMSG":"OK","LetterName":"INITIAL DEFAULT - Undergrad","Resend":1,"SentBy":"System","SentDate":"2015-01-26T15:12:02.963","SyLetterSentID":102398703,"ViewDate":null,"isRead":false,"syDepartmentID":5,"syLetterID":6611}]}

@@ -1,0 +1,51 @@
+Status: FAILED
+Time Taken: 33
+Size: 75
+Timestamp: Tue Apr 12 07:01:41 EDT 2016
+TestStep: DeleteProgVersionandContents
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code:405 is not in acceptable list of status codes
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 405 Method Not Allowed
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: DELETE
+StatusCode: 405
+URL: https://stage.api.blueprint.kaplan.edu/v1/ProgramVersion/
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+Content-Type: [application/json]
+
+DELETE https://stage.api.blueprint.kaplan.edu/v1/ProgramVersion/ HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 0
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 405 Method Not Allowed]
+Content-Length: [75]
+Date: [Tue, 12 Apr 2016 11:01:41 GMT]
+Allow: [POST]
+Content-Type: [application/json; charset=utf-8]
+X-Powered-By: [ASP.NET]
+
+{"Message":"The requested resource does not support http method 'DELETE'."}

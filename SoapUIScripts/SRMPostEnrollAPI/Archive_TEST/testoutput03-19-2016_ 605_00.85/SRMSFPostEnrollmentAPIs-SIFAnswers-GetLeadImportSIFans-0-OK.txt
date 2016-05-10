@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 536
+Size: 891
+Timestamp: Fri Mar 18 06:05:45 EDT 2016
+TestStep: GetLeadImportSIFans
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://test.webapi.kaplan.edu/api/v1/leads/sifs/38845020/answers
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Token: [PnSPTygijCkavPAa76eQHdaJDnEG]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://test.webapi.kaplan.edu/api/v1/leads/sifs/38845020/answers HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: PnSPTygijCkavPAa76eQHdaJDnEG
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [891]
+Date: [Fri, 18 Mar 2016 10:05:47 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [PnSPTygijCkavPAa76eQHdaJDnEG]
+
+{"mkLeadImportID":38845020,"SIFAnswers":[{"Answer":"DARINETR","QuestionID":21131,"QuestionName":"Fname"},{"Answer":"DARINETR","QuestionID":21132,"QuestionName":"Lname"},{"Answer":"DARINETR@kaplan.test","QuestionID":21133,"QuestionName":"Email"},{"Answer":"","QuestionID":21134,"QuestionName":"HPhone"},{"Answer":"9545551234","QuestionID":21135,"QuestionName":"WPhone"},{"Answer":"","QuestionID":21136,"QuestionName":"City"},{"Answer":"Florida","QuestionID":21137,"QuestionName":"State"},{"Answer":"33309","QuestionID":21138,"QuestionName":"Zip"},{"Answer":"United States","QuestionID":21139,"QuestionName":"Country"},{"Answer":"Yes","QuestionID":21141,"QuestionName":"TCPA_Disc"},{"Answer":"No","QuestionID":23093,"QuestionName":"Military"},{"Answer":"SomeCollegeMoreThan2","QuestionID":23348,"QuestionName":"HighestEducation"},{"Answer":"No","QuestionID":23436,"QuestionName":"Military2"}]}

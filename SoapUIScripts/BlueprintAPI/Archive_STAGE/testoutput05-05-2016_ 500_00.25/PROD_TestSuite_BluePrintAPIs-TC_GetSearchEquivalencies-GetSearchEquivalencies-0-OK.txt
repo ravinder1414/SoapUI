@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 149
+Size: 83
+Timestamp: Wed May 04 04:06:04 EDT 2016
+TestStep: GetSearchEquivalencies
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/Search?InstitutionId=1&InstitutionCourseCodeOrName=1&InstitutionCourseDate=1&AdCourseId=11&SubjectMatterId=1&EquivalencyStatus=1&page=1&itemsPerPage=1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [3HSFBAfhUr7Hdbor7HaTbKZYDCB1]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/Search?InstitutionId=1&InstitutionCourseCodeOrName=1&InstitutionCourseDate=1&AdCourseId=11&SubjectMatterId=1&EquivalencyStatus=1&page=1&itemsPerPage=1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: 3HSFBAfhUr7Hdbor7HaTbKZYDCB1
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [83]
+Date: [Wed, 04 May 2016 08:06:04 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [3HSFBAfhUr7Hdbor7HaTbKZYDCB1]
+X-Powered-By: [ASP.NET]
+
+{"TotalPages":0,"TotalItems":0,"ItemsPerPage":1,"CurrentPage":1,"Equivalencies":[]}

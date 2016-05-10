@@ -1,0 +1,79 @@
+Status: FAILED
+Time Taken: 160
+Size: 75
+Timestamp: Fri Apr 08 05:25:34 EDT 2016
+TestStep: PostAddNewCollegeTranscript
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 409 Conflict
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: POST
+StatusCode: 409
+URL: http://test.api.blueprint.kaplan.edu/v1/Students/32098206/PriorLearning/College
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [i2rWPMisufzO7lvvbceFfVMAWyoJ]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [449]
+Content-Type: [application/json]
+
+POST http://test.api.blueprint.kaplan.edu/v1/Students/32098206/PriorLearning/College HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Token: i2rWPMisufzO7lvvbceFfVMAWyoJ
+Content-Length: 449
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+  "Courses": [
+    {
+      "Code": "1",
+      "Grade": "1",
+      "Credits": 1,
+      "CalendarSystemID": 1,
+      "AdCourseLevelID": 1,
+      "ID": 1,
+      "Title": "TEST",
+      "Month": 1,
+      "Year": 2010,
+      "Blacklisted": false,
+      "Notes": "TEST"
+    }
+  ],
+  "ID": 1,
+  "EncryptedDiDocumentID": "1",
+  "DocumentTypeID": 1065,
+  "TranscriptTypeID": 1,
+  "URL": "",
+  "Institution": {
+    "InstitutionID": 1,
+    "Name": "TST"
+  }
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 409 Conflict]
+Content-Length: [75]
+Date: [Fri, 08 Apr 2016 09:25:33 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [i2rWPMisufzO7lvvbceFfVMAWyoJ]
+X-Powered-By: [ASP.NET]
+
+{"Message":"U402. Unsuccessful attempt to create an existent Transcript. "}

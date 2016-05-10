@@ -1,0 +1,15 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Wed May 04 03:51:09 EDT 2016
+TestStep: PropertyTransfer 1
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Invalid JSON: null
+
+----------------- Messages ------------------------------
+Error performing transfer [encryptedDiDocumentID] - Invalid JSON: null
+----------------------------------------------------
+encryptedDiDocumentID transferred [[Invalid JSON: null]] from [GetTranscriptDocTree for Student.Response] to [#TestSuite#.encryptedDiDocumentID]
+------------ source path -------------
+$[0].encryptedDiDocumentID
+------------ target path -------------
+

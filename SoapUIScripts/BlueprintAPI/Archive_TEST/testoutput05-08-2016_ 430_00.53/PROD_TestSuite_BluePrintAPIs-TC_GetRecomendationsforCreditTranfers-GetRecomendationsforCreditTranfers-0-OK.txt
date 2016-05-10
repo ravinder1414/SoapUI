@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 1701
+Size: 1108
+Timestamp: Sat May 07 04:33:49 EDT 2016
+TestStep: GetRecomendationsforCreditTranfers
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [9w1S6u8CvGGSojhsv7F7EiCMf0VA]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: 9w1S6u8CvGGSojhsv7F7EiCMf0VA
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1108]
+Date: [Sat, 07 May 2016 08:33:51 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [9w1S6u8CvGGSojhsv7F7EiCMf0VA]
+X-Powered-By: [ASP.NET]
+
+[{"CategoryName":"major","Courses":[{"ActiveEQ":4245,"AdCourseID":504326,"CourseCode":"TC5.6","CourseTitle":"Transfer Credit","Credits":5.0,"Path":{"Recommended":true,"KUCategoryTypeID":2,"KUElectivePoolID":null,"KUAdCourseGroupID":null},"PossibleMatches":[{"TranscriptCourseID":19599,"InstitutionID":17270,"Code":"9875","Title":"yes","Month":4,"Year":2008,"Grade":null,"CalendarSystem":"Quarter Calculated","Recommended":true,"Type":"MilitaryCourse"},{"TranscriptCourseID":19601,"InstitutionID":17270,"Code":"845","Title":"MOL","Month":5,"Year":2006,"Grade":"","CalendarSystem":"","Recommended":false,"Type":"MilitaryOLECourses"}]},{"ActiveEQ":4246,"AdCourseID":413182,"CourseCode":"CJ140","CourseTitle":"Introduction to Constitutional Law","Credits":5.0,"Path":{"Recommended":true,"KUCategoryTypeID":2,"KUElectivePoolID":null,"KUAdCourseGroupID":null},"PossibleMatches":[{"TranscriptCourseID":19600,"InstitutionID":17270,"Code":"REGENTS","Title":"Regents","Month":5,"Year":2004,"Grade":"12.00","CalendarSystem":"Quarter Calculated","Recommended":true,"Type":"MilitaryCLSTCourses"}]}],"ElectivePools":null}]

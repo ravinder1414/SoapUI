@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 184
+Size: 344
+Timestamp: Mon Apr 11 10:36:48 EDT 2016
+TestStep: GetCourseDesc in StudentProgram
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://dev.api.blueprint.kaplan.edu/v2/Students/36361313/Enrollment/2911374/ProgramVersion/452664/Course/375342/Description
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [gdnuAWfoi0tZ4N4Xp4zbBDr3jMDp]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/v2/Students/36361313/Enrollment/2911374/ProgramVersion/452664/Course/375342/Description HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: gdnuAWfoi0tZ4N4Xp4zbBDr3jMDp
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [344]
+Date: [Mon, 11 Apr 2016 14:36:48 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [gdnuAWfoi0tZ4N4Xp4zbBDr3jMDp]
+X-Powered-By: [ASP.NET]
+
+{"AdCourseID":375342,"CourseDescription":"Students will learn how to communicate effectively in their professional field using various writing styles. Students will also identify and further develop their own writing process. Grammar and mechanics will be reviewed, helping students focus on the areas that will improve their writing.\\\r\\\n"}

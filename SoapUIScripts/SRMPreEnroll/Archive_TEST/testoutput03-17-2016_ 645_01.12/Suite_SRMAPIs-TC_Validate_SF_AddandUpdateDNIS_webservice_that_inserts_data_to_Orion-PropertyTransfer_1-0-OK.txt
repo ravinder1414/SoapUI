@@ -1,0 +1,16 @@
+Status: OK
+Time Taken: 15
+Size: 0
+Timestamp: Wed Mar 16 06:47:34 EDT 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [a:ReturnValue]
+----------------------------------------------------
+a:ReturnValue transferred [[2008]] from [ReqAddDNIS.Response] to [Properties.gnDNISID]
+------------ source path -------------
+declare namespace a='http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts';
+declare namespace ns1='http://tempuri.org/';
+//ns1:AddDNISResponse[1]/ns1:AddDNISResult[1]/a:CVueTransactionResult[1]/a:ReturnValue[1]
+------------ target path -------------
+

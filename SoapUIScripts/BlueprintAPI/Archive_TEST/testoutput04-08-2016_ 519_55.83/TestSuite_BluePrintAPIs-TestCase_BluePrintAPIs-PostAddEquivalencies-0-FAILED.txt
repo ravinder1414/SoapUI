@@ -1,0 +1,197 @@
+Status: FAILED
+Time Taken: 103
+Size: 120
+Timestamp: Fri Apr 08 04:25:11 EDT 2016
+TestStep: PostAddEquivalencies
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 400 Bad Request
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: POST
+StatusCode: 400
+URL: http://test.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [C62k208lPK5G8g6uhQFo2B7PljGY]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [3608]
+Content-Type: [application/json]
+
+POST http://test.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Token: C62k208lPK5G8g6uhQFo2B7PljGY
+Content-Length: 3608
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+  "EquivalencyId": 0,
+  "Status": {
+    "ID": 0,
+    "Name": ""
+  },
+  "InstitutionId": 0,
+  "PriorLearningCourses": {
+    "CollegeCourses": [
+      {
+        "Code": "",
+        "CreditsNotMatched": false,
+        "Credits": 0,
+        "CreditTypeNotMatched": false,
+        "CreditType": {
+          "ID": 0,
+          "Name": ""
+        },
+        "CourseLevelNotMatched": false,
+        "CourseLevel": {
+          "AdCourseLevelID": 0,
+          "Description": ""
+        },
+        "SoftMatch": false,
+        "CourseTypeId": 0,
+        "PriorLearningCourseId": 0,
+        "PriorLearningCourseVersionId": 0,
+        "Title": "",
+        "CETCreated": false,
+        "EarliestDateEligibleNotMatched": false,
+        "EarliestDateEligible": "",
+        "LatestDateEligibleNotMatched": false,
+        "LatestDateEligible": "",
+        "MaximumCourseAgeNotMatched": false,
+        "MaximumCourseAge": 0
+      }
+    ],
+    "MilitaryMainCourses": [
+      {
+        "Credits": 0,
+        "CreditType": {
+          "ID": 0,
+          "Name": ""
+        },
+        "MilitaryCourseNo": "",
+        "ACEExhibitNo": "",
+        "ACECreditRecommendation": "",
+        "CourseLevelNotMatched": false,
+        "CourseLevel": {
+          "AdCourseLevelID": 0,
+          "Description": ""
+        },
+        "MinimumOccupationEndDateNotMatched": false,
+        "MinimumOccupationEndDate": "",
+        "SkillLevelNotMatched": false,
+        "SkillLevel": 0,
+        "SoftMatch": false,
+        "CourseTypeId": 0,
+        "PriorLearningCourseId": 0,
+        "PriorLearningCourseVersionId": 0,
+        "Title": "",
+        "CETCreated": false,
+        "EarliestDateEligibleNotMatched": false,
+        "EarliestDateEligible": "",
+        "LatestDateEligibleNotMatched": false,
+        "LatestDateEligible": "",
+        "MaximumCourseAgeNotMatched": false,
+        "MaximumCourseAge": 0
+      }
+    ],
+    "MilitaryCollegeLevelTestScoreCourses": [
+      {
+        "CreditTypeNotMatched": false,
+        "CreditType": {
+          "ID": 0,
+          "Name": ""
+        },
+        "RecommendedCredits": 0,
+        "MinimumRequiredScore": 0,
+        "TestType": {
+          "ID": 0,
+          "Code": "",
+          "Name": ""
+        },
+        "CourseTypeId": 0,
+        "PriorLearningCourseId": 0,
+        "PriorLearningCourseVersionId": 0,
+        "Title": "",
+        "CETCreated": false,
+        "EarliestDateEligibleNotMatched": false,
+        "EarliestDateEligible": "",
+        "LatestDateEligibleNotMatched": false,
+        "LatestDateEligible": "",
+        "MaximumCourseAgeNotMatched": false,
+        "MaximumCourseAge": 0,
+        "SoftMatch": false
+      }
+    ],
+    "MilitaryOtherLearningExperienceCourses": [
+      {
+        "CourseID": "",
+        "Location": "",
+        "CourseTypeId": 0,
+        "PriorLearningCourseId": 0,
+        "PriorLearningCourseVersionId": 0,
+        "Title": "",
+        "CETCreated": false,
+        "EarliestDateEligibleNotMatched": false,
+        "EarliestDateEligible": "",
+        "LatestDateEligibleNotMatched": false,
+        "LatestDateEligible": "",
+        "MaximumCourseAgeNotMatched": false,
+        "MaximumCourseAge": 0,
+        "SoftMatch": false
+      }
+    ]
+  },
+  "KaplanCourses": [
+    {
+      "Course": {
+        "AdCourseId": 0,
+        "Code": "",
+        "Title": "",
+        "Credits": 0,
+        "Description": ""
+      },
+      "SubjectMatters": [
+        {
+          "SubjectMatterId": 0,
+          "Name": ""
+        }
+      ]
+    }
+  ],
+  "Programs": [
+    {
+      "AdProgramId": 0,
+      "Name": ""
+    }
+  ],
+  "TranscriptDescriptions": [
+    ""
+  ]
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 400 Bad Request]
+Content-Length: [120]
+Date: [Fri, 08 Apr 2016 08:25:11 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [C62k208lPK5G8g6uhQFo2B7PljGY]
+X-Powered-By: [ASP.NET]
+
+{"Message":"U101. The value entered for InstitutionId is out of range. InstitutionId must be greater or equal than 0. "}

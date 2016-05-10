@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 20002
+Size: 0
+Timestamp: Thu Dec 31 12:16:30 EST 2015
+TestStep: WaitforEnrollidinDB
+
+----------------- Messages ------------------------------

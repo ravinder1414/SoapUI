@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 899
+Size: 2770
+Timestamp: Tue Mar 15 05:45:52 EDT 2016
+TestStep: StudentStatusHistory
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/students/34543865/statuses
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Token: [GgqUj3RrczaBPsiSo8EtCBSDM1xO]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/students/34543865/statuses HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: GgqUj3RrczaBPsiSo8EtCBSDM1xO
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2770]
+Date: [Tue, 15 Mar 2016 09:45:54 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [GgqUj3RrczaBPsiSo8EtCBSDM1xO]
+
+{"Statuses":[{"ChangedBy":"User,System","DateAdded":"2015-02-18T18:00:33.067","FromStatus":"Application Received","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Enrollment Confirmed","syTaskActionID":301204469},{"ChangedBy":"User,System","DateAdded":"2015-01-27T13:13:46.397","FromStatus":"Interview Complete","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Application Received","syTaskActionID":299893370},{"ChangedBy":"Locher,Kelley","DateAdded":"2015-01-27T12:57:18.123","FromStatus":"Interview Scheduled","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Interview Complete","syTaskActionID":299891712},{"ChangedBy":"Locher,Kelley","DateAdded":"2015-01-27T12:57:16.947","FromStatus":"Contact","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Interview Scheduled","syTaskActionID":299891709},{"ChangedBy":"Locher,Kelley","DateAdded":"2015-01-27T12:48:21.29","FromStatus":"Contact Attempted","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Contact","syTaskActionID":299890655},{"ChangedBy":"Locher,Kelley","DateAdded":"2015-01-27T12:48:21.107","FromStatus":"Reassigned","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Contact Attempted","syTaskActionID":299890654},{"ChangedBy":"Locher,Kelley","DateAdded":"2015-01-27T12:47:09.373","FromStatus":"Contact Attempted","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Reassigned","syTaskActionID":299890506},{"ChangedBy":"University,Kaplan","DateAdded":"2015-01-27T12:45:54.953","FromStatus":"Contact Attempted","StatusReason":"Other","TaskTypeName":"KU Admissions","ToStatus":"Contact Attempted","syTaskActionID":299890367},{"ChangedBy":"University,Kaplan","DateAdded":"2015-01-27T08:08:19.737","FromStatus":"Contact Attempted","StatusReason":"Other","TaskTypeName":"KU Admissions","ToStatus":"Contact Attempted","syTaskActionID":299862325},{"ChangedBy":"University,Kaplan","DateAdded":"2015-01-26T19:43:31.803","FromStatus":"Contact Attempted","StatusReason":"Other","TaskTypeName":"KU Admissions","ToStatus":"Contact Attempted","syTaskActionID":299851730},{"ChangedBy":"University,Kaplan","DateAdded":"2015-01-26T15:12:12.257","FromStatus":"New Assigned","StatusReason":"Other","TaskTypeName":"KU Admissions","ToStatus":"Contact Attempted","syTaskActionID":299835732},{"ChangedBy":"User,System","DateAdded":"2015-01-26T15:12:01.87","FromStatus":"Lead Imported","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"New Assigned","syTaskActionID":299835716},{"ChangedBy":"User,System","DateAdded":"2015-01-26T15:12:01.85","FromStatus":"","StatusReason":"Completed","TaskTypeName":"KU Admissions","ToStatus":"Lead Imported","syTaskActionID":299835715}]}

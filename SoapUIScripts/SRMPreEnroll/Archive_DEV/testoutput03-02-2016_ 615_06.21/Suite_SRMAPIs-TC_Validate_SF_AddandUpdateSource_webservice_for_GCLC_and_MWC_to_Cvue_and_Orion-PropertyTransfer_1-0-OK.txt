@@ -1,0 +1,16 @@
+Status: OK
+Time Taken: 15
+Size: 0
+Timestamp: Tue Mar 01 06:18:24 EST 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [a:ReturnValue]
+----------------------------------------------------
+a:ReturnValue transferred [[1902459]] from [Req_AddSource.Response] to [Properties.mkSourceID]
+------------ source path -------------
+declare namespace a='http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts';
+declare namespace ns1='http://tempuri.org/';
+//ns1:AddSourceResponse[1]/ns1:AddSourceResult[1]/a:CVueTransactionResult[1]/a:ReturnValue[1]
+------------ target path -------------
+

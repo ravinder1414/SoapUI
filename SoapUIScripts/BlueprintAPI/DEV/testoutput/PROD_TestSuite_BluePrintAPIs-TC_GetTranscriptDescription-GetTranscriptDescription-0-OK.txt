@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 424
+Size: 6324
+Timestamp: Sun May 08 04:04:03 EDT 2016
+TestStep: GetTranscriptDescription
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://dev.api.blueprint.kaplan.edu/v1/TranscriptDescriptions
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [tVsHAu4mhjYHkoFNfVWcR3KGWZom]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/v1/TranscriptDescriptions HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: tVsHAu4mhjYHkoFNfVWcR3KGWZom
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [6324]
+Date: [Sun, 08 May 2016 08:04:03 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [tVsHAu4mhjYHkoFNfVWcR3KGWZom]
+X-Powered-By: [ASP.NET]
+
+["Computer Forensics Postbaccalaureate Certificate","Bachelor of Science in Professional Studies","Master of Science in Educational Psychology","Bachelor of Science in Early Childhood Development","Bachelor of Science in Fire Science","Masters In Law","Bachelor of Science in Human Services","Master of Science in Finance","Associate of Applied Science in Medical Office Management","Bachelor of Science in Legal Studies","Graduate Certificate in Information Security","KU Faculty Waiver Program","Bachelor of Science in Corrections","Adult-Gerontology Nurse Practitioner Certificate","Bachelor of Science in Communication","Doctor of Nursing Practice - Executive Leader","Graduate Certificate in Industrial/Organizational Psychology","Associate of Applied Science in Accounting","Bachelor of Science in Health and Wellness","Crime Scene Technician Certificate","Practical Nursing Diploma","Bachelor of Science in Information Technology","Bachelor of Science in Public Health","Applied Behavior Analysis Postbaccalaureate Certificate","Human Services Certificate in Child and Family Services","Admin Assistant: Legal/Business","Associate of Science in Nursing - Iowa and Nebraska","Associate of Applied Science in Business Administration","Bachelor of Science in Cybersecurity","Master of Health Informatics","Bachelor of Science in Business Administration","Microsoft Operating Systems Postbaccalaureate Certificate","Nurse Educator Graduate Certificate","Bachelor of Science in Health Care Administration","Graduate Certificate in Online College Teaching","Bachelor of Science in Criminal Justice Administration and Management","Management and Supervision Certificate in Criminal Justice","Master of Health Information Management","Master of Science in Education","CCAF Requirements (Including GEM)","Doctor of Nursing Practice","Bachelor of Science in Psychology in Industrial/Organizational Psychology","Master of Science in Accounting","Master of Science in Human Services","Master of Arts in Teaching - Non-Certification Track Single Course Enrollment","Associate of Applied Science in Criminal Justice and Criminology","Associate of Science in Health Science","Hesser Consortium Program","Master of Science in Health Education","Associate of Applied Science in Fire Science","Bachelor of Science in Environmental Policy and Management","Doctor of Nursing Practice Initial Course","Kaplan University Fundamentals","Jumpstart Course","Graduate Certificate in Project Management","Family Nurse Practitioner Certificate","Master of Public Administration","Associate of Applied Science in Criminal Justice","NCHEC Program","Graduate Certificate in Accounting","Doctor of Nursing Practice - Adult-Gerontology Nurse Practitioner","Bachelor of Science in Liberal Studies","Learning Advisor Program","Autism Spectrum Disorders (ASDs) Postbaccalaureate Certificate","Executive Juris Doctor","KU Just For You Courses","Associate of Applied Science in Paralegal Studies","Master of Science in Cybersecurity Management","Bachelor of Science in Psychology in Addictions","Kaplan University’s Community College Connection","SoGE Prerequisites","Private Security Certificate","Bachelor of Science in Psychology","Master of Science in Higher Education","Master of Science in Nursing - Family Nurse Practitioner","Phlebotomist Certificate","KU Professional Development for Teachers Single-Course Enrollment Program","Human Services Certificate in Elder Care Services","Master of Science in Nursing - Informatics","Advanced Practice Nursing Core Essentials","Montcalm Community College - Single Course Offering","Master of Science in Nursing - Adult-Gerontology Nurse Practitioner","Bachelor of Science in Accounting","Master of Science in Nursing - Executive Leader","Bachelor of Science in Fire and Emergency Management","Associate of Applied Science in Public Safety and Security","Master of Science in Legal Studies","Master of Science in Information Technology","Master of Arts in Teaching - Iowa Track Preparation Program","Associate of Applied Science in Health Information Technology","Master of Business Administration","Bachelor of Science in Finance","Pathway to Paralegal Postbaccalaureate Certificate","Associate of Applied Science in Legal Support and Services","Bauder Consortium Program","Corrections Certificate","Multiplatform Software Development Postbaccalaureate Certificate","Master of Science in Criminal Justice","Information Security Postbaccalaureate Certificate","Legal Secretary Certificate","Open Course Registration for Assessment","Medical Office Administration Certificate","Master of Science in Environmental Policy","Bachelor of Science in Health Science","Master of Science in Management","Teletech Courses for ELS Single Course Offerings","Medical Assistant Certificate","Associate of Applied Science in Information Technology","Master of Science in Instructional Design and Technology","Bachelor of Science in Criminal Justice","Oracle Database Administration Postbaccalaureate Certificate","Dental Assistant Diploma","Concord Law Elective Option","Operation Hope Courses","Associate of Applied Science in Human Services","Master of Science in Homeland Security and Emergency Management","Associate of Applied Science in Medical Assisting - Online and Maine","Bachelor of Science in Psychology in Applied Behavior Analysis","Doctor of Nursing Practice - Adult Gerontology Nurse Practitioner","Medical Billing/Coding Certificate","Master of Arts in Teaching","Bachelor of Science in Nursing","Graduate Certificate in Addictions","Medical Administrative Assistant","Master of Science in Nursing - Nurse Educator","Executive Leader Graduate Certificate","Bachelor of Science in Early Childhood Administration","Master of Science in Psychology","Juris Doctor","KHEC Nursing Consortium Program","Master of Public Health","Graduate Certificate in Instructional Design for Organizations","Bachelor of Science in Nutrition Science","Doctor of Nursing Practice - Family Nurse Practitioner","Postgraduate Certificate in Applied Behavior Analysis","Master of Health Care Administration","Cisco Networks Postbaccalaureate Certificate","KU Single Course Offerings","Bachelor of Science in Health Information Management","Human Resources Postbaccalaureate Certificate","Graduate Certificate in Human Resources"]

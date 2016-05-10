@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 230
+Size: 238
+Timestamp: Tue Mar 22 05:55:56 EDT 2016
+TestStep: StudentEmailHistory
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.webapi.kaplan.edu/api/v1/students/4104496/emails
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+Host: [stage.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.webapi.kaplan.edu/api/v1/students/4104496/emails HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: LqoEXn9zPnMPOTSffoqNAkDIz8br
+Host: stage.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [238]
+Date: [Tue, 22 Mar 2016 09:55:55 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+
+{"Emails":[{"EmailType":"Email","ErrorMSG":"OK","LetterName":"Notify Self Award","Resend":0,"SentBy":"System","SentDate":"2005-05-02T19:29:43.03","SyLetterSentID":145688,"ViewDate":null,"isRead":false,"syDepartmentID":4,"syLetterID":42}]}

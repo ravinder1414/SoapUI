@@ -1,0 +1,46 @@
+Status: FAILED
+Time Taken: 183
+Size: 0
+Timestamp: Tue Apr 12 06:48:49 EDT 2016
+TestStep: GetEquivalencybyID
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 204 No Content
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 204
+URL: http://dev.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [rwmBQKFjhxR91memZrIpUWWnwS44]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: rwmBQKFjhxR91memZrIpUWWnwS44
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 204 No Content]
+Date: [Tue, 12 Apr 2016 10:48:49 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [rwmBQKFjhxR91memZrIpUWWnwS44]
+X-Powered-By: [ASP.NET]

@@ -1,0 +1,48 @@
+Status: FAILED
+Time Taken: 170
+Size: 53
+Timestamp: Thu Apr 07 06:05:27 EDT 2016
+TestStep: GetDNC
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error
+[Check for existence of [DNCReasonCode]] Comparison failed for path [$[0].DNCReasonCode], expecting [true], actual was [false]
+[Match content of [IsSuccess]] Comparison failed for path [$[0].IsSuccess], expecting [true], actual was [null]
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Method: GET
+StatusCode: 500
+URL: https://test.webapi.kaplan.edu/api/v1/DoNotCall/DoNotCallLocal?phoneNumber=9545551234&syStudentID=33565325
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TLJszsUBxwQyhgIK3wzxIpiSbxpJ]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://test.webapi.kaplan.edu/api/v1/DoNotCall/DoNotCallLocal?phoneNumber=9545551234&syStudentID=33565325 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TLJszsUBxwQyhgIK3wzxIpiSbxpJ
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [53]
+Date: [Thu, 07 Apr 2016 10:05:27 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TLJszsUBxwQyhgIK3wzxIpiSbxpJ]
+
+{"Message":"Error Getting Do Not Call Local Records"}

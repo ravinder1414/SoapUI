@@ -1,0 +1,48 @@
+Status: OK
+Time Taken: 1053
+Size: 10
+Timestamp: Mon May 09 05:46:05 EDT 2016
+TestStep: ReqImportNewLead
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: POST
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/leads/import
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [WQe7iy8kn6nkCYYg7aTjGLR9JFJq]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [950]
+Content-Type: [application/json]
+
+POST https://dev.webapi.kaplan.edu/api/v1/leads/import HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Token: WQe7iy8kn6nkCYYg7aTjGLR9JFJq
+Content-Length: 950
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+  "StudentInformationXml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><sif><sifheader VendorID=\"61439\" SourceCode=\"248691\" SIFID=\"279\" SIFVersionID=\"2258\" VendorDate=\"04/22/2013\" AffiliateID=\"1\"/><sifdetail><Program>AASMA</Program><AreaStudy>HS</AreaStudy><FName>AutoAPITestQAIYG0CJMM</FName><LName>AutoAPITestQAIYG0CJMM</LName><Email>AutoAPITestQAIYG0CJMM@test.com</Email><HPhone>9545154045</HPhone><WPhone>9545154046</WPhone><MPhone>9545154047</MPhone><Address>Address 1</Address><Address2>Address 2</Address2><City>Fort Lauderdale</City><State>Florida</State><Zip>33302</Zip><Country>United States</Country><USCitizen>YES</USCitizen><HighestEducation>GED</HighestEducation><GradYear>2008-2003</GradYear><Military>Yes</Military><Military2>Active</Military2><AGGLeadID>44D07075-3539-DD00-87B4-2FE57C3A99CC</AGGLeadID><TCPA_Disc>Yes</TCPA_Disc><syUserID>2328</syUserID><URL>http://www.degrees.info/forms/form.jsp</URL></sifdetail></sif>"
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [10]
+Date: [Mon, 09 May 2016 09:46:06 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [WQe7iy8kn6nkCYYg7aTjGLR9JFJq]
+
+"38635949"

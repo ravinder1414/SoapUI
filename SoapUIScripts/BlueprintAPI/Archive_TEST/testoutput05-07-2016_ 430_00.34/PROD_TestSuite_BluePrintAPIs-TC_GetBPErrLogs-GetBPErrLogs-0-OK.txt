@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 691
+Size: 7290
+Timestamp: Fri May 06 04:31:42 EDT 2016
+TestStep: GetBPErrLogs
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v1/Logs?day=10&filter=API
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [bscyad1XzKw4pnns9S4sbxhdRtYl]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v1/Logs?day=10&filter=API HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: bscyad1XzKw4pnns9S4sbxhdRtYl
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [7290]
+Date: [Fri, 06 May 2016 08:31:42 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [bscyad1XzKw4pnns9S4sbxhdRtYl]
+X-Powered-By: [ASP.NET]
+
+[{"Timestamp":"5/5/2016","Source":"BluePrint.Business.Managers.StudentProgramVersionManager","Application":"w3wp","MachineName":"TWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131069106170863884","Severity":"ERROR","Message":"(null)","Controller":null,"TargetSite":"BluePrint.Business.Managers.StudentProgramVersionManager.GetStudentPVElectivePoolCourses(System.Int32 campusId, System.Int32 syStudentId, System.Int32 enrollmentId, System.Int32 electivePoolId, System.Int32 excludeAdCourseId, System.Nullable`1[System.Int32] termId)","ErrorType":"(null)","Description":"Params: [syStudentId=36361313, enrollmentId=2911374, campusId=43, electivePoolId=6861, excludeAdCourseId=375342]. Message: ","Exception":"(null)"},{"Timestamp":"5/5/2016","Source":"BluePrint.WebApi.Controllers.Blueprint.StudentDegreePlanController","Application":"w3wp","MachineName":"TWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131069106170863884","Severity":"ERROR","Message":"Object reference not set to an instance of an object.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [GetStudentElectivePoolCoursesIcon]. ","Exception":"Object reference not set to an instance of an object."},{"Timestamp":"5/2/2016","Source":"BluePrint.WebApi.Controllers.Blueprint.StudentDegreePlanController","Application":"w3wp","MachineName":"TWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131066543279060470","Severity":"ERROR","Message":"Object reference not set to an instance of an object.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [GetStudentElectivePoolCoursesIcon]. ","Exception":"Object reference not set to an instance of an object."},{"Timestamp":"5/2/2016","Source":"BluePrint.Business.Managers.StudentProgramVersionManager","Application":"w3wp","MachineName":"TWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131066500955288645","Severity":"ERROR","Message":"(null)","Controller":null,"TargetSite":"BluePrint.Business.Managers.StudentProgramVersionManager.GetStudentPVElectivePoolCourses(System.Int32 campusId, System.Int32 syStudentId, System.Int32 enrollmentId, System.Int32 electivePoolId, System.Int32 excludeAdCourseId, System.Nullable`1[System.Int32] termId)","ErrorType":"(null)","Description":"Params: [syStudentId=36361313, enrollmentId=2911374, campusId=43, electivePoolId=6861, excludeAdCourseId=375342]. Message: ","Exception":"(null)"},{"Timestamp":"5/2/2016","Source":"BluePrint.WebApi.Controllers.Blueprint.StudentDegreePlanController","Application":"w3wp","MachineName":"TWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131066500955288645","Severity":"ERROR","Message":"Object reference not set to an instance of an object.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [GetStudentElectivePoolCoursesIcon]. ","Exception":"Object reference not set to an instance of an object."},{"Timestamp":"5/2/2016","Source":"BluePrint.Business.Managers.StudentProgramVersionManager","Application":"w3wp","MachineName":"TWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131066500955288645","Severity":"ERROR","Message":"(null)","Controller":null,"TargetSite":"BluePrint.Business.Managers.StudentProgramVersionManager.GetStudentPVElectivePoolCourses(System.Int32 campusId, System.Int32 syStudentId, System.Int32 enrollmentId, System.Int32 electivePoolId, System.Int32 excludeAdCourseId, System.Nullable`1[System.Int32] termId)","ErrorType":"(null)","Description":"Params: [syStudentId=36361313, enrollmentId=2911374, campusId=43, electivePoolId=6861, excludeAdCourseId=375342]. Message: ","Exception":"(null)"},{"Timestamp":"5/2/2016","Source":"BluePrint.WebApi.Controllers.Blueprint.StudentDegreePlanController","Application":"w3wp","MachineName":"TWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131066500955288645","Severity":"ERROR","Message":"Object reference not set to an instance of an object.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [GetStudentElectivePoolCoursesIcon]. ","Exception":"Object reference not set to an instance of an object."},{"Timestamp":"5/2/2016","Source":"BluePrint.WebApi.Controllers.Blueprint.StudentPriorLearningController","Application":"w3wp","MachineName":"TWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131066500955288645","Severity":"ERROR","Message":"Object reference not set to an instance of an object.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [Get]. ","Exception":"Object reference not set to an instance of an object."},{"Timestamp":"4/26/2016","Source":"BluePrint.Business.Managers.StudentProgramVersionManager","Application":"iisexpress","MachineName":"1515-IBautista","AppDomainName":"/LM/W3SVC/2/ROOT-1-131061577363620516","Severity":"ERROR","Message":"An error occurred while executing the command definition. See the inner exception for details.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.Data.Entity.Core.EntityCommandExecutionException, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [GetStudentDegreePlan]. Params: [syStudentId=34373934, enrollmentId=2807641, adProgramVersionId=451926, userId=0]. Message: ","Exception":"An error occurred while executing the command definition. See the inner exception for details."},{"Timestamp":"4/26/2016","Source":"BluePrint.Business.Managers.SiriusManager","Application":"iisexpress","MachineName":"1515-IBautista","AppDomainName":"/LM/W3SVC/2/ROOT-1-131061577363620516","Severity":"ERROR","Message":"An error occurred while executing the command definition. See the inner exception for details.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.Data.Entity.Core.EntityCommandExecutionException, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [GetStudentEnrollments]. Params: [syStudentId=34373934]. ","Exception":"An error occurred while executing the command definition. See the inner exception for details."}]

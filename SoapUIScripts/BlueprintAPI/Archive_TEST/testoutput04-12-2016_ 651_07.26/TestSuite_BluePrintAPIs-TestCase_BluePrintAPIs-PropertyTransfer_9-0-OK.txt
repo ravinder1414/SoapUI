@@ -1,0 +1,32 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Fri Apr 08 05:25:39 EDT 2016
+TestStep: PropertyTransfer 9
+
+----------------- Messages ------------------------------
+Performed transfer [SyStudentId]
+Performed transfer [EnrollmentId]
+Performed transfer [AdProgramVersionId]
+Performed transfer [CreditsPerTerm]
+----------------------------------------------------
+SyStudentId transferred [[null]] from [GetAdmin StuProgVersion.Response] to [Properties 1.AdminPorgVersion_Stuid]
+------------ source path -------------
+$.SyStudentId
+------------ target path -------------
+
+EnrollmentId transferred [[null]] from [GetAdmin StuProgVersion.Response] to [Properties 1.AdminPorgVersion_Enrollid]
+------------ source path -------------
+$.EnrollmentId
+------------ target path -------------
+
+AdProgramVersionId transferred [[null]] from [GetAdmin StuProgVersion.Response] to [Properties 1.AdminPorgVersion_prgverid]
+------------ source path -------------
+$.AdProgramVersionId
+------------ target path -------------
+
+CreditsPerTerm transferred [[null]] from [GetAdmin StuProgVersion.Response] to [Properties 1.AdminPorgVersion_Credits]
+------------ source path -------------
+$.CreditsPerTerm
+------------ target path -------------
+

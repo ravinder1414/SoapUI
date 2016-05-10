@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 107
+Size: 1228
+Timestamp: Fri Apr 08 05:23:21 EDT 2016
+TestStep: VerifyAddCourseModuleGrp
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v1/CourseModuleGroups/11/Modules
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [LP5gWS9fZ9DqRLvLFeuMU5FjMlUE]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v1/CourseModuleGroups/11/Modules HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: LP5gWS9fZ9DqRLvLFeuMU5FjMlUE
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1228]
+Date: [Fri, 08 Apr 2016 09:23:21 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [LP5gWS9fZ9DqRLvLFeuMU5FjMlUE]
+X-Powered-By: [ASP.NET]
+
+[{"AdCourseID":1,"CourseCode":null,"CourseTitle":null,"CourseDescription":null,"Credits":0.0},{"AdCourseID":509026,"CourseCode":"CM107M1","CourseTitle":"Understanding What You Read: A pathway to Reading and Writing Success","CourseDescription":"Apply reading skills to determine the elements of effective writing.\r\n","Credits":1.0000},{"AdCourseID":509027,"CourseCode":"CM107M2","CourseTitle":"Using Language Appropriate to Audience and Writing Situation","CourseDescription":"Use language appropriate to audience and situation in a personal document.\r\n","Credits":1.0000},{"AdCourseID":509028,"CourseCode":"CM107M3","CourseTitle":"Writing an Effective Academic Essay","CourseDescription":"Apply strategies to write effective academic documents.\r\n","Credits":1.0000},{"AdCourseID":509029,"CourseCode":"CM107M4","CourseTitle":"Locating, Integrating, and Citing Reliable and Relevant Sources","CourseDescription":"Demonstrate when, how, and why to support your writing with appropriate research.\r\n","Credits":1.0000},{"AdCourseID":509030,"CourseCode":"CM107M5","CourseTitle":"Writing Effective Professional Documents","CourseDescription":"Apply strategies to write effective professional documents.\r\n","Credits":1.0000}]

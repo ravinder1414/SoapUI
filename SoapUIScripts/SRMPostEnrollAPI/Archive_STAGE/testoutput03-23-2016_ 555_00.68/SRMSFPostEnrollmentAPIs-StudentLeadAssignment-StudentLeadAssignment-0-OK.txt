@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 203
+Size: 379
+Timestamp: Tue Mar 22 05:55:55 EDT 2016
+TestStep: StudentLeadAssignment
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.webapi.kaplan.edu/api/v1/students/4104496/leadassignments
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+Host: [stage.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.webapi.kaplan.edu/api/v1/students/4104496/leadassignments HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: LqoEXn9zPnMPOTSffoqNAkDIz8br
+Host: stage.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [379]
+Date: [Tue, 22 Mar 2016 09:55:54 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [LqoEXn9zPnMPOTSffoqNAkDIz8br]
+
+{"LeadAssignments":[{"ChangedBy":"DNCQueue,DNCQueue","DateChanged":"2010-08-17T03:29:22.637","FromRep":"Hinds,Terrance","TaskTypeName":"KU Admissions","ToRep":"DNCQueue,DNCQueue","syTaskAssignmentID":38216836},{"ChangedBy":"Import,Auto","DateChanged":"2005-04-29T10:25:35.267","FromRep":" ","TaskTypeName":"KU Admissions","ToRep":"Hinds,Terrance","syTaskAssignmentID":37926044}]}

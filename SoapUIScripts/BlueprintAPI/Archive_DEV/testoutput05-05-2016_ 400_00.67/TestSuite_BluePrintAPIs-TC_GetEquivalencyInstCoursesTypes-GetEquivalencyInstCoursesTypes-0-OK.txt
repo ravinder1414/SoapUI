@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 178
+Size: 153
+Timestamp: Tue Apr 12 06:49:51 EDT 2016
+TestStep: GetEquivalencyInstCoursesTypes
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://dev.api.blueprint.kaplan.edu/EquivalencyAdmin/InstitutionCourses/Types
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [rwmBQKFjhxR91memZrIpUWWnwS44]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/EquivalencyAdmin/InstitutionCourses/Types HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: rwmBQKFjhxR91memZrIpUWWnwS44
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [153]
+Date: [Tue, 12 Apr 2016 10:49:51 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [rwmBQKFjhxR91memZrIpUWWnwS44]
+X-Powered-By: [ASP.NET]
+
+[{"ID":1,"Name":"College"},{"ID":2,"Name":"Military"},{"ID":3,"Name":"Military College Level Test"},{"ID":4,"Name":"Military Other Learning Experience"}]

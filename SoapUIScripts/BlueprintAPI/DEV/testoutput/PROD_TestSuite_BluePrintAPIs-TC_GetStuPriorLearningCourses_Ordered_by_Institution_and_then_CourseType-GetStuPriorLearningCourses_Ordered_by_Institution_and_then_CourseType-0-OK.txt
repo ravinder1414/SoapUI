@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 3190
+Size: 919
+Timestamp: Sun May 08 04:03:57 EDT 2016
+TestStep: GetStuPriorLearningCourses_Ordered by Institution and then CourseType
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://dev.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/CoursesByInstitution
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [tVsHAu4mhjYHkoFNfVWcR3KGWZom]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/CoursesByInstitution HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: tVsHAu4mhjYHkoFNfVWcR3KGWZom
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [919]
+Date: [Sun, 08 May 2016 08:04:00 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [tVsHAu4mhjYHkoFNfVWcR3KGWZom]
+X-Powered-By: [ASP.NET]
+
+[{"InstitutionID":12955,"InstitutionName":"ITT Technical Institute","CollegeCourses":[],"MilitaryMainCourses":[{"MilitaryCourseNo":"4352","ACEExhibitNo":"12345","ACECreditRecommendation":"yes","Level":"L","SkillLevel":10,"Credits":4.00,"CreditTypeId":4,"ID":8078,"Title":"title","Month":8,"Year":2005,"Official":true,"Blacklisted":false,"AvailableForTransfer":true}],"MilitaryCollegeLevelTestScoreCourses":[{"TestTypeCode":"DLPT","TestTypeName":"Defense Language Proficiency Tests","CalendarSystem":"Quarter Calculated","CreditTypeId":4,"RecommendedCredits":3.00,"StudentScore":34.00,"RequiredScore":"34","ID":8079,"Title":"Defense","Month":6,"Year":2002,"Official":true,"Blacklisted":false,"AvailableForTransfer":true}],"MilitaryOtherLearningExperienceCourses":[{"CourseID":"4562","Location":"Chicago","ID":8080,"Title":"title2","Month":7,"Year":2005,"Official":true,"Blacklisted":false,"AvailableForTransfer":true}]}]

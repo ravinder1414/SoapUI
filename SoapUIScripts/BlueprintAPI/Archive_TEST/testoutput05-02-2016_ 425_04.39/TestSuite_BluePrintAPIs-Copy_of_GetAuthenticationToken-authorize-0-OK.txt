@@ -1,0 +1,46 @@
+Status: OK
+Time Taken: 206
+Size: 104
+Timestamp: Tue Apr 12 06:51:33 EDT 2016
+TestStep: authorize
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Method: POST
+StatusCode: 200
+URL: https://test.webapi.kaplan.edu/api/v1/auth/authorize
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [90]
+Content-Type: [application/json]
+
+POST https://test.webapi.kaplan.edu/api/v1/auth/authorize HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 90
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+   "ClientID": "BluePrint_Test",
+   "ClientSecret": "4QdHTKybO4I0ofDut84FVk5fEN9PF7rP"
+}
+
+---------------- Response --------------------------
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [104]
+Date: [Tue, 12 Apr 2016 10:51:33 GMT]
+Content-Type: [application/json; charset=utf-8]
+
+{"expires_in":7200,"access_token":"qWtFZrA3KB9wW5SNhN1u4zLZwgId","token_type":"Bearer","client_id":null}

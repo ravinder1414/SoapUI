@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 1816
+Size: 952
+Timestamp: Thu May 05 04:34:01 EDT 2016
+TestStep: GetRecomendationsforCreditTranfers
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [cbEFNYr2rEiY75buG8erkEzS3BVu]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: cbEFNYr2rEiY75buG8erkEzS3BVu
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [952]
+Date: [Thu, 05 May 2016 08:34:02 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [cbEFNYr2rEiY75buG8erkEzS3BVu]
+X-Powered-By: [ASP.NET]
+
+[{"CategoryName":"major","Courses":[{"ActiveEQ":4246,"AdCourseID":413182,"CourseCode":"CJ140","CourseTitle":"Introduction to Constitutional Law","Credits":5.0,"Path":{"Recommended":true,"KUCategoryTypeID":2,"KUElectivePoolID":null,"KUAdCourseGroupID":null},"PossibleMatches":[{"TranscriptCourseID":19600,"InstitutionID":17270,"Code":"REGENTS","Title":"Regents","Month":5,"Year":2004,"Grade":"12.00","CalendarSystem":"Quarter Calculated","Recommended":true,"Type":"MilitaryCLSTCourses"}]},{"ActiveEQ":4251,"AdCourseID":457383,"CourseCode":"CJ305","CourseTitle":"Legal Foundations of Criminal Evidence","Credits":6.0,"Path":{"Recommended":true,"KUCategoryTypeID":2,"KUElectivePoolID":null,"KUAdCourseGroupID":null},"PossibleMatches":[{"TranscriptCourseID":19599,"InstitutionID":17270,"Code":"9875","Title":"yes","Month":4,"Year":2008,"Grade":null,"CalendarSystem":"Quarter Calculated","Recommended":true,"Type":"MilitaryCourse"}]}],"ElectivePools":null}]

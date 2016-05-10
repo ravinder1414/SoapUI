@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 608
+Size: 2387
+Timestamp: Tue Apr 12 06:48:31 EDT 2016
+TestStep: GetBPErrLogs
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://dev.api.blueprint.kaplan.edu/v1/Logs?day=10&filter=API
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [rwmBQKFjhxR91memZrIpUWWnwS44]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/v1/Logs?day=10&filter=API HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: rwmBQKFjhxR91memZrIpUWWnwS44
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2387]
+Date: [Tue, 12 Apr 2016 10:48:31 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [rwmBQKFjhxR91memZrIpUWWnwS44]
+X-Powered-By: [ASP.NET]
+
+[{"Timestamp":"4/12/2016","Source":"BluePrint.Business.Managers.StudentPriorLearningManager","Application":"w3wp","MachineName":"DWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-1-131049269448585619","Severity":"ERROR","Message":"An error occurred while updating the entries. See the inner exception for details.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.Data.Entity.Infrastructure.DbUpdateException, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [CreateCollegeTranscript]. Params: [syStudentId=32217354, transcriptTypeID=1, InstitutionID=1, EncryptedDiDocumentID=1]. Message: ","Exception":"An error occurred while updating the entries. See the inner exception for details."},{"Timestamp":"4/4/2016","Source":"BluePrint.Business.Managers.StudentProgramVersionManager","Application":"w3wp","MachineName":"DWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-2-131042675595065118","Severity":"ERROR","Message":"(null)","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message)","ErrorType":"(null)","Description":"Method: [PublishCreditTransfers]. Params: [syStudentId=32182262, EnrollmentId=2696867, adProgramVersionId=448758, userId=503693]. Message: TRANSF ADD FAILED. [AdCourseId:'499873', CourseCode:'12345', Credits:5.00, Grade:EC, PLIds:[8078 ]. ]","Exception":"(null)"},{"Timestamp":"4/4/2016","Source":"BluePrint.Business.Managers.SiriusManager","Application":"w3wp","MachineName":"DWBLUAPP01","AppDomainName":"/LM/W3SVC/2/ROOT-2-131042675595065118","Severity":"ERROR","Message":"An error occurred while executing the command. See the inner exception for details.","Controller":null,"TargetSite":"BluePrint.Common.Logging.LoggerExtensions.LogError(log4net.ILog logger, System.String message, System.Exception ex)","ErrorType":"System.Data.Entity.Core.EntityCommandExecutionException, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","Description":"Method: [CreateOrUpdateCreditTransferRecord]. Params: [StudentId=32182262, EnrollmentId=2696867, TransferredInstitutionId=12955, CourseId=499873]. ","Exception":"An error occurred while executing the command. See the inner exception for details."}]

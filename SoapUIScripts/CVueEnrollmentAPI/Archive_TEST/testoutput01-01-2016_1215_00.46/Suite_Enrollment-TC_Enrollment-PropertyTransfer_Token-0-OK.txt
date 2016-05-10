@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Thu Dec 31 12:16:15 EST 2015
+TestStep: PropertyTransfer_Token
+
+----------------- Messages ------------------------------
+Performed transfer [access_token]
+----------------------------------------------------
+access_token transferred [[y1zRlTDJWR8u9n3wsTR1LZ09yWj6]] from [Auth - GetToken.Response] to [Properties.vartoken]
+------------ source path -------------
+$.access_token
+------------ target path -------------
+

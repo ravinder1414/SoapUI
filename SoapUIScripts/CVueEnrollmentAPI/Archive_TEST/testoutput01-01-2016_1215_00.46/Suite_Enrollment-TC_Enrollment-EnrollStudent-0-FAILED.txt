@@ -1,0 +1,80 @@
+Status: FAILED
+Time Taken: 15036
+Size: 41
+Timestamp: Thu Dec 31 12:16:15 EST 2015
+TestStep: EnrollStudent
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error
+[Match content of [messageResultField]] Assertion failed for path [$.AddNewEnrollmentResponse.enrollmentsField[0].messageResultField] : PathNotFoundException:Path 'AddNewEnrollmentResponse' not found in the current context:
+{"Message": "Error retrieving enrollment"}
+[Match content of [messageErrorCodeField]] Assertion failed for path [$.AddNewEnrollmentResponse.enrollmentsField[0].messageErrorCodeField] : PathNotFoundException:Path 'AddNewEnrollmentResponse' not found in the current context:
+{"Message": "Error retrieving enrollment"}
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Encoding: UTF-8
+Method: POST
+StatusCode: 500
+URL: https://test.webapi.kaplan.edu/api/v1/enrollment
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Token: [y1zRlTDJWR8u9n3wsTR1LZ09yWj6]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [678]
+Content-Type: [application/json]
+
+POST https://test.webapi.kaplan.edu/api/v1/enrollment HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: y1zRlTDJWR8u9n3wsTR1LZ09yWj6
+Content-Type: application/json
+Content-Length: 678
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+{
+	"MessageState" : "",
+	"StudentId" : 91732,
+	"CampusId" : 43,
+	"SchoolStatusId" : 5,
+	"ProgramVersionId" : 414153,
+	"BillingMethodId" : 5,
+	"GradeLevelId" : 1,
+	"ShiftId" : 15,
+	"ApplicationReceivedDate" : "2015-03-12T00:00:00",
+	"EnrollDate" : "2015-03-12T00:00:00",
+	"ExpectedStartDate" : "2015-03-25T00:00:00",
+	"MidPointDate" : "2015-12-30T00:00:00",
+	"GraduationDate" : "2017-03-25T00:00:00",
+	"IsApplicant" : false,
+	"StartDateId" : 657976,
+	"StudentNumber" : "",
+	"ProgramVersionDescription" : "",
+	"Comment" : "",
+	"StatusChangeComment" : "",
+	"IPEDSStateOfResidence" : "",
+	"StartDate" : "0001-01-01T00:00:00",
+	"TermId" : 505952 ,
+	"UpdateOriginalGradDate" : false
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [41]
+Date: [Thu, 31 Dec 2015 17:16:29 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [y1zRlTDJWR8u9n3wsTR1LZ09yWj6]
+
+{"Message":"Error retrieving enrollment"}

@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 20008
+Size: 0
+Timestamp: Wed Mar 16 06:45:52 EDT 2016
+TestStep: WaitforDB 1
+
+----------------- Messages ------------------------------

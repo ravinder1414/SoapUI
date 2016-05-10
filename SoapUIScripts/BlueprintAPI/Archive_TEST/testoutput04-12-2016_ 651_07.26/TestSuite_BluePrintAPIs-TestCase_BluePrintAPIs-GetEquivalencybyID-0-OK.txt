@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 352
+Size: 912
+Timestamp: Fri Apr 08 05:25:40 EDT 2016
+TestStep: GetEquivalencybyID
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [i2rWPMisufzO7lvvbceFfVMAWyoJ]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: i2rWPMisufzO7lvvbceFfVMAWyoJ
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [912]
+Date: [Fri, 08 Apr 2016 09:25:41 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [i2rWPMisufzO7lvvbceFfVMAWyoJ]
+X-Powered-By: [ASP.NET]
+
+{"EquivalencyId":null,"Status":{"ID":1,"Name":"Active"},"InstitutionId":7926,"PriorLearningCourses":{"CollegeCourses":[{"Code":"HUM224","CreditsNotMatched":false,"Credits":4.00,"CreditTypeNotMatched":false,"CreditType":{"ID":2,"Name":"Semester"},"CourseLevelNotMatched":false,"CourseLevel":null,"SoftMatch":false,"CourseTypeId":1,"PriorLearningCourseId":1,"Title":"20th Cent. Women's Movements","CETCreated":true,"EarliestDateEligibleNotMatched":false,"EarliestDateEligible":null,"LatestDateEligibleNotMatched":false,"LatestDateEligible":null,"MaximumCourseAgeNotMatched":false,"MaximumCourseAge":null}],"MilitaryMainCourses":null,"MilitaryCollegeLevelTestScoreCourses":null,"MilitaryOtherLearningExperienceCourses":[]},"KaplanCourses":[{"Course":{"AdCourseId":504332,"Code":"TC6.2","Title":"Transfer Credit","Credits":6.0000,"Description":""},"SubjectMatters":null}],"Programs":null,"TranscriptDescriptions":[]}

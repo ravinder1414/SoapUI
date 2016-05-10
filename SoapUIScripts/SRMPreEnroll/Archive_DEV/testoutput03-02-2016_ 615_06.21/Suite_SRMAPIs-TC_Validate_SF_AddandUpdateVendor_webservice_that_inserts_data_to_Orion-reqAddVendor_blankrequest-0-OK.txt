@@ -1,0 +1,78 @@
+Status: OK
+Time Taken: 869
+Size: 972
+Timestamp: Tue Mar 01 06:15:56 EST 2016
+TestStep: reqAddVendor_blankrequest
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: http://10.78.101.184/MarketingService.svc
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "http://tempuri.org/IMarketingService/AddVendor"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.3.1 (java 1.5)
+Host : 10.78.101.184
+Accept-Encoding : gzip,deflate
+Content-Length : 1465
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:kap="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts.Marketing">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddVendor>
+         <!--Optional:-->
+         <tem:vendors>
+            <!--Zero or more repetitions:-->
+            <kap:Vendor>
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:MarketingChannelId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:ReplyEmail xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <kap:VendorName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <!--Optional:-->
+               <kap:parentVendorId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+               <!--Optional:-->
+               <kap:vendorInstitutionTypes xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </kap:Vendor>
+         </tem:vendors>
+      </tem:AddVendor>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Cache-Control : private
+Server : Microsoft-IIS/8.0
+X-AspNet-Version : 4.0.30319
+Set-Cookie : ASP.NET_SessionId=ilxvdl40dkezieps4cd10vfv; path=/; HttpOnly
+#status# : HTTP/1.1 200 OK
+Content-Length : 972
+Date : Tue, 01 Mar 2016 11:15:57 GMT
+Content-Type : text/xml; charset=utf-8
+X-Powered-By : ASP.NET
+
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <AddVendorResponse xmlns="http://tempuri.org/">
+         <AddVendorResult xmlns:a="http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <a:CVueTransactionResult>
+               <a:IsSuccess>false</a:IsSuccess>
+               <a:Message>Kaplan.SRM.Business.Marketing.AddVendor.  Message: VendorName is not valid., StackTrace:     at Kaplan.SRM.Data.Repositories.OrionRepository.AddVendor(List`1 vendors, Int32 userID) in c:\TFS\SRM Integration\Features\Phase45Dev\Kaplan.SRM.Integration\Kaplan.SRM.Data\Repositories\OrionRepository.cs:line 108
+   at Kaplan.SRM.Business.Marketing.MarketingManager.AddVendor(List`1 vendors, Int32 userID) in c:\TFS\SRM Integration\Features\Phase45Dev\Kaplan.SRM.Integration\Kaplan.SRM.Business\Marketing\MarketingManager.cs:line 26</a:Message>
+               <a:ReturnValue/>
+            </a:CVueTransactionResult>
+         </AddVendorResult>
+      </AddVendorResponse>
+   </s:Body>
+</s:Envelope>

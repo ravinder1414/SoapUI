@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 88
+Size: 79
+Timestamp: Wed May 04 04:06:05 EDT 2016
+TestStep: GetEquivalecyStatues
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/Statuses
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [3HSFBAfhUr7Hdbor7HaTbKZYDCB1]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/Statuses HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: 3HSFBAfhUr7Hdbor7HaTbKZYDCB1
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [79]
+Date: [Wed, 04 May 2016 08:06:04 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [3HSFBAfhUr7Hdbor7HaTbKZYDCB1]
+X-Powered-By: [ASP.NET]
+
+[{"ID":1,"Name":"Active"},{"ID":2,"Name":"Inactive"},{"ID":3,"Name":"Deleted"}]

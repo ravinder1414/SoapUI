@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Fri Apr 08 04:23:02 EDT 2016
+TestStep: GetStudentProgram_Courses in SequenceandTranferred
+
+----------------- Messages ------------------------------
+java.net.SocketTimeoutException: Read timed out
+
+- missing response / garbage collected -

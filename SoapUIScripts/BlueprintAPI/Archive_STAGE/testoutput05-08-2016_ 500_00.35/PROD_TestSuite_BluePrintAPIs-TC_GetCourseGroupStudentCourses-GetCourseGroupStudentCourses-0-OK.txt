@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 114
+Size: 4
+Timestamp: Sat May 07 05:03:32 EDT 2016
+TestStep: GetCourseGroupStudentCourses
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.api.blueprint.kaplan.edu/v2/Enrollment/1/CourseGroups/1/Courses
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TPsOepMVhGmqvi00kaTYHwmHrsMB]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/v2/Enrollment/1/CourseGroups/1/Courses HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TPsOepMVhGmqvi00kaTYHwmHrsMB
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [4]
+Date: [Sat, 07 May 2016 09:03:32 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TPsOepMVhGmqvi00kaTYHwmHrsMB]
+X-Powered-By: [ASP.NET]
+
+null

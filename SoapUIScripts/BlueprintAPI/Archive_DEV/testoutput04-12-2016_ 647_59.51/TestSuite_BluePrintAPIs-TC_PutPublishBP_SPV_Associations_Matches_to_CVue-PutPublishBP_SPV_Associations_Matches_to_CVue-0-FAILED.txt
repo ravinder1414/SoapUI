@@ -1,0 +1,388 @@
+Status: FAILED
+Time Taken: 59
+Size: 1245
+Timestamp: Mon Apr 11 10:36:58 EDT 2016
+TestStep: PutPublishBP SPV_Associations_Matches to CVue
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 404 Not Found
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: PUT
+StatusCode: 404
+URL: http://dev.api.blueprint.kaplan.edu/v2/Students//Enrollments//ProgramVersions//Publish
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [gdnuAWfoi0tZ4N4Xp4zbBDr3jMDp]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [11214]
+Content-Type: [application/json]
+
+PUT http://dev.api.blueprint.kaplan.edu/v2/Students//Enrollments//ProgramVersions//Publish HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Token: gdnuAWfoi0tZ4N4Xp4zbBDr3jMDp
+Content-Length: 11214
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+  "Categories": [
+    {
+      "CategoryTypeID": 0,
+      "CategoryName": "",
+      "Courses": [
+        {
+          "Added": false,
+          "Waived": false,
+          "Comments": "",
+          "Status": "",
+          "Grade": "",
+          "CreditEarned": false,
+          "Default": false,
+          "MatchInfo": {
+            "PriorLearningCourses": [
+              {
+                "ID": 0
+              }
+            ],
+            "MatchedGrade": "",
+            "Transferred": false,
+            "TransferFailed": false,
+            "TransferredBy": 0,
+            "DateTransferred": ""
+          },
+          "AssociationInfo": {
+            "AdEnrollId": 0,
+            "AdEnrollSchedId": 0,
+            "AdEnrollSchedOtherEnrollId": 0,
+            "Published": false,
+            "PublishFailed": false,
+            "PublishedBy": 0,
+            "PublishDate": ""
+          },
+          "HasModules": false,
+          "Modules": [
+            {
+              "AdCourseID": 0,
+              "CourseCode": "",
+              "CourseTitle": "",
+              "CourseDescription": "",
+              "Credits": 0,
+              "Order": 0,
+              "Default": false,
+              "Status": "",
+              "Grade": "",
+              "CreditEarned": false,
+              "MatchPendingToDelete": false,
+              "MatchInfo": {
+                "PriorLearningCourses": [
+                  {
+                    "ID": 0
+                  }
+                ],
+                "MatchedGrade": "",
+                "Transferred": false,
+                "TransferFailed": false,
+                "TransferredBy": 0,
+                "DateTransferred": ""
+              },
+              "AssociationInfo": {
+                "AdEnrollId": 0,
+                "AdEnrollSchedId": 0,
+                "AdEnrollSchedOtherEnrollId": 0,
+                "Published": false,
+                "PublishFailed": false,
+                "PublishedBy": 0,
+                "PublishDate": ""
+              },
+              "EquivalentCourse": {
+                "AdCourseID": 0,
+                "CourseCode": "",
+                "CourseTitle": "",
+                "CourseDescription": "",
+                "Credits": 0
+              },
+              "EquivalentCourses": [
+                {
+                  "AdCourseID": 0,
+                  "CourseCode": "",
+                  "CourseTitle": "",
+                  "CourseDescription": "",
+                  "Credits": 0
+                }
+              ],
+              "ShowHistory": false
+            }
+          ],
+          "EquivalentCourse": {
+            "AdCourseID": 0,
+            "CourseCode": "",
+            "CourseTitle": "",
+            "CourseDescription": "",
+            "Credits": 0
+          },
+          "ShowHistory": false,
+          "AdCourseID": 0,
+          "CourseCode": "",
+          "CourseTitle": "",
+          "CourseDescription": "",
+          "Credits": 0,
+          "Order": 0,
+          "MatchPendingToDelete": false,
+          "EquivalentCourses": [
+            {
+              "AdCourseID": 0,
+              "CourseCode": "",
+              "CourseTitle": "",
+              "CourseDescription": "",
+              "Credits": 0
+            }
+          ]
+        }
+      ],
+      "ElectivePools": [
+        {
+          "ElectivePoolID": 0,
+          "ElectiveName": "",
+          "AdjustedCredits": 0,
+          "Credits": 0,
+          "Waived": false,
+          "Comments": "",
+          "Courses": [
+            {
+              "Status": "",
+              "Grade": "",
+              "CreditEarned": false,
+              "MatchInfo": {
+                "PriorLearningCourses": [
+                  {
+                    "ID": 0
+                  }
+                ],
+                "MatchedGrade": "",
+                "Transferred": false,
+                "TransferFailed": false,
+                "TransferredBy": 0,
+                "DateTransferred": ""
+              },
+              "AssociationInfo": {
+                "AdEnrollId": 0,
+                "AdEnrollSchedId": 0,
+                "AdEnrollSchedOtherEnrollId": 0,
+                "Published": false,
+                "PublishFailed": false,
+                "PublishedBy": 0,
+                "PublishDate": ""
+              },
+              "HasModules": false,
+              "Modules": [
+                {
+                  "AdCourseID": 0,
+                  "CourseCode": "",
+                  "CourseTitle": "",
+                  "CourseDescription": "",
+                  "Credits": 0,
+                  "Order": 0,
+                  "Default": false,
+                  "Status": "",
+                  "Grade": "",
+                  "CreditEarned": false,
+                  "MatchPendingToDelete": false,
+                  "MatchInfo": {
+                    "PriorLearningCourses": [
+                      {
+                        "ID": 0
+                      }
+                    ],
+                    "MatchedGrade": "",
+                    "Transferred": false,
+                    "TransferFailed": false,
+                    "TransferredBy": 0,
+                    "DateTransferred": ""
+                  },
+                  "AssociationInfo": {
+                    "AdEnrollId": 0,
+                    "AdEnrollSchedId": 0,
+                    "AdEnrollSchedOtherEnrollId": 0,
+                    "Published": false,
+                    "PublishFailed": false,
+                    "PublishedBy": 0,
+                    "PublishDate": ""
+                  },
+                  "EquivalentCourse": {
+                    "AdCourseID": 0,
+                    "CourseCode": "",
+                    "CourseTitle": "",
+                    "CourseDescription": "",
+                    "Credits": 0
+                  },
+                  "EquivalentCourses": [
+                    {
+                      "AdCourseID": 0,
+                      "CourseCode": "",
+                      "CourseTitle": "",
+                      "CourseDescription": "",
+                      "Credits": 0
+                    }
+                  ],
+                  "ShowHistory": false
+                }
+              ],
+              "EquivalentCourse": {
+                "AdCourseID": 0,
+                "CourseCode": "",
+                "CourseTitle": "",
+                "CourseDescription": "",
+                "Credits": 0
+              },
+              "ShowHistory": false,
+              "AdCourseID": 0,
+              "CourseCode": "",
+              "CourseTitle": "",
+              "CourseDescription": "",
+              "Credits": 0,
+              "Order": 0,
+              "Default": false,
+              "MatchPendingToDelete": false,
+              "EquivalentCourses": [
+                {
+                  "AdCourseID": 0,
+                  "CourseCode": "",
+                  "CourseTitle": "",
+                  "CourseDescription": "",
+                  "Credits": 0
+                }
+              ]
+            }
+          ],
+          "CourseGroups": [
+            {
+              "AdCourseGroupId": 0,
+              "CourseGroupName": "",
+              "Courses": [
+                {
+                  "Status": "",
+                  "Grade": "",
+                  "CreditEarned": false,
+                  "MatchInfo": {
+                    "PriorLearningCourses": [
+                      {
+                        "ID": 0
+                      }
+                    ],
+                    "MatchedGrade": "",
+                    "Transferred": false,
+                    "TransferFailed": false,
+                    "TransferredBy": 0,
+                    "DateTransferred": ""
+                  },
+                  "AssociationInfo": {
+                    "AdEnrollId": 0,
+                    "AdEnrollSchedId": 0,
+                    "AdEnrollSchedOtherEnrollId": 0,
+                    "Published": false,
+                    "PublishFailed": false,
+                    "PublishedBy": 0,
+                    "PublishDate": ""
+                  },
+                  "HasModules": false,
+                  "Modules": [
+                    {
+                      "AdCourseID": 0,
+                      "CourseCode": "",
+                      "CourseTitle": "",
+                      "CourseDescription": "",
+                      "Credits": 0,
+                      "Order": 0,
+                      "Default": false,
+                      "Status": "",
+                      "Grade": "",
+                      "CreditEarned": false,
+                      "MatchPendingToDelete": false,
+                      "MatchInfo": {
+                        "PriorLearningCourses": [
+                          {
+                            "ID": 0
+                          }
+                        ],
+                        "MatchedGrade": "",
+                        "Transferred": false,
+                        "TransferFailed": false,
+                        "TransferredBy": 0,
+                        "DateTransferred": ""
+                      },
+                      "AssociationInfo": {
+                        "AdEnrollId": 0,
+                        "AdEnrollSchedId": 0,
+                        "AdEnrollSchedOtherEnrollId": 0,
+                        "Published": false,
+                        "PublishFailed": false,
+                        "PublishedBy": 0,
+                        "PublishDate": ""
+                      },
+                      "EquivalentCourse": {
+                        "AdCourseID": 0,
+                        "CourseCode": "",
+                        "CourseTitle": "",
+                        "CourseDescription": "",
+                        "Credits": 0
+                      },
+                      "EquivalentCourses": [
+                        {
+                          "AdCourseID": 0,
+                          "CourseCode": "",
+                          "CourseTitle": "",
+                          "CourseDescription": "",
+                          "Credits": 0
+                        }
+                     
+
+---------------- Response --------------------------
+Server: [Microsoft-IIS/8.5]
+#status#: [HTTP/1.1 404 Not Found]
+Content-Length: [1245]
+Date: [Mon, 11 Apr 2016 14:36:59 GMT]
+Content-Type: [text/html]
+X-Powered-By: [ASP.NET]
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+      <title>404 - File or directory not found.</title>
+      <style type="text/css">
+         <!--body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}-->
+      </style>
+   </head>
+   <body>
+      <div id="header">
+         <h1>Server Error</h1>
+      </div>
+      <div id="content">
+         <div class="content-container">
+            <fieldset>
+               <h2>404 - File or directory not found.</h2>
+               <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>
+            </fieldset>
+         </div>
+      </div>
+   </body>
+</html>

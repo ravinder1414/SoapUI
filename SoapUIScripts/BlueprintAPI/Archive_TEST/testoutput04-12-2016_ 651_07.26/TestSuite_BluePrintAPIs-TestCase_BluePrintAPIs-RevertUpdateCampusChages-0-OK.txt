@@ -1,0 +1,54 @@
+Status: OK
+Time Taken: 124
+Size: 0
+Timestamp: Fri Apr 08 05:23:15 EDT 2016
+TestStep: RevertUpdateCampusChages
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: PUT
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v1/Campuses
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [LP5gWS9fZ9DqRLvLFeuMU5FjMlUE]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [133]
+Content-Type: [application/json]
+
+PUT http://test.api.blueprint.kaplan.edu/v1/Campuses HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Token: LP5gWS9fZ9DqRLvLFeuMU5FjMlUE
+Content-Length: 133
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+   "CampusId": 9,
+   "Campus": "",
+   "Code": "",
+   "SyCampusId": "",
+   "UndergraduateCredits": "12",
+   "GraduateCredits": "7"
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [0]
+Date: [Fri, 08 Apr 2016 09:23:14 GMT]
+authenticationToken: [LP5gWS9fZ9DqRLvLFeuMU5FjMlUE]
+X-Powered-By: [ASP.NET]

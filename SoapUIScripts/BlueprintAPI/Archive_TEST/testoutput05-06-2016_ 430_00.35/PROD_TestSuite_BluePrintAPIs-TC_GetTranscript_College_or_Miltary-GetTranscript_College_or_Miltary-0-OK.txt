@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 394
+Size: 1096
+Timestamp: Thu May 05 04:34:00 EDT 2016
+TestStep: GetTranscript (College or Miltary)
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v1/Students/32098206/PriorLearning?EncryptedDiDocumentID=8%2B2gMK6kOc5UTHolN2vIlacO18CcGBh7
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [cbEFNYr2rEiY75buG8erkEzS3BVu]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v1/Students/32098206/PriorLearning?EncryptedDiDocumentID=8%2B2gMK6kOc5UTHolN2vIlacO18CcGBh7 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: cbEFNYr2rEiY75buG8erkEzS3BVu
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1096]
+Date: [Thu, 05 May 2016 08:34:00 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [cbEFNYr2rEiY75buG8erkEzS3BVu]
+X-Powered-By: [ASP.NET]
+
+{"MilitaryStatus":"E3","MilitaryRank":"active","DateIssued":"2015-04-15T05:00:00","MainCourses":[{"MilitaryCourseNo":"7852","ACEExhibitNo":"3252","ACECreditRecommendation":"yes","Grade":null,"Credits":4.00,"CalendarSystemID":1,"LevelID":"G","SkillLevel":10,"ID":19593,"Title":"Military","Month":5,"Year":2013,"Blacklisted":false,"Notes":null}],"CollegeLevelTestCourses":[{"TestTypeID":4,"RecommendedCredits":4.00,"ACERequiredScore":"12","CalendarSystemID":1,"StudentScore":12.00,"ID":19594,"Title":"Regents","Month":5,"Year":2009,"Blacklisted":false,"Notes":null}],"OtherLearningExperienceCourses":[{"CourseID":"31546","Location":"Chicago","ID":19595,"Title":"MOL","Month":3,"Year":2009,"Blacklisted":false,"Notes":null}],"ID":1276,"EncryptedDiDocumentID":"8+2gMK6kOc5UTHolN2vIlacO18CcGBh7","DocumentTypeID":1065,"TranscriptTypeID":4,"URL":"http://test.api.blueprint.kaplan.edu/v1/imaging/campus/43/documents?DocTypeId=1065&DocumentId=8%2B2gMK6kOc5UTHolN2vIlacO18CcGBh7&studentId=32098206&userId=482927","Institution":{"InstitutionID":17490,"Name":"Kaplan Career Institute - Charlestown Campus"}}

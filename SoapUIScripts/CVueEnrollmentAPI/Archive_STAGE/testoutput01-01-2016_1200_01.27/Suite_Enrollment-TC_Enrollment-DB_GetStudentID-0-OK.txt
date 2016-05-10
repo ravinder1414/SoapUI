@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 7419
+Size: 0
+Timestamp: Thu Dec 31 12:00:49 EST 2015
+TestStep: DB_GetStudentID
+
+----------------- Messages ------------------------------

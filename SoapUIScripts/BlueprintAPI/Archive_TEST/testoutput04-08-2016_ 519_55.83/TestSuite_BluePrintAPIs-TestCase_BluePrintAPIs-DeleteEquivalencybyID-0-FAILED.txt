@@ -1,0 +1,42 @@
+Status: FAILED
+Time Taken: 59
+Size: 0
+Timestamp: Fri Apr 08 04:25:12 EDT 2016
+TestStep: DeleteEquivalencybyID
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 417 Please provide valid Token
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 417
+URL: http://test.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/equivalencyid
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/EquivalencyAdmin/Equivalencies/equivalencyid HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 417 Please provide valid Token]
+Content-Length: [0]
+Date: [Fri, 08 Apr 2016 08:25:11 GMT]
+X-Powered-By: [ASP.NET]

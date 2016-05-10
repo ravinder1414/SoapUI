@@ -1,0 +1,50 @@
+Status: FAILED
+Time Taken: 737
+Size: 52
+Timestamp: Thu May 05 05:03:26 EDT 2016
+TestStep: GetTransferCredit for StudentandCourse
+
+----------------- Messages ------------------------------
+[Script Assertion] assert val=="HTTP/1.1 200 OK"
+       |  |
+       |  false
+       HTTP/1.1 500 Internal Server Error
+[Check for existence of [CollegeName]] Comparison failed for path [$.CollegeName], expecting [true], actual was [false]
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 500
+URL: https://stage.api.blueprint.kaplan.edu/v2/Students/32182262/Enrollment/2911374/Course/1/TransferCreditDetails
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [BpvdYXCex0XHIkYUIrDj5iWqBIVM]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/v2/Students/32182262/Enrollment/2911374/Course/1/TransferCreditDetails HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: BpvdYXCex0XHIkYUIrDj5iWqBIVM
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [52]
+Date: [Thu, 05 May 2016 09:03:27 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [BpvdYXCex0XHIkYUIrDj5iWqBIVM]
+X-Powered-By: [ASP.NET]
+
+{"Message":"Error loading transfer credit details."}

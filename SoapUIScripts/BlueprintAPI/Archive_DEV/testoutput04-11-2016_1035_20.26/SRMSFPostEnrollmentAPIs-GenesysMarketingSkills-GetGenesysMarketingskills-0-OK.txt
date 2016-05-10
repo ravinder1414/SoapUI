@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 119
+Size: 26
+Timestamp: Thu Apr 07 05:47:03 EDT 2016
+TestStep: GetGenesysMarketingskills
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/genesys/skills?section=console&property=marketing&value=1
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/genesys/skills?section=console&property=marketing&value=1 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TZ6BlxLRygVkc0CpG0QeroEif6HH
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [26]
+Date: [Thu, 07 Apr 2016 09:47:03 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+
+{"GenesysConfigSkills":[]}

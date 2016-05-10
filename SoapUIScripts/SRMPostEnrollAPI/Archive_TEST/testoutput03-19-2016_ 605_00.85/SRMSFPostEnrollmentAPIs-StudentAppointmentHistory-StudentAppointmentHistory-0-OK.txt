@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 201
+Size: 220
+Timestamp: Fri Mar 18 06:05:41 EDT 2016
+TestStep: StudentAppointmentHistory
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://test.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://test.webapi.kaplan.edu/api/v1/students/4104496/appointments
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Token: [PnSPTygijCkavPAa76eQHdaJDnEG]
+Host: [test.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://test.webapi.kaplan.edu/api/v1/students/4104496/appointments HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: PnSPTygijCkavPAa76eQHdaJDnEG
+Host: test.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [220]
+Date: [Fri, 18 Mar 2016 10:05:43 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [PnSPTygijCkavPAa76eQHdaJDnEG]
+
+{"Appointments":[{"AppointmentDate":"2005-05-02T20:15:00","AppointmentStatus":null,"AppointmentType":"Interview","CreatedBy":"Hinds,Terrance","CreatedON":"2005-05-02T19:04:22.413","DateCompleted":"Aug 17 2010  3:29AM"}]}

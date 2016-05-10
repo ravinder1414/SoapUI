@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 258
+Size: 484
+Timestamp: Sat May 07 05:01:53 EDT 2016
+TestStep: GetCVueCourseLevels
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.api.blueprint.kaplan.edu/CourseLevels
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [E3DYDnloMyR0CdEaHDBMCoPvT1uW]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/CourseLevels HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: E3DYDnloMyR0CdEaHDBMCoPvT1uW
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [484]
+Date: [Sat, 07 May 2016 09:01:52 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [E3DYDnloMyR0CdEaHDBMCoPvT1uW]
+X-Powered-By: [ASP.NET]
+
+[{"AdCourseLevelID":1,"Description":"All Levels"},{"AdCourseLevelID":3,"Description":"100 Level"},{"AdCourseLevelID":4,"Description":"200 Level"},{"AdCourseLevelID":5,"Description":"300 Level"},{"AdCourseLevelID":6,"Description":"400 Level"},{"AdCourseLevelID":7,"Description":"500 Level"},{"AdCourseLevelID":8,"Description":"600 Level"},{"AdCourseLevelID":9,"Description":"700 Level"},{"AdCourseLevelID":10,"Description":"800 Level"},{"AdCourseLevelID":11,"Description":"000 Level"}]

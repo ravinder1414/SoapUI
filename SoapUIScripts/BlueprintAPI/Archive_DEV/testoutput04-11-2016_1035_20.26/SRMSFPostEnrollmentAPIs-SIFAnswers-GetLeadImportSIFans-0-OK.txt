@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 564
+Size: 1048
+Timestamp: Thu Apr 07 05:47:01 EDT 2016
+TestStep: GetLeadImportSIFans
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/leads/sifs/38631603/answers
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/leads/sifs/38631603/answers HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TZ6BlxLRygVkc0CpG0QeroEif6HH
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1048]
+Date: [Thu, 07 Apr 2016 09:47:01 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+
+{"mkLeadImportID":38631603,"SIFAnswers":[{"Answer":"ExecJD","QuestionID":20631,"QuestionName":"ProgramOfInterest"},{"Answer":"Mr","QuestionID":20632,"QuestionName":"Salutation"},{"Answer":"TestNGFNInfoCall_wrX","QuestionID":20633,"QuestionName":"Fname"},{"Answer":"TestNGLNInfoCall_wrX","QuestionID":20634,"QuestionName":"Lname"},{"Answer":"TestNGFNInfoCall_wrXCqIC@kap.com","QuestionID":20635,"QuestionName":"Email"},{"Answer":"kaplan","QuestionID":20636,"QuestionName":"Address"},{"Answer":"","QuestionID":20637,"QuestionName":"Address2"},{"Answer":"Meansville","QuestionID":20638,"QuestionName":"City"},{"Answer":"Georgia","QuestionID":20639,"QuestionName":"State"},{"Answer":"30256","QuestionID":20640,"QuestionName":"Zip"},{"Answer":"9545151234","QuestionID":20645,"QuestionName":"HPhone"},{"Answer":"","QuestionID":20641,"QuestionName":"WPhone"},{"Answer":"United States","QuestionID":20646,"QuestionName":"Country"},{"Answer":"NO","QuestionID":20647,"QuestionName":"Bachelors"},{"Answer":"No","QuestionID":20649,"QuestionName":"TCPA_Disc"}]}

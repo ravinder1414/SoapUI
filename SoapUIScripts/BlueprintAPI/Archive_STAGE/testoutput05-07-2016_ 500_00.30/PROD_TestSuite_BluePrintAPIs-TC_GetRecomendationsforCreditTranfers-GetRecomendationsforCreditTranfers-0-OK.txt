@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 272
+Size: 2
+Timestamp: Fri May 06 05:03:17 EDT 2016
+TestStep: GetRecomendationsforCreditTranfers
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://stage.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [h1ppC8Y2L96hKkdWgkYvCEIh0haI]
+Host: [stage.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage.api.blueprint.kaplan.edu/v2/PriorLearningCredits/Students/32182262/Enrollments/2696867/ProgramVersions/448758/Courses/AutoMatch HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: h1ppC8Y2L96hKkdWgkYvCEIh0haI
+Host: stage.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [2]
+Date: [Fri, 06 May 2016 09:03:16 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [h1ppC8Y2L96hKkdWgkYvCEIh0haI]
+X-Powered-By: [ASP.NET]
+
+[]

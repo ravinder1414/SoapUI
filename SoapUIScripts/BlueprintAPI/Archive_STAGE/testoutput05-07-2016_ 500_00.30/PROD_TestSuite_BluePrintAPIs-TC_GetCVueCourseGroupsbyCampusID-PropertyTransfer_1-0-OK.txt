@@ -1,0 +1,20 @@
+Status: OK
+Time Taken: 31
+Size: 0
+Timestamp: Fri May 06 05:01:45 EDT 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [AdCourseGroupID]
+Performed transfer [CourseGroupCode]
+----------------------------------------------------
+AdCourseGroupID transferred [[1]] from [GetCVueCourseGroups by CampusID.Response] to [#TestSuite#.AdCourseGroupID]
+------------ source path -------------
+$[0].AdCourseGroupID
+------------ target path -------------
+
+CourseGroupCode transferred [[BSMAM/IT]] from [GetCVueCourseGroups by CampusID.Response] to [#TestSuite#.CourseGroupCode]
+------------ source path -------------
+$[0].CourseGroupCode
+------------ target path -------------
+

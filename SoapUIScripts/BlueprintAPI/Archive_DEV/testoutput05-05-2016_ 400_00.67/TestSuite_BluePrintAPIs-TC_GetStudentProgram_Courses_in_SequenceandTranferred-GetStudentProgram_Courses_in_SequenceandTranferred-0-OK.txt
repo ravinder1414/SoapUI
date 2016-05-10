@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 916
+Size: 7495
+Timestamp: Tue Apr 12 06:48:37 EDT 2016
+TestStep: GetStudentProgram_Courses in SequenceandTranferred
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://dev.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://dev.api.blueprint.kaplan.edu/v2/Students/36361313/DegreePlan?enrollmentId=2911374&adProgramVersionId=452664
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [rwmBQKFjhxR91memZrIpUWWnwS44]
+Host: [dev.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://dev.api.blueprint.kaplan.edu/v2/Students/36361313/DegreePlan?enrollmentId=2911374&adProgramVersionId=452664 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: rwmBQKFjhxR91memZrIpUWWnwS44
+Host: dev.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [7495]
+Date: [Tue, 12 Apr 2016 10:48:37 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [rwmBQKFjhxR91memZrIpUWWnwS44]
+X-Powered-By: [ASP.NET]
+
+{"Categories":[{"Id":5350,"Name":"Core Requirements","Courses":[{"AdCourseId":375342,"Code":"CM107       ","Credits":5.00,"Name":"College Composition I","Sequence":1,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":42262,"Code":"CM220","Credits":5.00,"Name":"College Composition II","Sequence":4,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":506347,"Code":"CS204","Credits":3.00,"Name":"Professional Presence","Sequence":8,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}],"ElectivePools":[{"Id":6861,"Name":"Core Science Requirement","CreditsDelta":0.0,"Courses":null,"CourseGroups":[{"AdCourseGroupId":257,"Name":"Core Science Requirement - Version B!","Courses":[{"AdCourseId":503008,"Code":"SC250","Credits":5.00,"Name":"Science for Everyday Life","Sequence":15,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}]}],"RequiredCredits":5.00},{"Id":6860,"Name":"Core Social Science Requirement","CreditsDelta":0.0,"Courses":null,"CourseGroups":[{"AdCourseGroupId":259,"Name":"Core Social Science Requirement - Version B!","Courses":[{"AdCourseId":42316,"Code":"SS236","Credits":5.00,"Name":"People, Power, and Politics: An Intro to American Government","Sequence":13,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}]}],"RequiredCredits":5.00},{"Id":6859,"Name":"Core Arts and Humanities Requirement","CreditsDelta":0.0,"Courses":null,"CourseGroups":[{"AdCourseGroupId":255,"Name":"Core Arts and Humanities Requirement - Version B!","Courses":[{"AdCourseId":503006,"Code":"HU250       ","Credits":5.00,"Name":"Humanities and Culture","Sequence":10,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}]}],"RequiredCredits":5.00},{"Id":6858,"Name":"Core Mathematics Requirement","CreditsDelta":0.0,"Courses":null,"CourseGroups":[{"AdCourseGroupId":253,"Name":"Core Mathematics Requirement - Version B!","Courses":[{"AdCourseId":501632,"Code":"MM150       ","Credits":5.00,"Name":"Survey of Mathematics","Sequence":2,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}]}],"RequiredCredits":5.00}]},{"Id":5351,"Name":"Major Requirements","Courses":[{"AdCourseId":20005,"Code":"AC114","Credits":5.00,"Name":"Accounting I","Sequence":5,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":42258,"Code":"AC116","Credits":5.00,"Name":"Accounting II","Sequence":7,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":73112,"Code":"AC239       ","Credits":5.00,"Name":"Managerial Accounting","Sequence":14,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":73113,"Code":"AC256","Credits":5.00,"Name":"Federal Tax","Sequence":16,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":73114,"Code":"AC300","Credits":6.00,"Name":"Intermediate Accounting I","Sequence":17,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":73115,"Code":"AC301","Credits":6.00,"Name":"Intermediate Accounting II","Sequence":19,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":500741,"Code":"BU224","Credits":5.00,"Name":"Microeconomics","Sequence":9,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":502982,"Code":"LS311","Credits":6.00,"Name":"Business Law","Sequence":23,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":502752,"Code":"MM255","Credits":5.00,"Name":"Business Math and Statistical Measures","Sequence":3,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":502280,"Code":"MT140","Credits":5.00,"Name":"Introduction to Management","Sequence":6,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":21099,"Code":"MT217","Credits":5.00,"Name":"Finance","Sequence":12,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":21103,"Code":"MT219","Credits":5.00,"Name":"Marketing","Sequence":11,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":21115,"Code":"MT302","Credits":6.00,"Name":"Organizational Behavior","Sequence":21,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}],"ElectivePools":[{"Id":6863,"Name":"AC490 Accounting Experiential Learning - Career Engagement or AC499 Bachelor's Capstone in Accounting","CreditsDelta":0.0,"Courses":[{"AdCourseId":503358,"Code":"AC499","Credits":6.00,"Name":"Bachelors Capstone in Accounting","Sequence":34,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}],"CourseGroups":null,"RequiredCredits":6.00},{"Id":6862,"Name":"300/400 Level Major Electives","CreditsDelta":0.0,"Courses":[{"AdCourseId":73122,"Code":"MT482","Credits":6.00,"Name":"Financial Statement Analysis","Sequence":31,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}],"CourseGroups":[{"AdCourseGroupId":182,"Name":"Accounting Electives","Courses":[{"AdCourseId":502479,"Code":"AC302","Credits":6.00,"Name":"Intermediate Accounting III","Sequence":25,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":502262,"Code":"AC330","Credits":6.00,"Name":"Managerial Accounting For Business Professionals","Sequence":27,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":73117,"Code":"AC410","Credits":6.00,"Name":"Auditing","Sequence":29,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}]}],"RequiredCredits":24.00}]},{"Id":5352,"Name":"Open Elective Requirements","Courses":null,"ElectivePools":[{"Id":6864,"Name":"Open Electives","CreditsDelta":0.0,"Courses":null,"CourseGroups":[{"AdCourseGroupId":161,"Name":"All KU Undergraduate Courses-Bachelors","Courses":[{"AdCourseId":73110,"Code":"AC122","Credits":5.00,"Name":"Payroll Accounting","Sequence":18,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":73118,"Code":"AC420","Credits":6.00,"Name":"Cost Accounting","Sequence":33,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":20670,"Code":"IT153","Credits":5.00,"Name":"Spreadsheet Applications","Sequence":26,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":20695,"Code":"IT190","Credits":5.00,"Name":"Foundations in Information Technology","Sequence":28,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":21086,"Code":"MT203","Credits":5.00,"Name":"Human Resource Management","Sequence":24,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":21091,"Code":"MT209","Credits":5.00,"Name":"Small Business Management","Sequence":20,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":501637,"Code":"MT220","Credits":5.00,"Name":"Global Business","Sequence":22,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":21111,"Code":"MT300","Credits":6.00,"Name":"Management of Information Systems","Sequence":32,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null},{"AdCourseId":21122,"Code":"MT340","Credits":6.00,"Name":"Conflict Management and Team Dynamics","Sequence":30,"EquivalentToSPVCourse":null,"CourseAttempts":null,"Modules":null}]}],"RequiredCredits":48.00}]}],"Campus":{"CampusId":4,"Campus":"036 Kaplan University, Cedar Falls","Code":"36","SyCampusId":38,"UndergraduateCredits":18,"GraduateCredits":7},"CreditsPerTerm":0,"DegreeLevel":"Undergraduate"}

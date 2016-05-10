@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 116
+Size: 596
+Timestamp: Tue Mar 15 05:45:54 EDT 2016
+TestStep: StudentAppointmentHistory
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/students/34543865/appointments
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.3.1 (java 1.5)]
+Token: [GgqUj3RrczaBPsiSo8EtCBSDM1xO]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/students/34543865/appointments HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: GgqUj3RrczaBPsiSo8EtCBSDM1xO
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [596]
+Date: [Tue, 15 Mar 2016 09:45:55 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [GgqUj3RrczaBPsiSo8EtCBSDM1xO]
+
+{"Appointments":[{"AppointmentDate":"2015-01-27T12:57:17.08","AppointmentStatus":"Completed","AppointmentType":"Interview","CreatedBy":"Locher,Kelley","CreatedON":"2015-01-27T12:57:17.03","DateCompleted":"Jan 27 2015 12:57PM"},{"AppointmentDate":"2015-02-04T13:00:00","AppointmentStatus":null,"AppointmentType":"Follow Up","CreatedBy":"Locher,Kelley","CreatedON":"2015-01-27T13:20:49.8","DateCompleted":" "},{"AppointmentDate":"2015-02-18T18:45:00","AppointmentStatus":"Pending","AppointmentType":"Follow Up","CreatedBy":"Locher,Kelley","CreatedON":"2015-02-10T17:43:13.11","DateCompleted":" "}]}

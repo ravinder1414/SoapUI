@@ -1,0 +1,20 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Tue Apr 12 07:01:28 EDT 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [UndergraduateCredits]
+Performed transfer [GraduateCredits]
+----------------------------------------------------
+UndergraduateCredits transferred [[20]] from [GetCampusesList.Response] to [Properties 1.undergradcredit_Campus43]
+------------ source path -------------
+$[8].UndergraduateCredits
+------------ target path -------------
+
+GraduateCredits transferred [[7]] from [GetCampusesList.Response] to [Properties 1.gradcredit_Campus43]
+------------ source path -------------
+$[8].GraduateCredits
+------------ target path -------------
+

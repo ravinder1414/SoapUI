@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Tue Apr 12 06:51:29 EDT 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [ModuleGroupId]
+----------------------------------------------------
+ModuleGroupId transferred [[37]] from [Post CreateNewCourseModuleGrp.Response] to [#TestSuite#.ModuleGroupId_Created]
+------------ source path -------------
+$.ModuleGroupId
+------------ target path -------------
+

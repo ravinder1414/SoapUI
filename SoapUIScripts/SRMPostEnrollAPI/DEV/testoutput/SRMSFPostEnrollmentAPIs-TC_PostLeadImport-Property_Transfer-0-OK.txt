@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Mon May 09 05:46:06 EDT 2016
+TestStep: Property Transfer
+
+----------------- Messages ------------------------------
+Performed transfer [Res_mkLeadImportID]
+----------------------------------------------------
+Res_mkLeadImportID transferred [["38635949"]] from [ReqImportNewLead.Response] to [#TestCase#.Res_mkLeadImportID]
+------------ source path -------------
+
+------------ target path -------------
+

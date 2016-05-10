@@ -1,0 +1,45 @@
+Status: OK
+Time Taken: 411
+Size: 719
+Timestamp: Tue Apr 12 06:53:43 EDT 2016
+TestStep: GetTranscript (College or Miltary)
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://test.api.blueprint.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: http://test.api.blueprint.kaplan.edu/v1/Students/32098206/PriorLearning?EncryptedDiDocumentID=FJHhVDeK3EM1zAtqApGz%2BCGoJo90xEyP
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [qWtFZrA3KB9wW5SNhN1u4zLZwgId]
+Host: [test.api.blueprint.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET http://test.api.blueprint.kaplan.edu/v1/Students/32098206/PriorLearning?EncryptedDiDocumentID=FJHhVDeK3EM1zAtqApGz%2BCGoJo90xEyP HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: qWtFZrA3KB9wW5SNhN1u4zLZwgId
+Host: test.api.blueprint.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Server: [Microsoft-IIS/8.5]
+X-AspNet-Version: [4.0.30319]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [719]
+Date: [Tue, 12 Apr 2016 10:53:43 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [qWtFZrA3KB9wW5SNhN1u4zLZwgId]
+X-Powered-By: [ASP.NET]
+
+{"Courses":[{"Code":"ma100","Grade":"B","Credits":3.00,"CalendarSystemID":1,"AdCourseLevelID":3,"ID":19591,"Title":"math","Month":2,"Year":2010,"Blacklisted":false,"Notes":null},{"Code":"eng100","Grade":"A","Credits":4.00,"CalendarSystemID":1,"AdCourseLevelID":3,"ID":19592,"Title":"english","Month":3,"Year":2005,"Blacklisted":false,"Notes":null}],"ID":1275,"EncryptedDiDocumentID":"FJHhVDeK3EM1zAtqApGz+CGoJo90xEyP","DocumentTypeID":1065,"TranscriptTypeID":1,"URL":"http://test.api.blueprint.kaplan.edu/v1/imaging/campus/43/documents?DocTypeId=1065&DocumentId=FJHhVDeK3EM1zAtqApGz%2BCGoJo90xEyP&studentId=32098206&userId=482927","Institution":{"InstitutionID":17270,"Name":"Kaplan Career Institute - Detroit Campus"}}

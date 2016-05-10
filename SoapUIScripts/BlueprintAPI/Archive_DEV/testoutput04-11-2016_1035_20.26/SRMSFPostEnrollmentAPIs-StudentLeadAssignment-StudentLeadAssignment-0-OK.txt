@@ -1,0 +1,42 @@
+Status: OK
+Time Taken: 106
+Size: 375
+Timestamp: Thu Apr 07 05:46:51 EDT 2016
+TestStep: StudentLeadAssignment
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://dev.webapi.kaplan.edu
+Method: GET
+StatusCode: 200
+URL: https://dev.webapi.kaplan.edu/api/v1/students/34543865/leadassignments
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+Host: [dev.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+
+GET https://dev.webapi.kaplan.edu/api/v1/students/34543865/leadassignments HTTP/1.1
+Accept-Encoding: gzip,deflate
+Token: TZ6BlxLRygVkc0CpG0QeroEif6HH
+Host: dev.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [375]
+Date: [Thu, 07 Apr 2016 09:46:50 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [TZ6BlxLRygVkc0CpG0QeroEif6HH]
+
+{"LeadAssignments":[{"ChangedBy":"Locher,Kelley","DateChanged":"2015-01-27T12:47:09.2","FromRep":"University,Kaplan","TaskTypeName":"KU Admissions","ToRep":"Locher,Kelley","syTaskAssignmentID":82362247},{"ChangedBy":"User,System","DateChanged":"2015-01-26T15:12:01.787","FromRep":" ","TaskTypeName":"KU Admissions","ToRep":"University,Kaplan","syTaskAssignmentID":82349500}]}

@@ -1,0 +1,16 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Tue Mar 01 06:16:19 EST 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [a:ReturnValue]
+----------------------------------------------------
+a:ReturnValue transferred [[123]] from [Req_AddChannelGroup.Response] to [Properties.mkchannelgrpid]
+------------ source path -------------
+declare namespace a='http://schemas.datacontract.org/2004/07/Kaplan.SRM.Contracts';
+declare namespace ns1='http://tempuri.org/';
+//ns1:AddChannelGroupResponse[1]/ns1:AddChannelGroupResult[1]/a:CVueTransactionResult[1]/a:ReturnValue[1]
+------------ target path -------------
+

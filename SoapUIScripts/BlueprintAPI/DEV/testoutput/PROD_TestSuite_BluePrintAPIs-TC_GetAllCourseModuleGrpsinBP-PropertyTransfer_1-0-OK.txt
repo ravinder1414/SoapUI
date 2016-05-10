@@ -1,0 +1,14 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Sun May 08 04:01:54 EDT 2016
+TestStep: PropertyTransfer 1
+
+----------------- Messages ------------------------------
+Performed transfer [AdCourseId]
+----------------------------------------------------
+AdCourseId transferred [[507934]] from [GetAllCourseModuleGrps in BP.Response] to [#TestSuite#.AdCourseId]
+------------ source path -------------
+$[0].AdCourseId
+------------ target path -------------
+

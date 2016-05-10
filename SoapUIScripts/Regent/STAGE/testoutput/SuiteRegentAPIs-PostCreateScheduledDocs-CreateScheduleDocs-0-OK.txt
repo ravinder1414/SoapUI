@@ -1,0 +1,50 @@
+Status: OK
+Time Taken: 52639
+Size: 117
+Timestamp: Mon May 09 05:30:25 EDT 2016
+TestStep: CreateScheduleDocs
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage.webapi.kaplan.edu
+Method: POST
+StatusCode: 200
+URL: https://stage.webapi.kaplan.edu/api/v1/imaging/scheduledocuments
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.1 (Java/1.8.0_66)]
+Token: [UQERRdygbf8CVeRgnhOYNGbmAotE]
+Host: [stage.webapi.kaplan.edu]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [2227]
+Content-Type: [application/json]
+
+POST https://stage.webapi.kaplan.edu/api/v1/imaging/scheduledocuments HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Token: UQERRdygbf8CVeRgnhOYNGbmAotE
+Content-Length: 2227
+Host: stage.webapi.kaplan.edu
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+
+{
+   "DocumentRequirement": "{\"documentRequirementId\":1960,\"documentId\":90,\"documentName\":\"2013-2014 FAFSA\",\"documentIdString\":\"90\",\"documentDescription\":null,\"documentUseTypeCode\":null,\"documentUseTypeName\":null,\"studentId\":36895,\"letterCorrespondenceDate\":null,\"emailCorrespondenceDate\":null,\"LastEmailLetterCorrespondenceDate\":null,\"receivedDate\":\"2014-03-04T20:30:03.863Z\",\"reviewedDate\":\"2014-03-04T20:30:03.863Z\",\"createdDate\":\"2014-03-04T20:30:03.743Z\",\"activitySourceName\":\"Staff Action\",\"ActivitySourceTypeCode\":\"STAFFACTION\",\"ActivityLogEntryTypeCode\":\"ISIRRelated\",\"activityTypeName\":\"ISIR Related\",\"documentRequirementStatusName\":\"Satisfied\",\"documentRequirementStatusCode\":\"SATISFIED\",\"federalAwardYearId\":4,\"academicYearId\":0,\"paymentPeriodId\":0,\"federalAwardYearName\":\"2013-2014\",\"academicYearName\":\"0\",\"paymentPeriodName\":null,\"ScopeName\":\"2013-2014\",\"documentMessage\":null,\"message\":null,\"Notes\":null,\"documentTemplateFileName\":null,\"hasDocumentFlag\":false,\"fileName\":null,\"storedFileName\":null,\"storedFile\":null,\"fileURL\":null,\"mimeType\":null,\"documentFileName\":null,\"documentStoredFileName\":null,\"documentScopeCode\":\"FEDERALAWARDYEAR\",\"documentScopeName\":\"Federal Award Year\",\"documentIsirScopeCode\":\"FEDERALAWARDYEAR\",\"documentIsirScopeName\":\"Federal Award Year\",\"assignedByOfficeUseOnly\":true,\"fileSize\":0,\"DocumentInformation\":null,\"DocumentRequirementExternalId\":null,\"documentExternalId\":\"1960\",\"studentExternalId1\":\"31670614\",\"studentExternalId2\":null,\"studentExternalId3\":null,\"studentExternalId4\":null,\"assignISIRRecordDataId\":null,\"satisfyISIRRecordDataId\":null,\"EditLockTimestamp\":null,\"UpdateAttachment\":false,\"assignedByISIR\":false,\"assignedBy\":\"Manual\",\"typeOfAssignedBy\":\"Manually Assigned\",\"valueOfAssignedBy\":\"dev\",\"documentRequirementStatusChangeOnDate\":\"2014-03-04T20:29:36.747Z\",\"CreatedBy\":1393,\"CreatedOn\":\"2014-03-04T20:30:03.743Z\",\"ModifiedBy\":1393,\"ModifiedOn\":\"2014-03-04T20:30:03.743Z\",\"Deleted\":false,\"DeletedBy\":null,\"DeletedOn\":null,\"VersionStamp\":\"AAAAAQIpZng=\"}",
+   "ExternalId1": 3
+}
+
+---------------- Response --------------------------
+AuthenticationStatus: [Authorized]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+Expires: [-1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [117]
+Date: [Mon, 09 May 2016 09:31:18 GMT]
+Content-Type: [application/json; charset=utf-8]
+authenticationToken: [UQERRdygbf8CVeRgnhOYNGbmAotE]
+
+{"isSuccessField":true,"messageField":"The document was successfully scheduled, and mapped, in Orion and CampusVue."}
